@@ -122,8 +122,18 @@ SESSION=$(wp eval '
   echo AUTH_COOKIE . "=" . wp_generate_auth_cookie( $user, $until, "auth" ) . "; "
     . LOGGED_IN_COOKIE . "=" . wp_generate_auth_cookie( $user, $until, "logged_in" );
 ')
-admin_get() { curl -sS -H "Cookie: $SESSION" "$URL$1"; }
-page_title() { grep -o '<title>[^<]*' <<<"$1" | head -1 | sed 's/<title>//'; }
+admin_get() { curl -sS -L -H "Cookie: $SESSION" "$URL$1"; }
+page_title() {
+  local title
+  title=$(grep -o '<title>[^<]*' <<<"$1" | head -1 | sed 's/<title>//')
+  echo "${title:-sem título; ${#1} bytes}"
+}
+# Logo após ativar, o Elementor e alguns addons redirecionam a primeira visita ao painel para
+# telas de boas-vindas. Essas visitas "gastam" os redirecionamentos antes das conferências.
+for warmup in 1 2 3; do
+  curl -sS -o /dev/null -w "::notice title=Aquecimento do painel::HTTP %{http_code} %{redirect_url}\n" -H "Cookie: $SESSION" "$URL/wp-admin/" || true
+  admin_get /wp-admin/ >/dev/null || true
+done
 
 PLUGINS_HTML=$(admin_get /wp-admin/plugins.php)
 if grep -q 'data-plugin="forma-elements/forma-elements.php"' <<<"$PLUGINS_HTML"; then
