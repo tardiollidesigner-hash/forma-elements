@@ -21,33 +21,43 @@ Se o teste falhar, nada é publicado, o GitHub manda um e-mail, e o robô tenta 
 - **Visual Forma UI:** logo "forma" + etiqueta "Elements" no editor e no painel, ícone Forma no menu e na tela de
   carregamento, editor sempre escuro com as cores e a fonte (DM Sans) do UI Kit Forma.
 - **Tradução automática:** baixa sozinho a tradução oficial do Elementor (translate.wordpress.org) no idioma do site,
-  na ativação e a cada versão nova. O PRO Elements não tem tradução pública, então o robô traduz com IA (abaixo).
+  na ativação e a cada versão nova. O PRO Elements não tem tradução pública, então a tradução dele vem junto no pacote
+  (abaixo).
 - **Marca:** "Elementor" e "PRO Elements" viram "Forma Elements" nos textos, inclusive nos do editor (JavaScript).
 - **Addons:** ElementsKit, Royal Addons, Essential Addons, Happy Addons e outros funcionam normalmente, inclusive os
   que exigem o Elementor pelo cabeçalho "Requires Plugins".
 
-## Tradução do PRO Elements com IA
+## Tradução do PRO Elements
 
-A cada versão nova, antes de montar o pacote, o robô roda `scripts/translate.py`:
+As traduções ficam em `translations/pro-elements/pt_BR.json` (hoje 2.973 de 2.975 textos; os 2 restantes são
+instruções técnicas para assistentes de IA e ficam em inglês de propósito). A cada versão nova, o robô roda
+`scripts/translate.py`, que:
 
-1. lista os textos do PRO Elements (hoje cerca de 3.000);
-2. o que já está em `translations/pro-elements/pt_BR.json` fica como está, então **cada texto é traduzido uma vez só**;
-3. o que existe igual na tradução oficial do Elementor é copiado de lá, sem custo e com a mesma terminologia;
-4. o resto vai para o Claude (`claude-opus-5-5`), em lotes, com a tradução do Elementor como glossário. Traduções que
-   perdem marcadores (`%s`, tags HTML, `{{variáveis}}`) são descartadas e o texto fica em inglês até a próxima rodada.
+1. lista os textos do PRO Elements;
+2. mantém o que já está traduzido, então **cada texto é traduzido uma vez só**;
+3. copia o que existe igual na tradução oficial do Elementor, sem custo e com a mesma terminologia.
 
-O resultado é salvo no repositório junto com a release, então dá pra revisar ou corrigir qualquer tradução editando o
-JSON e dando push (vira uma versão nova).
+Textos realmente novos ficam em inglês até serem traduzidos. Para conferir quantos faltam, veja a linha
+"textos do PRO Elements traduzidos" no log do robô, ou rode o `--export` abaixo.
 
-**Configuração (uma vez):**
+**Traduzir textos novos sem custo (com o Claude no chat):**
 
-1. Crie uma chave em https://platform.claude.com (*API Keys*) e coloque crédito na conta.
-2. No GitHub: *Settings* → *Secrets and variables* → *Actions* → *New repository secret*, com nome
-   `ANTHROPIC_API_KEY` e a chave como valor.
-3. Em *Actions* → *Release* → *Run workflow*, marque *force*. A primeira rodada traduz tudo o que falta.
+```bash
+python scripts/translate.py --elementor <versão> --pro <versão> --export pasta-de-trabalho
+```
 
-**Custo estimado:** a primeira tradução completa custa poucos dólares (por volta de US$ 2 a 4). Nas versões seguintes,
-só os textos novos são traduzidos (centavos). Sem o secret, o robô continua funcionando e usa só o que vem do Elementor.
+Isso gera arquivos `faltando-pt_BR-NN.json`. Peça ao Claude para traduzir cada um num `traduzido-pt_BR-NN.json`
+(`{"posição": "tradução"}`) e importe:
+
+```bash
+python scripts/translate.py --elementor <versão> --pro <versão> --import pasta-de-trabalho/traduzido-pt_BR-*.json
+```
+
+O importador descarta traduções que perdem marcadores (`%s`, tags HTML, `{{variáveis}}`). Depois é só dar push:
+o robô gera uma versão nova. Também dá pra corrigir qualquer tradução editando o JSON direto.
+
+**Opcional, automático e pago:** com o secret `ANTHROPIC_API_KEY` configurado no GitHub, o robô manda os textos novos
+para a API do Claude sozinho (centavos por versão). Sem o secret, nada é cobrado e o robô funciona normalmente.
 
 **Outros idiomas:** acrescente o código do idioma em `ai_locales` no `upstream.json` (ex.: `["pt_BR", "es_ES"]`).
 

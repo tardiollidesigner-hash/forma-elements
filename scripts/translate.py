@@ -160,14 +160,54 @@ def translate_batch(client, system, batch):
         values = [item["translation"]]
         if message.plural:
             values.append(item["plural_translation"])
-        sources = [message.text] + ([message.plural] if message.plural else [])
-        if not all(value.strip() for value in values) or any(
-            placeholders(source) != placeholders(value) for source, value in zip(sources, values)
-        ):
-            print(f"  Descartado (marcadores diferentes): {message.text!r} -> {values!r}")
-            continue
-        results[message.key] = values
+        if is_valid_translation(message, values):
+            results[message.key] = values
     return results
+
+
+def is_valid_translation(message, values):
+    """A tradução tem uma forma por plural, nenhuma vazia, e mantém os mesmos marcadores do original."""
+    sources = [message.text] + ([message.plural] if message.plural else [])
+    if len(values) != len(sources) or not all(isinstance(v, str) and v.strip() for v in values):
+        print(f"  Descartado (formato): {message.text!r} -> {values!r}")
+        return False
+    if any(placeholders(source) != placeholders(value) for source, value in zip(sources, values)):
+        print(f"  Descartado (marcadores diferentes): {message.text!r} -> {values!r}")
+        return False
+    return True
+
+
+def export_missing(folder, locale, missing, chunk_size):
+    """Grava os textos que faltam em arquivos de até `chunk_size`, para tradução manual (ou por um assistente)."""
+    folder.mkdir(parents=True, exist_ok=True)
+    for index, start in enumerate(range(0, len(missing), chunk_size), start=1):
+        items = [
+            {"key": m.key, "text": m.text}
+            | ({"context": m.context} if m.context else {})
+            | ({"plural": m.plural} if m.plural else {})
+            for m in missing[start : start + chunk_size]
+        ]
+        path = folder / f"faltando-{locale}-{index:02d}.json"
+        path.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{locale}: {len(missing)} textos exportados para {folder}")
+
+
+def import_translations(paths, messages, cache):
+    """Junta traduções ao cache, validando cada uma. Aceita {chave: [tradução] ou [singular, plural]}
+    ou, num arquivo "traduzido-<idioma>-NN.json", {posição: tradução} referente ao "faltando-<idioma>-NN.json"
+    da mesma pasta (gerado pelo --export)."""
+    added = 0
+    for path in paths:
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+        if data and all(key.isdigit() for key in data):
+            exported = json.loads(path.with_name(path.name.replace("traduzido", "faltando")).read_text(encoding="utf-8"))
+            data = {exported[int(index)]["key"]: values for index, values in data.items() if int(index) < len(exported)}
+        for key, values in data.items():
+            values = [values] if isinstance(values, str) else values
+            if key in messages and is_valid_translation(messages[key], values):
+                cache[key] = values
+                added += 1
+    return added
 
 
 def main():
@@ -175,6 +215,10 @@ def main():
     parser.add_argument("--elementor", required=True)
     parser.add_argument("--pro", required=True)
     parser.add_argument("--limit", type=int, help="traduz no máximo N textos com IA (para testes)")
+    parser.add_argument("--export", type=Path, help="grava os textos que faltam nesta pasta, em vez de usar a API")
+    parser.add_argument("--chunk", type=int, default=250, help="textos por arquivo no --export")
+    parser.add_argument("--import", dest="imports", type=Path, nargs="+", help="junta traduções feitas fora da API")
+    parser.add_argument("--locale", help="idioma do --import (padrão: o primeiro de ai_locales)")
     args = parser.parse_args()
 
     locales = read_upstream().get("ai_locales", [])
@@ -184,8 +228,19 @@ def main():
         messages = extract(pro_dir, "elementor-pro")
     print(f"PRO Elements {args.pro}: {len(messages)} textos")
 
+    if args.imports:
+        locale = args.locale or locales[0]
+        cache = load_cache(locale)
+        added = import_translations(args.imports, messages, cache)
+        save_cache(locale, cache)
+        remaining = sum(1 for key in messages if key not in cache)
+        print(f"{locale}: {added} traduções importadas; {len(messages) - remaining} de {len(messages)} traduzidos")
+        return
+
     client = None
-    if os.environ.get("ANTHROPIC_API_KEY"):
+    if args.export:
+        print("Modo --export: nada é enviado para a API.")
+    elif os.environ.get("ANTHROPIC_API_KEY"):
         import anthropic
 
         client = anthropic.Anthropic()
@@ -205,6 +260,9 @@ def main():
                 reused += 1
         missing = [message for message in missing if message.key not in cache]
         print(f"{locale}: {len(cache)} já traduzidos ({reused} novos vindos do Elementor), {len(missing)} faltando")
+
+        if args.export and missing:
+            export_missing(args.export, locale, missing, args.chunk)
 
         if client and missing:
             glossary = sorted(

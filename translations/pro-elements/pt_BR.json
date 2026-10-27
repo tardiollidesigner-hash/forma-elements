@@ -1,12 +1,150 @@
 {
+ "\"%s\" is not a Theme Builder document type.": [
+  "\"%s\" não é um tipo de documento do Construtor de Temas."
+ ],
+ "\"All\" Filter": [
+  "Filtro \"Todos\""
+ ],
+ "\"All\" Filter Label": [
+  "Rótulo do filtro \"Todos\""
+ ],
+ "#id, .class": [
+  "#id, .class"
+ ],
+ "%1$d hours, %2$d minutes": [
+  "%1$d horas e %2$d minutos"
+ ],
+ "%1$s %2$ssays:%3$s": [
+  "%1$s %2$sdisse:%3$s"
+ ],
  "%1$s (%2$s %3$dpx)": [
   "%1$s (%2$s %3$dpx)"
+ ],
+ "%1$s at %2$s": [
+  "%1$s às %2$s"
+ ],
+ "%1$s mentioned you on %2$s at %3$s": [
+  "%1$s mencionou você em %2$s às %3$s"
  ],
  "%1$s of %2$s": [
   "%1$s de %2$s"
  ],
+ "%1$s replied to a note on %2$s at %3$s": [
+  "%1$s respondeu a uma nota em %2$s às %3$s"
+ ],
+ "%1$s resolved a note on %2$s at %3$s": [
+  "%1$s resolveu uma nota em %2$s às %3$s"
+ ],
+ "%1$s: %2$s": [
+  "%1$s: %2$s"
+ ],
+ "%1$sDon’t miss out on the new version of Elementor%2$s Update to the latest version of Elementor to enjoy new features, better performance and compatibility.": [
+  "%1$sNão perca a nova versão do Elementor%2$s Atualize para a versão mais recente do Elementor e aproveite novos recursos, mais desempenho e compatibilidade."
+ ],
+ "%1$sError:%2$s The nonce security check didn’t pass. Please reload the page and try again. You may want to try clearing your browser cache as a last attempt.": [
+  "%1$sErro:%2$s a verificação de segurança (nonce) não passou. Recarregue a página e tente de novo. Se não resolver, limpe o cache do navegador."
+ ],
+ "%1$sPRO Elements requires a newer version of WordPress%2$s Update WordPress to version %3$s or higher to reactivate the PRO Elements plugin.": [
+  "%1$sO PRO Elements requer uma versão mais recente do WordPress%2$s Atualize o WordPress para a versão %3$s ou superior para reativar o PRO Elements."
+ ],
+ "%1$sreCAPTCHA V3%2$s is a free service by Google that protects your website from spam and abuse. It does this while letting your valid users pass through with ease.": [
+  "O %1$sreCAPTCHA V3%2$s é um serviço gratuito do Google que protege seu site contra spam e abuso, sem atrapalhar os usuários de verdade."
+ ],
+ "%1$sreCAPTCHA%2$s is a free service by Google that protects your website from spam and abuse. It does this while letting your valid users pass through with ease.": [
+  "O %1$sreCAPTCHA%2$s é um serviço gratuito do Google que protege seu site contra spam e abuso, sem atrapalhar os usuários de verdade."
+ ],
+ "%1$ssPRO Elements  requires newer version of the Elementor plugin%2$s Update the Elementor plugin to reactivate the PRO Elements plugin.": [
+  "%1$ssO PRO Elements requer uma versão mais recente do plugin Elementor%2$s Atualize o plugin Elementor para reativar o PRO Elements."
+ ],
+ "%d submission has been successfully updated.": [
+  "%d envio foi atualizado com sucesso.",
+  "%d envios foram atualizados com sucesso."
+ ],
+ "%d submission moved to Trash.": [
+  "%d envio movido para a lixeira.",
+  "%d envios movidos para a lixeira."
+ ],
+ "%d submission permanently deleted.": [
+  "%d envio excluído permanentemente.",
+  "%d envios excluídos permanentemente."
+ ],
+ "%d submission restored from Trash.": [
+  "%d envio restaurado da lixeira.",
+  "%d envios restaurados da lixeira."
+ ],
+ "%s - End": [
+  "%s - Fim"
+ ],
+ "%s - Start": [
+  "%s - Início"
+ ],
+ "%s Comments": [
+  "%s comentários"
+ ],
+ "%s Field": [
+  "Campo %s"
+ ],
+ "%s File": [
+  "Arquivo %s"
+ ],
+ "%s Not Connected": [
+  "%s não conectado"
+ ],
+ "%s Not Connected Color": [
+  "Cor de %s não conectado"
+ ],
  "%s Widget": [
   "Widget %s"
+ ],
+ "%s ago": [
+  "há %s"
+ ],
+ "%s archive": [
+  "Arquivo de %s"
+ ],
+ "%s by author": [
+  "%s por autor"
+ ],
+ "%s custom code cannot be not updated, someone else is editing it.": [
+  "%s código personalizado não pôde ser atualizado porque outra pessoa está editando.",
+  "%s códigos personalizados não puderam ser atualizados porque outra pessoa está editando."
+ ],
+ "%s custom code moved to trash.": [
+  "%s código personalizado movido para a lixeira.",
+  "%s códigos personalizados movidos para a lixeira."
+ ],
+ "%s custom code permanently deleted.": [
+  "%s código personalizado excluído permanentemente.",
+  "%s códigos personalizados excluídos permanentemente."
+ ],
+ "%s custom code restored.": [
+  "%s código personalizado restaurado.",
+  "%s códigos personalizados restaurados."
+ ],
+ "%s custom code updated.": [
+  "%s código personalizado atualizado.",
+  "%s códigos personalizados atualizados."
+ ],
+ "%s is currently editing this template, please try again later": [
+  "%s está editando este modelo agora. Tente novamente mais tarde"
+ ],
+ "%s replies": [
+  "%s respostas"
+ ],
+ "&laquo; Previous": [
+  "&laquo; Anterior"
+ ],
+ "&nbsp;&ndash; Page %s": [
+  "&nbsp;&ndash; Página %s"
+ ],
+ "(deleted user)": [
+  "(usuário excluído)"
+ ],
+ "* Please note that this user will be able to see the list of all site users as part of the tagging ability in Notes.": [
+  "* Este usuário poderá ver a lista de todos os usuários do site ao marcar pessoas nas notas."
+ ],
+ "+1.212.555.7979": [
+  "+1.212.555.7979"
  ],
  "1": [
   "1"
@@ -14,14 +152,35 @@
  "10": [
   "10"
  ],
+ "10% off on your first order!": [
+  "10% de desconto no seu primeiro pedido!"
+ ],
+ "11": [
+  "11"
+ ],
+ "12": [
+  "12"
+ ],
  "2": [
   "2"
  ],
  "3": [
   "3"
  ],
+ "3D Depth": [
+  "Profundidade 3D"
+ ],
+ "3D Tilt": [
+  "Inclinação 3D"
+ ],
  "4": [
   "4"
+ ],
+ "404": [
+  "404"
+ ],
+ "404 Page": [
+  "Página 404"
  ],
  "5": [
   "5"
@@ -38,8 +197,47 @@
  "9": [
   "9"
  ],
+ "<h3>Set up a My Account page</h3><br>Without it, customers can't update their billing details, review past orders, etc. To set up My Account, go to Site Settings.": [
+  "<h3>Configure uma página Minha conta</h3><br>Sem ela, os clientes não conseguem atualizar os dados de cobrança, ver pedidos anteriores etc. Para configurar, vá em Configurações do site."
+ ],
+ "<h3>Set up a cart page</h3><br>The cart page shows an order summary. To set one up, go to Site Settings.": [
+  "<h3>Configure uma página de carrinho</h3><br>A página de carrinho mostra o resumo do pedido. Para configurar, vá em Configurações do site."
+ ],
+ "<h3>Set up a checkout page</h3><br>Without a checkout page, visitors can't complete transactions on your site. To set one up, go to Site Settings.": [
+  "<h3>Configure uma página de finalização de compra</h3><br>Sem ela, os visitantes não conseguem concluir compras no seu site. Para configurar, vá em Configurações do site."
+ ],
+ "<h3>Set up a purchase summary page</h3><br>This page shows payment and order details. To set one up, go to Site Settings.": [
+  "<h3>Configure uma página de resumo da compra</h3><br>Esta página mostra os detalhes do pagamento e do pedido. Para configurar, vá em Configurações do site."
+ ],
+ "<h3>Sorry, something went wrong.</h3><br>To define a cart page for your site, head over to Site Settings.": [
+  "<h3>Desculpe, algo deu errado.</h3><br>Para definir a página de carrinho do site, vá em Configurações do site."
+ ],
+ "<h3>Sorry, something went wrong.</h3><br>To define a checkout page for your site, head over to Site Settings.": [
+  "<h3>Desculpe, algo deu errado.</h3><br>Para definir a página de finalização de compra do site, vá em Configurações do site."
+ ],
+ "<h3>Sorry, something went wrong.</h3><br>To define a my account page for your site, head over to Site Settings.": [
+  "<h3>Desculpe, algo deu errado.</h3><br>Para definir a página Minha conta do site, vá em Configurações do site."
+ ],
+ "<h3>Sorry, something went wrong.</h3><br>To define a purchase summary page for your site, head over to Site Settings.": [
+  "<h3>Desculpe, algo deu errado.</h3><br>Para definir a página de resumo da compra do site, vá em Configurações do site."
+ ],
  "A 404 page template allows you to easily design the layout and style of the page that is displayed when a visitor arrives at a page that does not exist.": [
   "Um modelo de página 404 permite que você crie facilmente o layout e o estilo da página que é exibida quando um visitante chega a uma página que não existe."
+ ],
+ "A Loop is a layout you can customize to display recurring dynamic content - like listings, posts, portfolios, products, , etc.": [
+  "Um loop é um layout personalizável para exibir conteúdo dinâmico repetido, como listagens, posts, portfólios, produtos etc."
+ ],
+ "A PHP extension stopped the file upload. PHP does not provide a way to ascertain which extension caused the file upload to stop; examining the list of loaded extensions with %s may help.": [
+  "Uma extensão do PHP interrompeu o envio do arquivo. O PHP não informa qual extensão foi; ver a lista de extensões carregadas com %s pode ajudar."
+ ],
+ "A PHP extension stopped the upload.": [
+  "Uma extensão do PHP interrompeu o envio."
+ ],
+ "A new Form Submission has been received": [
+  "Um novo envio de formulário foi recebido"
+ ],
+ "A new Submission": [
+  "Um novo envio"
  ],
  "A products archive template allows you to easily design the layout and style of your WooCommerce shop page or other product archive pages - those pages that show a list of products, which may be filtered by terms such as categories, tags, etc.": [
   "Um modelo de arquivo de produtos permite que você crie facilmente o layout e o estilo da página da sua loja WooCommerce ou outras páginas de arquivo de produtos - aquelas páginas que mostram uma lista de produtos, os quais podem ser filtrados por termos como categorias, tags, etc."
@@ -53,8 +251,23 @@
  "A single product template allows you to easily design the layout and style of WooCommerce single product pages, and apply that template to various conditions that you assign.": [
   "Um modelo de produto único permite que você crie facilmente o layout e o estilo das páginas de produtos únicos do WooCommerce e aplique esse modelo a várias condições que você atribuir."
  ],
+ "ACF": [
+  "ACF"
+ ],
+ "AJAX": [
+  "AJAX"
+ ],
+ "AND": [
+  "E"
+ ],
  "API Key": [
   "Chave de API"
+ ],
+ "API URL": [
+  "URL da API"
+ ],
+ "ASC": [
+  "CRESC"
  ],
  "About Heading": [
   "Título \"Sobre\""
@@ -62,20 +275,71 @@
  "Above": [
   "Acima"
  ],
+ "Acceptance": [
+  "Aceite"
+ ],
+ "Acceptance Text": [
+  "Texto do aceite"
+ ],
+ "Access %1$s %2$s": [
+  "Acessar %1$s %2$s"
+ ],
+ "Access to edit content only": [
+  "Acesso só para editar o conteúdo"
+ ],
  "Accessible Name": [
   "Nome acessível"
+ ],
+ "Accessible navigation": [
+  "Navegação acessível"
+ ],
+ "Account": [
+  "Conta"
+ ],
+ "Account Details": [
+  "Detalhes da conta"
+ ],
+ "Account Title": [
+  "Título da conta"
  ],
  "Action": [
   "Ação"
  ],
+ "Action completed successfully.": [
+  "Ação concluída com sucesso."
+ ],
+ "Action failed to run, please check your integration.": [
+  "A ação não foi executada. Verifique sua integração."
+ ],
  "Actions": [
   "Ações"
+ ],
+ "Actions After Expire": [
+  "Ações ao expirar"
+ ],
+ "Actions After Submit": [
+  "Ações após o envio"
+ ],
+ "Actions Log": [
+  "Registro de ações"
+ ],
+ "Actions Status": [
+  "Status das ações"
  ],
  "Activate": [
   "Ativar"
  ],
+ "Activate License": [
+  "Ativar licença"
+ ],
+ "Activate Now": [
+  "Ativar agora"
+ ],
  "Activate now": [
   "Ativar agora"
+ ],
+ "Activate the Elementor plugin to start using all of PRO Elements plugin’s features.": [
+  "Ative o plugin Elementor para começar a usar todos os recursos do PRO Elements."
  ],
  "Active": [
   "Ativo"
@@ -86,17 +350,122 @@
  "Active Icon": [
   "Ícone ativo"
  ],
+ "ActiveCampaign": [
+  "ActiveCampaign"
+ ],
+ "AdBlock Detection": [
+  "Detecção de bloqueador de anúncios"
+ ],
  "Add": [
   "Adicionar"
+ ],
+ "Add Action": [
+  "Adicionar ação"
+ ],
+ "Add Alternating Item": [
+  "Adicionar item alternado"
+ ],
+ "Add Condition": [
+  "Adicionar condição"
  ],
  "Add New": [
   "Adicionar novo"
  ],
+ "Add New Font": [
+  "Adicionar nova fonte"
+ ],
+ "Add New Font Type": [
+  "Adicionar novo tipo de fonte"
+ ],
+ "Add New Icon Set": [
+  "Adicionar novo conjunto de ícones"
+ ],
+ "Add New Loop Template": [
+  "Adicionar novo modelo de loop"
+ ],
+ "Add New Theme Template": [
+  "Adicionar novo modelo de tema"
+ ],
+ "Add Static Font": [
+  "Adicionar fonte estática"
+ ],
+ "Add To Cart": [
+  "Adicionar ao carrinho"
+ ],
+ "Add Variable Font": [
+  "Adicionar fonte variável"
+ ],
+ "Add Your Custom Fonts": [
+  "Adicione suas fontes personalizadas"
+ ],
+ "Add Your Custom Icons": [
+  "Adicione seus ícones personalizados"
+ ],
+ "Add Your Text Here": [
+  "Adicione seu texto aqui"
+ ],
+ "Add Your Tooltip Text Here": [
+  "Adicione o texto da dica aqui"
+ ],
+ "Add actions that will be performed after a visitor submits the form (e.g. send an email notification). Choosing an action will add its setting below.": [
+  "Adicione ações que acontecem depois que o visitante envia o formulário (ex.: enviar um e-mail de notificação). Ao escolher uma ação, as configurações dela aparecem abaixo."
+ ],
+ "Add as many tags as you want, comma separated.": [
+  "Adicione quantas tags quiser, separadas por vírgula."
+ ],
+ "Add comma separated tags": [
+  "Adicione tags separadas por vírgula"
+ ],
+ "Add condition": [
+  "Adicionar condição"
+ ],
+ "Add condition group": [
+  "Adicionar grupo de condições"
+ ],
+ "Add custom HTML attributes to any element.": [
+  "Adicione atributos HTML personalizados a qualquer elemento."
+ ],
  "Add item": [
   "Adicionar item"
  ],
+ "Add new": [
+  "Adicionar novo"
+ ],
+ "Add new group": [
+  "Adicionar novo grupo"
+ ],
+ "Add new theme template": [
+  "Adicionar novo modelo de tema"
+ ],
  "Add nofollow": [
   "Adicionar nofollow (não seguir)"
+ ],
+ "Add or remove Font Types": [
+  "Adicionar ou remover tipos de fonte"
+ ],
+ "Add pixels, meta tags and any other scripts to your site.": [
+  "Adicione pixels, meta tags e outros scripts ao seu site."
+ ],
+ "Add some content for each one of your videos, like a description, transcript or external links.To add, remove or edit tab names, go to Tabs.": [
+  "Adicione conteúdo para cada vídeo, como descrição, transcrição ou links externos. Para adicionar, remover ou renomear abas, vá em Abas."
+ ],
+ "Add template": [
+  "Adicionar modelo"
+ ],
+ "Add the CSS ID or Class of a specific element on this page to track its progress separately": [
+  "Adicione o ID ou a classe CSS de um elemento desta página para acompanhar o progresso dele separadamente"
+ ],
+ "Add them from the": [
+  "Adicione pela tela"
+ ],
+ "Add to Cart": [
+  "Adicionar ao carrinho"
+ ],
+ "Add to cart": [
+  "Adicionar ao carrinho"
+ ],
+ "Add widget": [
+  "Adicionar widget"
  ],
  "Add your custom class WITHOUT the dot. e.g: my-class": [
   "Adicione sua classe personalizada SEM o ponto. Por exemplo: my-class"
@@ -104,20 +473,68 @@
  "Add your custom id WITHOUT the Pound key. e.g: my-id": [
   "Adicione seu ID personalizado SEM o símbolo \"#\" - por exemplo: meu-id"
  ],
+ "Add your first property": [
+  "Adicione sua primeira propriedade"
+ ],
+ "Add your own custom CSS": [
+  "Adicione seu próprio CSS personalizado"
+ ],
+ "Additional Info": [
+  "Informações adicionais"
+ ],
+ "Additional Information": [
+  "Informações adicionais"
+ ],
+ "Additional Information Tab": [
+  "Aba de informações adicionais"
+ ],
  "Additional Options": [
   "Opções adicionais"
  ],
  "Additional Settings": [
   "Configurações adicionais"
  ],
+ "Additional settings are available in the Yoast SEO %1$sBreadcrumbs Panel%2$s": [
+  "Há mais configurações no %1$spainel de trilha de navegação%2$s do Yoast SEO"
+ ],
+ "Addresses": [
+  "Endereços"
+ ],
+ "Admin Notice:": [
+  "Aviso ao administrador:"
+ ],
+ "Adobe Fonts (TypeKit)": [
+  "Adobe Fonts (TypeKit)"
+ ],
  "Advanced": [
   "Avançado"
+ ],
+ "Advanced Data": [
+  "Dados avançados"
+ ],
+ "Advanced Rules": [
+  "Regras avançadas"
  ],
  "After": [
   "Depois"
  ],
+ "After Inactivity": [
+  "Após inatividade"
+ ],
+ "After Text": [
+  "Texto depois"
+ ],
  "After publishing this widget, you will be able to set it as visible on the entire site in the Admin Table.": [
   "Após publicar este widget, você poderá defini-lo como visível em todo o site na tabela administrativa."
+ ],
+ "Akismet": [
+  "Akismet"
+ ],
+ "Akismet Spam Protection": [
+  "Proteção contra spam do Akismet"
+ ],
+ "Akismet spam protection": [
+  "Proteção contra spam do Akismet"
  ],
  "Alignment": [
   "Alinhamento"
@@ -125,17 +542,89 @@
  "All": [
   "Tudo"
  ],
+ "All Browsers": [
+  "Todos os navegadores"
+ ],
+ "All Font Types": [
+  "Todos os tipos de fonte"
+ ],
+ "All Fonts": [
+  "Todas as fontes"
+ ],
+ "All Forms": [
+  "Todos os formulários"
+ ],
  "All Icons": [
   "Todos os ícones"
+ ],
+ "All Pages": [
+  "Todas as páginas"
  ],
  "All Posts": [
   "Todos os posts"
  ],
+ "All Product Archives": [
+  "Todos os arquivos de produtos"
+ ],
+ "All Time": [
+  "Todo o período"
+ ],
+ "All Users": [
+  "Todos os usuários"
+ ],
+ "All archives": [
+  "Todos os arquivos"
+ ],
  "All images and files are stored with the template. Keeps everything intact, but the file is larger.": [
   "Todas as imagens e arquivos são armazenados junto com o modelo. Mantém tudo intacto, mas o arquivo fica maior."
  ],
+ "All notes": [
+  "Todas as notas"
+ ],
+ "All singular": [
+  "Todos os individuais"
+ ],
+ "All site": [
+  "Site inteiro"
+ ],
+ "Allow Full Screen": [
+  "Permitir tela cheia"
+ ],
+ "Allow Order": [
+  "Permitir ordenação"
+ ],
+ "Allow Resubscribe": [
+  "Permitir nova inscrição"
+ ],
+ "Allow keyboard tab navigation for accessibility": [
+  "Permitir navegação com a tecla Tab para acessibilidade"
+ ],
+ "Allow user to access the Notes feature.": [
+  "Permitir que o usuário acesse o recurso de notas."
+ ],
+ "Allowed File Types": [
+  "Tipos de arquivo permitidos"
+ ],
+ "Allowed file types": [
+  "Tipos de arquivo permitidos"
+ ],
  "Alt": [
   "Alt"
+ ],
+ "Alternating Item": [
+  "Item alternado"
+ ],
+ "Alternating items": [
+  "Itens alternados"
+ ],
+ "Always": [
+  "Sempre"
+ ],
+ "Always load jQuery": [
+  "Sempre carregar o jQuery"
+ ],
+ "Amazing": [
+  "Incrível"
  ],
  "Amount": [
   "Quantidade"
@@ -146,6 +635,30 @@
  "An error occurred.": [
   "Ocorreu um erro."
  ],
+ "An error occurred. Please check your internet connection and try again. If the problem persists, contact our support.": [
+  "Ocorreu um erro. Verifique sua conexão com a internet e tente novamente. Se o problema continuar, fale com o nosso suporte."
+ ],
+ "Anchor Offset": [
+  "Deslocamento da âncora"
+ ],
+ "Anchors By Selector": [
+  "Âncoras por seletor"
+ ],
+ "Anchors By Tags": [
+  "Âncoras por tags"
+ ],
+ "Angie lets you create components, widgets, sections, and code using simple instructions.": [
+  "O Angie cria componentes, widgets, seções e código a partir de instruções simples."
+ ],
+ "Animated Classic": [
+  "Clássico animado"
+ ],
+ "Animated Headline": [
+  "Título animado"
+ ],
+ "Animated Text": [
+  "Texto animado"
+ ],
  "Animation": [
   "Animação"
  ],
@@ -155,20 +668,119 @@
  "Animation Duration": [
   "Duração da animação"
  ],
+ "Animation Shape": [
+  "Forma da animação"
+ ],
+ "Animation Style": [
+  "Estilo da animação"
+ ],
+ "Animation Type": [
+  "Tipo de animação"
+ ],
+ "Any Amount": [
+  "Qualquer valor"
+ ],
+ "Any child %s of": [
+  "Qualquer %s filho de"
+ ],
+ "Any child of": [
+  "Qualquer filho de"
+ ],
+ "App ID": [
+  "ID do app"
+ ],
  "Apply": [
   "Aplicar"
+ ],
+ "Apply & Preview": [
+  "Aplicar e visualizar"
+ ],
+ "Apply Button": [
+  "Botão de aplicar"
+ ],
+ "Apply CSS globally across your site to elevate your designs.": [
+  "Aplique CSS em todo o site para melhorar seus designs."
+ ],
+ "Apply CSS to any widget and elevate any element with Custom CSS.": [
+  "Aplique CSS a qualquer widget e destaque qualquer elemento com CSS personalizado."
+ ],
+ "Apply Coupon Button": [
+  "Botão de aplicar cupom"
+ ],
+ "Apply Effects On": [
+  "Aplicar efeitos em"
  ],
  "Apply Link On": [
   "Aplicar link em"
  ],
+ "Apply Once": [
+  "Aplicar uma vez"
+ ],
+ "Apply an alternate template": [
+  "Aplicar um modelo alternativo"
+ ],
+ "Apply coupon": [
+  "Aplicar cupom"
+ ],
+ "Apply current template to these pages.": [
+  "Aplicar o modelo atual a estas páginas."
+ ],
+ "Apply once": [
+  "Aplicar uma vez"
+ ],
+ "Apply post content": [
+  "Aplicar conteúdo do post"
+ ],
+ "Apply to custom Excerpt": [
+  "Aplicar ao resumo personalizado"
+ ],
+ "Apply to post content": [
+  "Aplicar ao conteúdo do post"
+ ],
  "Archive": [
   "Arquivo"
+ ],
+ "Archive Button": [
+  "Botão do arquivo"
+ ],
+ "Archive Description": [
+  "Descrição do arquivo"
+ ],
+ "Archive Meta": [
+  "Metadados do arquivo"
+ ],
+ "Archive Posts": [
+  "Posts do arquivo"
+ ],
+ "Archive Products": [
+  "Produtos do arquivo"
+ ],
+ "Archive Products (deprecated)": [
+  "Produtos do arquivo (obsoleto)"
+ ],
+ "Archive Text": [
+  "Texto do arquivo"
+ ],
+ "Archive Title": [
+  "Título do arquivo"
+ ],
+ "Archive URL": [
+  "URL do arquivo"
  ],
  "Archives": [
   "Arquivos"
  ],
+ "Archives: %s": [
+  "Arquivos: %s"
+ ],
+ "Are you sure you want to move this item to trash:": [
+  "Tem certeza de que quer mover este item para a lixeira:"
+ ],
  "Are you sure?": [
   "Tem certeza?"
+ ],
+ "Arrow": [
+  "Seta"
  ],
  "Arrows": [
   "Setas"
@@ -179,8 +791,14 @@
  "Aside": [
   "Nota"
  ],
+ "Ask the site admin to add them": [
+  "Peça ao administrador do site para adicionar"
+ ],
  "Aspect Ratio": [
   "Proporção da tela"
+ ],
+ "Assign shortcodes to the fields below to enable spam protection on your form. %1$sShow me how%2$s": [
+  "Associe shortcodes aos campos abaixo para ativar a proteção contra spam no formulário. %1$sMe mostre como%2$s"
  ],
  "Atomic Form": [
   "Formulário atômico"
@@ -188,20 +806,119 @@
  "Atomic form": [
   "Formulário atômico"
  ],
+ "Atomic form widgets. Note: This feature requires the \"Atomic Widgets\" experiment to be enabled.": [
+  "Widgets de formulário atômicos. Observação: este recurso exige que o experimento \"Atomic Widgets\" esteja ativado."
+ ],
  "Attachment Caption": [
   "Legenda do anexo"
+ ],
+ "Attachment URL": [
+  "URL do anexo"
+ ],
+ "Attachment to email won't be saved.": [
+  "O anexo do e-mail não será salvo."
+ ],
+ "Attachments to email won't be saved.": [
+  "Os anexos do e-mail não serão salvos."
  ],
  "Attributes": [
   "Atributos"
  ],
+ "Audience": [
+  "Público"
+ ],
+ "Author": [
+  "Autor"
+ ],
+ "Author Archive": [
+  "Arquivo do autor"
+ ],
+ "Author Bio": [
+  "Biografia do autor"
+ ],
+ "Author Box": [
+  "Caixa do autor"
+ ],
+ "Author Email": [
+  "E-mail do autor"
+ ],
+ "Author Info": [
+  "Informações do autor"
+ ],
+ "Author Meta": [
+  "Metadados do autor"
+ ],
+ "Author Name": [
+  "Nome do autor"
+ ],
+ "Author Profile Picture": [
+  "Foto de perfil do autor"
+ ],
+ "Author URL": [
+  "URL do autor"
+ ],
+ "Author Website": [
+  "Site do autor"
+ ],
+ "Author archive": [
+  "Arquivo do autor"
+ ],
+ "Author picture": [
+  "Foto do autor"
+ ],
+ "Author: %s": [
+  "Autor: %s"
+ ],
  "Auto": [
   "Automático"
+ ],
+ "Auto Renewal": [
+  "Renovação automática"
+ ],
+ "Autocomplete": [
+  "Preenchimento automático"
+ ],
+ "Automatically Close After": [
+  "Fechar automaticamente após"
+ ],
+ "Automatically Open Cart": [
+  "Abrir carrinho automaticamente"
+ ],
+ "Automatically Update Cart": [
+  "Atualizar carrinho automaticamente"
+ ],
+ "Automatically align buttons": [
+  "Alinhar botões automaticamente"
  ],
  "Autoplay": [
   "Reprodução automática"
  ],
  "Autoplay Speed": [
   "Velocidade da reprodução automática"
+ ],
+ "Autoscroll": [
+  "Rolagem automática"
+ ],
+ "Autoscroll offset": [
+  "Deslocamento da rolagem automática"
+ ],
+ "Avatar": [
+  "Avatar"
+ ],
+ "Avatar URL": [
+  "URL do avatar"
+ ],
+ "Average Rating": [
+  "Avaliação média"
+ ],
+ "Avoid Duplicates": [
+  "Evitar duplicados"
+ ],
+ "Avoid Multiple Popups": [
+  "Evitar vários pop-ups"
+ ],
+ "Avoid duplicates": [
+  "Evitar duplicados"
  ],
  "Back": [
   "Voltar"
@@ -215,8 +932,23 @@
  "Background Overlay": [
   "Sobreposição de fundo"
  ],
+ "Badge": [
+  "Selo"
+ ],
+ "Badge Taxonomy": [
+  "Taxonomia do selo"
+ ],
+ "Bag": [
+  "Sacola"
+ ],
+ "Bank Details": [
+  "Dados bancários"
+ ],
  "Banner": [
   "Banner"
+ ],
+ "Basket": [
+  "Cesta"
  ],
  "Bcc": [
   "Cco"
@@ -224,10 +956,28 @@
  "Before": [
   "Antes"
  ],
+ "Before Text": [
+  "Texto antes"
+ ],
  "Below": [
   "Abaixo"
  ],
+ "Beside": [
+  "Ao lado"
+ ],
+ "Billing Cycle": [
+  "Ciclo de cobrança"
+ ],
+ "Billing Details": [
+  "Dados de cobrança"
+ ],
+ "Billing and Shipping Details": [
+  "Dados de cobrança e entrega"
+ ],
  "Bio": [
+  "Biografia"
+ ],
+ "Biography": [
   "Biografia"
  ],
  "Blend Mode": [
@@ -236,8 +986,17 @@
  "Block": [
   "Bloco"
  ],
+ "Blockquote": [
+  "Citação em bloco"
+ ],
  "Blur": [
   "Desfocar"
+ ],
+ "Body End": [
+  "Fim do body"
+ ],
+ "Body Start": [
+  "Início do body"
  ],
  "Bold": [
   "Negrito"
@@ -257,6 +1016,12 @@
  "Border Width": [
   "Largura da borda"
  ],
+ "Borders": [
+  "Bordas"
+ ],
+ "Both": [
+  "Ambos"
+ ],
  "Bottom": [
   "Inferior"
  ],
@@ -266,8 +1031,23 @@
  "Bottom Right": [
   "Inferior à direita"
  ],
+ "Bottom Spacing": [
+  "Espaçamento inferior"
+ ],
+ "Bounce": [
+  "Quicar"
+ ],
+ "Bouncing Dots": [
+  "Pontos saltitantes"
+ ],
  "Box": [
   "Caixa"
+ ],
+ "Box Color": [
+  "Cor da caixa"
+ ],
+ "Box Count": [
+  "Contagem em caixa"
  ],
  "Box Shadow": [
   "Sombra da caixa"
@@ -275,23 +1055,98 @@
  "Boxed": [
   "Encaixotado"
  ],
+ "Boxed Icon": [
+  "Ícone em caixa"
+ ],
+ "Boxes": [
+  "Caixas"
+ ],
+ "Breadcrumbs": [
+  "Trilha de navegação"
+ ],
  "Breakpoint": [
   "Ponto de interrupção"
  ],
  "Bring to Front": [
   "Trazer para frente"
  ],
+ "Browser Default": [
+  "Padrão do navegador"
+ ],
+ "Bubble": [
+  "Bolha"
+ ],
+ "Build components using simple instructions.": [
+  "Crie componentes com instruções simples."
+ ],
  "Bulk actions": [
   "Ações em massa"
+ ],
+ "Bullet": [
+  "Marcador"
+ ],
+ "Bullets": [
+  "Marcadores"
+ ],
+ "Business Card": [
+  "Cartão de visita"
  ],
  "Button": [
   "Botão"
  ],
+ "Button Color": [
+  "Cor do botão"
+ ],
+ "Button Count": [
+  "Contagem no botão"
+ ],
+ "Button Height": [
+  "Altura do botão"
+ ],
  "Button ID": [
   "ID do botão"
  ],
+ "Button Only": [
+  "Só o botão"
+ ],
+ "Button Size": [
+  "Tamanho do botão"
+ ],
+ "Button Text": [
+  "Texto do botão"
+ ],
  "Buttons": [
   "Botões"
+ ],
+ "By Parent": [
+  "Por categoria pai"
+ ],
+ "By author": [
+  "Por autor"
+ ],
+ "By default, all form fields are sent via %s shortcode. To customize sent fields, copy the shortcode that appears inside each field and paste it above.": [
+  "Por padrão, todos os campos do formulário são enviados pelo shortcode %s. Para escolher os campos enviados, copie o shortcode que aparece em cada campo e cole acima."
+ ],
+ "CEO": [
+  "CEO"
+ ],
+ "CPT Menu Name\u0004Custom Fonts": [
+  "Fontes personalizadas"
+ ],
+ "CPT Menu Name\u0004Custom Icons": [
+  "Ícones personalizados"
+ ],
+ "CPT Name\u0004Custom Fonts": [
+  "Fontes personalizadas"
+ ],
+ "CPT Name\u0004Custom Icons": [
+  "Ícones personalizados"
+ ],
+ "CPT Singular Name\u0004Font": [
+  "Fonte"
+ ],
+ "CPT Singular Name\u0004Icon Set": [
+  "Conjunto de ícones"
  ],
  "CSS Classes": [
   "Classes CSS"
@@ -299,8 +1154,17 @@
  "CSS ID": [
   "ID CSS"
  ],
+ "CSS Prefix": [
+  "Prefixo CSS"
+ ],
+ "CSS code": [
+  "Código CSS"
+ ],
  "CSS function": [
   "Função CSS"
+ ],
+ "CSS selectors, in a comma-separated list": [
+  "Seletores CSS, separados por vírgula"
  ],
  "CTA Button": [
   "Botão de CTA"
@@ -308,8 +1172,23 @@
  "Call to Action": [
   "Chamada para ação"
  ],
+ "Can not connect to the reCAPTCHA server (%d).": [
+  "Não foi possível conectar ao servidor do reCAPTCHA (%d)."
+ ],
+ "Can't find someone?": [
+  "Não encontrou alguém?"
+ ],
+ "Can't mention them": [
+  "Não é possível mencionar"
+ ],
  "Cancel": [
   "Cancelar"
+ ],
+ "Cannot filter a single-item list, please change from \"Current Query\" to a different query setting.": [
+  "Não é possível filtrar uma lista de um item só. Troque \"Consulta atual\" por outra configuração de consulta."
+ ],
+ "Cannot save those conditions.": [
+  "Não foi possível salvar essas condições."
  ],
  "Canvas": [
   "Tela"
@@ -320,14 +1199,53 @@
  "Captions": [
   "Legendas"
  ],
+ "Card": [
+  "Card"
+ ],
+ "Cards": [
+  "Cards"
+ ],
+ "Carousel": [
+  "Carrossel"
+ ],
+ "Carousel Items": [
+  "Itens do carrossel"
+ ],
  "Carousel Name": [
   "Nome do carrossel"
+ ],
+ "Cart": [
+  "Carrinho"
+ ],
+ "Cart Dividers": [
+  "Divisores do carrinho"
+ ],
+ "Cart Page": [
+  "Página do carrinho"
+ ],
+ "Cart Position": [
+  "Posição do carrinho"
+ ],
+ "Cart Totals": [
+  "Totais do carrinho"
+ ],
+ "Cart Type": [
+  "Tipo de carrinho"
  ],
  "Categories": [
   "Categorias"
  ],
+ "Categories Count": [
+  "Contagem de categorias"
+ ],
  "Category": [
   "Categoria"
+ ],
+ "Category Image": [
+  "Imagem da categoria"
+ ],
+ "Category: %s": [
+  "Categoria: %s"
  ],
  "Cc": [
   "Cc"
@@ -335,32 +1253,167 @@
  "Center": [
   "Centro"
  ],
+ "Centered Slides": [
+  "Slides centralizados"
+ ],
+ "Change": [
+  "Alterar"
+ ],
+ "Change Site Logo": [
+  "Alterar logo do site"
+ ],
+ "Changes to the cart will update automatically.": [
+  "As alterações no carrinho são atualizadas automaticamente."
+ ],
+ "Changes you make here will override your WooCommerce default purchase summary page.": [
+  "As alterações feitas aqui substituem a página padrão de resumo da compra do WooCommerce."
+ ],
+ "Changes you make here will override your existing WooCommerce settings.": [
+  "As alterações feitas aqui substituem suas configurações atuais do WooCommerce."
+ ],
+ "Channel": [
+  "Canal"
+ ],
+ "Chat": [
+  "Chat"
+ ],
+ "Check the boxes to enable Width and Weight, then define the minimum and maximum values for each.": [
+  "Marque as caixas para ativar largura e peso e defina os valores mínimo e máximo de cada um."
+ ],
+ "Check your themes builder": [
+  "Confira seu construtor de temas"
+ ],
  "Checkbox": [
   "Caixa de seleção"
+ ],
+ "Checkboxes": [
+  "Caixas de seleção"
+ ],
+ "Checked": [
+  "Marcado"
+ ],
+ "Checked by Default": [
+  "Marcado por padrão"
+ ],
+ "Checking for conflicts...": [
+  "Verificando conflitos..."
+ ],
+ "Checkout": [
+  "Finalizar compra"
+ ],
+ "Checkout Button": [
+  "Botão de finalizar compra"
+ ],
+ "Checkout Page": [
+  "Página de finalização de compra"
+ ],
+ "Choice value": [
+  "Valor da opção"
+ ],
+ "Choose": [
+  "Escolher"
  ],
  "Choose File": [
   "Escolher arquivo"
  ],
+ "Choose Icon": [
+  "Escolher ícone"
+ ],
  "Choose Image": [
   "Escolher imagem"
+ ],
+ "Choose Off-Canvas widget": [
+  "Escolha o widget off-canvas"
  ],
  "Choose Template": [
   "Escolher modelo"
  ],
+ "Choose a Loop Grid to view the Taxonomy Filter.": [
+  "Escolha uma grade de loop para ver o filtro de taxonomia."
+ ],
+ "Choose a font to publish.": [
+  "Escolha uma fonte para publicar."
+ ],
+ "Choose a page or add a URL": [
+  "Escolha uma página ou adicione uma URL"
+ ],
+ "Choose a template": [
+  "Escolha um modelo"
+ ],
+ "Choose from the most used Font Types": [
+  "Escolha entre os tipos de fonte mais usados"
+ ],
+ "Choose source type": [
+  "Escolha o tipo de origem"
+ ],
+ "Choose template": [
+  "Escolher modelo"
+ ],
+ "Choose template type": [
+  "Escolha o tipo de modelo"
+ ],
+ "Chrome": [
+  "Chrome"
+ ],
  "Circle": [
   "Círculo"
+ ],
+ "Circle Dashed": [
+  "Círculo tracejado"
+ ],
+ "Circular": [
+  "Circular"
+ ],
+ "City": [
+  "Cidade"
  ],
  "Classic": [
   "Clássico"
  ],
+ "Clean": [
+  "Limpo"
+ ],
  "Clear": [
   "Limpar"
+ ],
+ "Clear display conditions": [
+  "Limpar condições de exibição"
+ ],
+ "Click": [
+  "Clicar"
+ ],
+ "Click Here": [
+  "Clique aqui"
  ],
  "Click here": [
   "Clique aqui"
  ],
+ "Click here for Instructions": [
+  "Clique aqui para ver as instruções"
+ ],
+ "Click here to browse": [
+  "Clique aqui para procurar"
+ ],
+ "Click here to enter your coupon code": [
+  "Clique aqui para inserir seu código de cupom"
+ ],
+ "Click here to login": [
+  "Clique aqui para entrar"
+ ],
+ "Click on the menu item to edit its dropdown content.": [
+  "Clique no item do menu para editar o conteúdo do menu suspenso."
+ ],
+ "Click to Cancel": [
+  "Clique para cancelar"
+ ],
+ "Clicks": [
+  "Cliques"
+ ],
  "Close": [
   "Fechar"
+ ],
+ "Close %1$s": [
+  "Fechar %1$s"
  ],
  "Close %s": [
   "Fechar %s"
@@ -368,17 +1421,65 @@
  "Close Button": [
   "Botão \"Fechar\""
  ],
+ "Close Cart": [
+  "Fechar carrinho"
+ ],
+ "Close Icon": [
+  "Ícone de fechar"
+ ],
+ "Close Off-Canvas": [
+  "Fechar off-canvas"
+ ],
+ "Close Popup": [
+  "Fechar pop-up"
+ ],
+ "Close notes mode": [
+  "Fechar o modo de notas"
+ ],
  "Close panel": [
   "Fechar painel"
+ ],
+ "Close table of contents": [
+  "Fechar sumário"
+ ],
+ "Close this search box.": [
+  "Fechar esta caixa de pesquisa."
  ],
  "Code": [
   "Código"
  ],
+ "Code Highlight": [
+  "Destaque de código"
+ ],
  "Code with AI": [
   "Codificar com IA"
  ],
+ "Collapse Icon": [
+  "Ícone de recolher"
+ ],
+ "Collapse Subitems": [
+  "Recolher subitens"
+ ],
+ "Collapsible": [
+  "Recolhível"
+ ],
+ "Collect Submissions": [
+  "Guardar envios"
+ ],
+ "Collect lead submissions directly within your WordPress Admin to manage, analyze and perform bulk actions on the submitted lead": [
+  "Receba os contatos direto no painel do WordPress para gerenciar, analisar e fazer ações em massa nos envios"
+ ],
+ "Collected Submissions will be saved to Elementor > %1$s Submissions %2$s": [
+  "Os envios guardados ficam em Elementor > %1$s Envios %2$s"
+ ],
  "Color": [
   "Cor"
+ ],
+ "Color Picker Field": [
+  "Campo de seletor de cor"
+ ],
+ "Color Scheme": [
+  "Esquema de cores"
  ],
  "Colors": [
   "Cores"
@@ -398,20 +1499,119 @@
  "Columns Gap": [
   "Espaço entre colunas"
  ],
+ "Comment": [
+  "Comentário"
+ ],
+ "Comment Count": [
+  "Número de comentários"
+ ],
+ "Comment count": [
+  "Número de comentários"
+ ],
  "Comments": [
   "Comentários"
+ ],
+ "Comments Box": [
+  "Caixa de comentários"
+ ],
+ "Comments Link": [
+  "Link dos comentários"
+ ],
+ "Comments Number": [
+  "Número de comentários"
+ ],
+ "Comments URL": [
+  "URL dos comentários"
+ ],
+ "Comments are closed.": [
+  "Os comentários estão fechados."
+ ],
+ "Compact": [
+  "Compacto"
+ ],
+ "Company": [
+  "Empresa"
+ ],
+ "Company Name": [
+  "Nome da empresa"
+ ],
+ "Complete the entire checkout experience on your site with a mock payment method, using the Stripe Test key in the %1$sIntegrations Settings%2$s.": [
+  "Faça todo o processo de compra no seu site com um pagamento simulado, usando a chave de teste do Stripe nas %1$sConfigurações de integrações%2$s."
+ ],
+ "Completed": [
+  "Concluído"
+ ],
+ "Component created successfully.": [
+  "Componente criado com sucesso."
+ ],
+ "Component name already exists": [
+  "Já existe um componente com esse nome"
+ ],
+ "Component name is required.": [
+  "O nome do componente é obrigatório."
+ ],
+ "Component name is too long. Please keep it under 50 characters.": [
+  "O nome do componente é longo demais. Use menos de 50 caracteres."
+ ],
+ "Component name is too short. Please enter at least 2 characters.": [
+  "O nome do componente é curto demais. Use pelo menos 2 caracteres."
+ ],
+ "Component properties": [
+  "Propriedades do componente"
  ],
  "Components": [
   "Componentes"
  ],
+ "Components are reusable elements that sync across your site.": [
+  "Componentes são elementos reutilizáveis que ficam sincronizados em todo o site."
+ ],
  "Components require atomic elements only. Remove widgets to create this component.": [
   "Os componentes requerem apenas elementos atômicos. Remova os widgets para criar este componente."
+ ],
+ "Conditions": [
+  "Condições"
+ ],
+ "Conditions:": [
+  "Condições:"
+ ],
+ "Confirmation Message": [
+  "Mensagem de confirmação"
+ ],
+ "Conflicted part": [
+  "Parte em conflito"
+ ],
+ "Congrats! Your site part is live": [
+  "Parabéns! Esta parte do seu site está no ar"
  ],
  "Connect & Activate": [
   "Conectar e ativar"
  ],
+ "Connected Successfully": [
+  "Conectado com sucesso"
+ ],
+ "Connected to input ID": [
+  "Ligado ao campo de ID"
+ ],
+ "Consider switching to the desired breakpoint in the panel instead of using @media width queries here.": [
+  "Prefira mudar para o ponto de quebra desejado no painel em vez de usar consultas @media de largura aqui."
+ ],
+ "Consider switching to the desired pseudo state in the panel instead of using pseudo-classes here.": [
+  "Prefira mudar para o estado desejado no painel em vez de usar pseudoclasses aqui."
+ ],
+ "Contact": [
+  "Contato"
+ ],
  "Contact Buttons": [
   "Botões de contato"
+ ],
+ "Contact URL": [
+  "URL de contato"
+ ],
+ "Contact the site admin or turn off notifications for Notes in your %1$suser profile%2$s.": [
+  "Fale com o administrador do site ou desative as notificações de notas no seu %1$sperfil de usuário%2$s."
+ ],
+ "Contact the site admin to give this person the right permissions.": [
+  "Fale com o administrador do site para dar as permissões certas a essa pessoa."
  ],
  "Contain": [
   "Conter"
@@ -419,8 +1619,26 @@
  "Container": [
   "Contêiner"
  ],
+ "Container Width": [
+  "Largura do contêiner"
+ ],
+ "Contains": [
+  "Contém"
+ ],
  "Content": [
   "Conteúdo"
+ ],
+ "Content Animation": [
+  "Animação do conteúdo"
+ ],
+ "Content Color": [
+  "Cor do conteúdo"
+ ],
+ "Content Horizontal Position": [
+  "Posição horizontal do conteúdo"
+ ],
+ "Content Padding": [
+  "Espaçamento do conteúdo"
  ],
  "Content Position": [
   "Posição do conteúdo"
@@ -431,29 +1649,671 @@
  "Content Width": [
   "Largura do conteúdo"
  ],
+ "Content area": [
+  "Área de conteúdo"
+ ],
+ "Contents Tabs ": [
+  "Abas de conteúdo "
+ ],
  "Continue": [
   "Continuar"
+ ],
+ "Controls Horizontal position": [
+  "Posição horizontal dos controles"
+ ],
+ "Controls Size": [
+  "Tamanho dos controles"
+ ],
+ "ConvertKit": [
+  "ConvertKit"
+ ],
+ "Copied": [
+  "Copiado"
+ ],
+ "Copy %1$s coupon code": [
+  "Copiar código do cupom %1$s"
+ ],
+ "Copy Icon": [
+  "Ícone de copiar"
+ ],
+ "Copy Link": [
+  "Copiar link"
+ ],
+ "Copy to Clipboard": [
+  "Copiar para a área de transferência"
+ ],
+ "Could not create action: %s": [
+  "Não foi possível criar a ação: %s"
+ ],
+ "Could not load the panel.": [
+  "Não foi possível carregar o painel."
+ ],
+ "Could not retrieve query data.": [
+  "Não foi possível obter os dados da consulta."
+ ],
+ "Could not unzip or empty archive.": [
+  "Não foi possível descompactar ou o arquivo está vazio."
+ ],
+ "Could not upload the file.": [
+  "Não foi possível enviar o arquivo."
+ ],
+ "Count": [
+  "Contagem"
+ ],
+ "Countdown": [
+  "Contagem regressiva"
+ ],
+ "Country": [
+  "País"
+ ],
+ "Country / Region": [
+  "País / Região"
+ ],
+ "Coupon": [
+  "Cupom"
+ ],
+ "Coupon Banner": [
+  "Banner de cupom"
+ ],
+ "Coupon code": [
+  "Código do cupom"
  ],
  "Cover": [
   "Cobertura"
  ],
+ "Cover Photo": [
+  "Foto de capa"
+ ],
+ "Coverflow": [
+  "Coverflow"
+ ],
  "Create": [
   "Criar"
+ ],
+ "Create Date:": [
+  "Data de criação:"
+ ],
+ "Create Global Widgets. Modify the content, style and setting of any widget and reuse it across your website to accelerate your workflow and stay consistent.": [
+  "Crie widgets globais. Altere o conteúdo, o estilo e as configurações de qualquer widget e reutilize-o em todo o site para trabalhar mais rápido e manter a consistência."
+ ],
+ "Create New Components": [
+  "Criar novos componentes"
  ],
  "Create Reusable Components": [
   "Criar componentes reutilizáveis"
  ],
+ "Create a custom component with Angie": [
+  "Crie um componente personalizado com o Angie"
+ ],
+ "Create a template": [
+  "Criar um modelo"
+ ],
+ "Create an Account": [
+  "Criar uma conta"
+ ],
+ "Create an account?": [
+  "Criar uma conta?"
+ ],
+ "Create beautiful menus and mega menus with new nested capabilities. Mega menus are ideal for websites with complex navigation structures and unique designs. %1$sLearn More%2$s": [
+  "Crie menus e megamenus bonitos com os novos recursos aninhados. Megamenus são ideais para sites com navegação complexa e design único. %1$sSaiba mais%2$s"
+ ],
  "Create component": [
   "Criar componente"
+ ],
+ "Create components with Angie": [
+  "Crie componentes com o Angie"
+ ],
+ "Create custom designed Popups. Use advanced display conditions and triggers to display the right popup, to the right visitor, at the right time and maximize conversions.": [
+  "Crie pop-ups com design personalizado. Use condições de exibição e gatilhos avançados para mostrar o pop-up certo, para o visitante certo, na hora certa, e aumentar as conversões."
  ],
  "Create design elements that sync across your entire site.": [
   "Crie elementos de design que se sincronizam em todo o seu site."
  ],
+ "Create new property": [
+  "Criar nova propriedade"
+ ],
+ "Create template": [
+  "Criar modelo"
+ ],
+ "Create your first component": [
+  "Crie seu primeiro componente"
+ ],
+ "Created At": [
+  "Criado em"
+ ],
+ "Created At GMT": [
+  "Criado em (GMT)"
+ ],
+ "Created document is not a Theme_Document.": [
+  "O documento criado não é um Theme_Document."
+ ],
+ "Created on": [
+  "Criado em"
+ ],
  "Credit": [
   "Crédito"
  ],
+ "Cross-Sells": [
+  "Vendas cruzadas"
+ ],
+ "Cross-sells": [
+  "Vendas cruzadas"
+ ],
+ "Cube": [
+  "Cubo"
+ ],
+ "Currency": [
+  "Moeda"
+ ],
+ "Currency\u0004AED": [
+  "AED"
+ ],
+ "Currency\u0004AFN": [
+  "AFN"
+ ],
+ "Currency\u0004ALL": [
+  "ALL"
+ ],
+ "Currency\u0004AMD": [
+  "AMD"
+ ],
+ "Currency\u0004ANG": [
+  "ANG"
+ ],
+ "Currency\u0004AOA": [
+  "AOA"
+ ],
+ "Currency\u0004ARS": [
+  "ARS"
+ ],
+ "Currency\u0004AUD": [
+  "AUD"
+ ],
+ "Currency\u0004AWG": [
+  "AWG"
+ ],
+ "Currency\u0004AZN": [
+  "AZN"
+ ],
+ "Currency\u0004BAM": [
+  "BAM"
+ ],
+ "Currency\u0004BBD": [
+  "BBD"
+ ],
+ "Currency\u0004BDT": [
+  "BDT"
+ ],
+ "Currency\u0004BGN": [
+  "BGN"
+ ],
+ "Currency\u0004BIF": [
+  "BIF"
+ ],
+ "Currency\u0004BMD": [
+  "BMD"
+ ],
+ "Currency\u0004BND": [
+  "BND"
+ ],
+ "Currency\u0004BOB": [
+  "BOB"
+ ],
+ "Currency\u0004BRL": [
+  "BRL"
+ ],
+ "Currency\u0004BSD": [
+  "BSD"
+ ],
+ "Currency\u0004BWP": [
+  "BWP"
+ ],
+ "Currency\u0004BYN": [
+  "BYN"
+ ],
+ "Currency\u0004BZD": [
+  "BZD"
+ ],
+ "Currency\u0004Baht": [
+  "Baht"
+ ],
+ "Currency\u0004CAD": [
+  "CAD"
+ ],
+ "Currency\u0004CDF": [
+  "CDF"
+ ],
+ "Currency\u0004CHF": [
+  "CHF"
+ ],
+ "Currency\u0004CLP": [
+  "CLP"
+ ],
+ "Currency\u0004CNY": [
+  "CNY"
+ ],
+ "Currency\u0004COP": [
+  "COP"
+ ],
+ "Currency\u0004CRC": [
+  "CRC"
+ ],
+ "Currency\u0004CVE": [
+  "CVE"
+ ],
+ "Currency\u0004CZK": [
+  "CZK"
+ ],
+ "Currency\u0004DJF": [
+  "DJF"
+ ],
+ "Currency\u0004DKK": [
+  "DKK"
+ ],
+ "Currency\u0004DOP": [
+  "DOP"
+ ],
+ "Currency\u0004DZD": [
+  "DZD"
+ ],
+ "Currency\u0004Dollar": [
+  "Dólar"
+ ],
+ "Currency\u0004EGP": [
+  "EGP"
+ ],
+ "Currency\u0004ETB": [
+  "ETB"
+ ],
+ "Currency\u0004EUR": [
+  "EUR"
+ ],
+ "Currency\u0004Euro": [
+  "Euro"
+ ],
+ "Currency\u0004FJD": [
+  "FJD"
+ ],
+ "Currency\u0004FKP": [
+  "FKP"
+ ],
+ "Currency\u0004Franc": [
+  "Franco"
+ ],
+ "Currency\u0004GBP": [
+  "GBP"
+ ],
+ "Currency\u0004GEL": [
+  "GEL"
+ ],
+ "Currency\u0004GIP": [
+  "GIP"
+ ],
+ "Currency\u0004GMD": [
+  "GMD"
+ ],
+ "Currency\u0004GNF": [
+  "GNF"
+ ],
+ "Currency\u0004GTQ": [
+  "GTQ"
+ ],
+ "Currency\u0004GYD": [
+  "GYD"
+ ],
+ "Currency\u0004Guilder": [
+  "Florim"
+ ],
+ "Currency\u0004HKD": [
+  "HKD"
+ ],
+ "Currency\u0004HNL": [
+  "HNL"
+ ],
+ "Currency\u0004HRK": [
+  "HRK"
+ ],
+ "Currency\u0004HTG": [
+  "HTG"
+ ],
+ "Currency\u0004HUF": [
+  "HUF"
+ ],
+ "Currency\u0004IDR": [
+  "IDR"
+ ],
+ "Currency\u0004ILS": [
+  "ILS"
+ ],
+ "Currency\u0004INR": [
+  "INR"
+ ],
+ "Currency\u0004ISK": [
+  "ISK"
+ ],
+ "Currency\u0004JMD": [
+  "JMD"
+ ],
+ "Currency\u0004JPY": [
+  "JPY"
+ ],
+ "Currency\u0004KES": [
+  "KES"
+ ],
+ "Currency\u0004KGS": [
+  "KGS"
+ ],
+ "Currency\u0004KHR": [
+  "KHR"
+ ],
+ "Currency\u0004KMF": [
+  "KMF"
+ ],
+ "Currency\u0004KRW": [
+  "KRW"
+ ],
+ "Currency\u0004KYD": [
+  "KYD"
+ ],
+ "Currency\u0004KZT": [
+  "KZT"
+ ],
+ "Currency\u0004Krona": [
+  "Coroa"
+ ],
+ "Currency\u0004LAK": [
+  "LAK"
+ ],
+ "Currency\u0004LBP": [
+  "LBP"
+ ],
+ "Currency\u0004LKR": [
+  "LKR"
+ ],
+ "Currency\u0004LRD": [
+  "LRD"
+ ],
+ "Currency\u0004LSL": [
+  "LSL"
+ ],
+ "Currency\u0004Lira": [
+  "Lira"
+ ],
+ "Currency\u0004MAD": [
+  "MAD"
+ ],
+ "Currency\u0004MDL": [
+  "MDL"
+ ],
+ "Currency\u0004MGA": [
+  "MGA"
+ ],
+ "Currency\u0004MKD": [
+  "MKD"
+ ],
+ "Currency\u0004MMK": [
+  "MMK"
+ ],
+ "Currency\u0004MNT": [
+  "MNT"
+ ],
+ "Currency\u0004MOP": [
+  "MOP"
+ ],
+ "Currency\u0004MRO": [
+  "MRO"
+ ],
+ "Currency\u0004MUR": [
+  "MUR"
+ ],
+ "Currency\u0004MVR": [
+  "MVR"
+ ],
+ "Currency\u0004MWK": [
+  "MWK"
+ ],
+ "Currency\u0004MXN": [
+  "MXN"
+ ],
+ "Currency\u0004MYR": [
+  "MYR"
+ ],
+ "Currency\u0004MZN": [
+  "MZN"
+ ],
+ "Currency\u0004NAD": [
+  "NAD"
+ ],
+ "Currency\u0004NGN": [
+  "NGN"
+ ],
+ "Currency\u0004NIO": [
+  "NIO"
+ ],
+ "Currency\u0004NOK": [
+  "NOK"
+ ],
+ "Currency\u0004NPR": [
+  "NPR"
+ ],
+ "Currency\u0004NZD": [
+  "NZD"
+ ],
+ "Currency\u0004PAB": [
+  "PAB"
+ ],
+ "Currency\u0004PEN": [
+  "PEN"
+ ],
+ "Currency\u0004PGK": [
+  "PGK"
+ ],
+ "Currency\u0004PHP": [
+  "PHP"
+ ],
+ "Currency\u0004PKR": [
+  "PKR"
+ ],
+ "Currency\u0004PLN": [
+  "PLN"
+ ],
+ "Currency\u0004PYG": [
+  "PYG"
+ ],
+ "Currency\u0004Peseta": [
+  "Peseta"
+ ],
+ "Currency\u0004Peso": [
+  "Peso"
+ ],
+ "Currency\u0004Pound Sterling": [
+  "Libra esterlina"
+ ],
+ "Currency\u0004QAR": [
+  "QAR"
+ ],
+ "Currency\u0004RON": [
+  "RON"
+ ],
+ "Currency\u0004RSD": [
+  "RSD"
+ ],
+ "Currency\u0004RUB": [
+  "RUB"
+ ],
+ "Currency\u0004RWF": [
+  "RWF"
+ ],
+ "Currency\u0004Real": [
+  "Real"
+ ],
+ "Currency\u0004Ruble": [
+  "Rublo"
+ ],
+ "Currency\u0004Rupee": [
+  "Rúpia"
+ ],
+ "Currency\u0004Rupee (Indian)": [
+  "Rúpia (indiana)"
+ ],
+ "Currency\u0004SAR": [
+  "SAR"
+ ],
+ "Currency\u0004SBD": [
+  "SBD"
+ ],
+ "Currency\u0004SCR": [
+  "SCR"
+ ],
+ "Currency\u0004SEK": [
+  "SEK"
+ ],
+ "Currency\u0004SGD": [
+  "SGD"
+ ],
+ "Currency\u0004SHP": [
+  "SHP"
+ ],
+ "Currency\u0004SLL": [
+  "SLL"
+ ],
+ "Currency\u0004SOS": [
+  "SOS"
+ ],
+ "Currency\u0004SRD": [
+  "SRD"
+ ],
+ "Currency\u0004STD": [
+  "STD"
+ ],
+ "Currency\u0004SZL": [
+  "SZL"
+ ],
+ "Currency\u0004Shekel": [
+  "Shekel"
+ ],
+ "Currency\u0004THB": [
+  "THB"
+ ],
+ "Currency\u0004TJS": [
+  "TJS"
+ ],
+ "Currency\u0004TOP": [
+  "TOP"
+ ],
+ "Currency\u0004TRY": [
+  "TRY"
+ ],
+ "Currency\u0004TTD": [
+  "TTD"
+ ],
+ "Currency\u0004TWD": [
+  "TWD"
+ ],
+ "Currency\u0004TZS": [
+  "TZS"
+ ],
+ "Currency\u0004UAH": [
+  "UAH"
+ ],
+ "Currency\u0004USD": [
+  "USD"
+ ],
+ "Currency\u0004UYU": [
+  "UYU"
+ ],
+ "Currency\u0004UZS": [
+  "UZS"
+ ],
+ "Currency\u0004VND": [
+  "VND"
+ ],
+ "Currency\u0004VUV": [
+  "VUV"
+ ],
+ "Currency\u0004WST": [
+  "WST"
+ ],
+ "Currency\u0004Won": [
+  "Won"
+ ],
+ "Currency\u0004XAF": [
+  "XAF"
+ ],
+ "Currency\u0004XCD": [
+  "XCD"
+ ],
+ "Currency\u0004XOF": [
+  "XOF"
+ ],
+ "Currency\u0004XPF": [
+  "XPF"
+ ],
+ "Currency\u0004YER": [
+  "YER"
+ ],
+ "Currency\u0004Yen/Yuan": [
+  "Iene/Yuan"
+ ],
+ "Currency\u0004ZAR": [
+  "ZAR"
+ ],
+ "Currency\u0004ZMW": [
+  "ZMW"
+ ],
+ "Currency Format": [
+  "Formato da moeda"
+ ],
+ "Currency Symbol": [
+  "Símbolo da moeda"
+ ],
+ "Current Author": [
+  "Autor atual"
+ ],
+ "Current Date": [
+  "Data atual"
+ ],
+ "Current Date Time": [
+  "Data e hora atuais"
+ ],
+ "Current Page": [
+  "Página atual"
+ ],
+ "Current Post": [
+  "Post atual"
+ ],
+ "Current Query": [
+  "Consulta atual"
+ ],
+ "Current Subcategories": [
+  "Subcategorias atuais"
+ ],
+ "Current page": [
+  "Página atual"
+ ],
+ "Current post": [
+  "Post atual"
+ ],
+ "Current query": [
+  "Consulta atual"
+ ],
+ "Current site part": [
+  "Parte atual do site"
+ ],
+ "Current time": [
+  "Hora atual"
+ ],
  "Custom": [
   "Personalizado"
+ ],
+ "Custom (Advanced)": [
+  "Personalizado (avançado)"
+ ],
+ "Custom API Key": [
+  "Chave de API personalizada"
+ ],
+ "Custom Add To Cart": [
+  "Adicionar ao carrinho personalizado"
  ],
  "Custom Attributes": [
   "Atributos personalizados"
@@ -461,20 +2321,65 @@
  "Custom CSS": [
   "CSS personalizado"
  ],
+ "Custom CTA Button": [
+  "Botão de ação personalizado"
+ ],
  "Custom Caption": [
   "Legenda personalizada"
  ],
  "Custom Code": [
   "Código personalizado"
  ],
+ "Custom Date Format": [
+  "Formato de data personalizado"
+ ],
  "Custom Effect": [
   "Efeito personalizado"
+ ],
+ "Custom Field": [
+  "Campo personalizado"
  ],
  "Custom Fonts": [
   "Fontes personalizadas"
  ],
+ "Custom Fonts allows you to add your self-hosted fonts and use them on your projects to create a unique brand language.": [
+  "As fontes personalizadas permitem usar fontes hospedadas no seu servidor nos seus projetos e criar uma identidade de marca única."
+ ],
+ "Custom Format": [
+  "Formato personalizado"
+ ],
+ "Custom Height": [
+  "Altura personalizada"
+ ],
+ "Custom Hotspot Size": [
+  "Tamanho personalizado do ponto"
+ ],
+ "Custom Icon": [
+  "Ícone personalizado"
+ ],
  "Custom Icons": [
   "Ícones personalizados"
+ ],
+ "Custom Key": [
+  "Chave personalizada"
+ ],
+ "Custom Label": [
+  "Rótulo personalizado"
+ ],
+ "Custom Messages": [
+  "Mensagens personalizadas"
+ ],
+ "Custom Position": [
+  "Posição personalizada"
+ ],
+ "Custom Symbol": [
+  "Símbolo personalizado"
+ ],
+ "Custom Time Format": [
+  "Formato de hora personalizado"
+ ],
+ "Custom Tooltip Properties": [
+  "Propriedades personalizadas da dica"
  ],
  "Custom URL": [
   "URL personalizado"
@@ -482,14 +2387,86 @@
  "Custom Width": [
   "Largura personalizada"
  ],
+ "Custom code": [
+  "Código personalizado"
+ ],
+ "Custom code draft updated.": [
+  "Rascunho do código personalizado atualizado."
+ ],
+ "Custom code published.": [
+  "Código personalizado publicado."
+ ],
+ "Custom code saved.": [
+  "Código personalizado salvo."
+ ],
+ "Custom code scheduled for %s.": [
+  "Código personalizado agendado para %s."
+ ],
+ "Custom code submitted.": [
+  "Código personalizado enviado."
+ ],
+ "Custom code updated.": [
+  "Código personalizado atualizado."
+ ],
+ "Custom effect": [
+  "Efeito personalizado"
+ ],
+ "Custom field deleted.": [
+  "Campo personalizado excluído."
+ ],
+ "Custom field updated.": [
+  "Campo personalizado atualizado."
+ ],
  "Custom post types": [
   "Tipos de posts personalizados"
  ],
  "Customize": [
   "Personalizar"
  ],
+ "Customize Dashboard": [
+  "Personalizar painel"
+ ],
+ "Customize empty cart": [
+  "Personalizar carrinho vazio"
+ ],
+ "Customize: Additional Information": [
+  "Personalizar: informações adicionais"
+ ],
+ "Customize: Billing Details": [
+  "Personalizar: dados de cobrança"
+ ],
+ "Customize: Coupon": [
+  "Personalizar: cupom"
+ ],
+ "Customize: Order Summary": [
+  "Personalizar: resumo do pedido"
+ ],
+ "Customize: Payment": [
+  "Personalizar: pagamento"
+ ],
+ "Customize: Returning Customer": [
+  "Personalizar: cliente que já comprou"
+ ],
+ "Customize: Shipping Address": [
+  "Personalizar: endereço de entrega"
+ ],
+ "Customize: Totals": [
+  "Personalizar: totais"
+ ],
+ "Cutout": [
+  "Recorte"
+ ],
+ "DESC": [
+  "DECRESC"
+ ],
+ "Daily": [
+  "Diário"
+ ],
  "Danger": [
   "Perigo"
+ ],
+ "Dark": [
+  "Escuro"
  ],
  "Dashboard": [
   "Painel"
@@ -497,11 +2474,86 @@
  "Dashed": [
   "Tracejado"
  ],
+ "Data": [
+  "Dados"
+ ],
+ "Data Tabs": [
+  "Abas de dados"
+ ],
  "Date": [
   "Data"
  ],
+ "Date Field": [
+  "Campo de data"
+ ],
+ "Date Format": [
+  "Formato da data"
+ ],
+ "Date Format\u0004March 6, 2018 (F j, Y)": [
+  "6 de março de 2018 (j \\d\\e F \\d\\e Y)"
+ ],
+ "Date Modified": [
+  "Data de modificação"
+ ],
+ "Date Time Field": [
+  "Campo de data e hora"
+ ],
+ "Date and Time": [
+  "Data e hora"
+ ],
+ "Date archive": [
+  "Arquivo por data"
+ ],
+ "Date of Publish": [
+  "Data de publicação"
+ ],
+ "Date picker": [
+  "Seletor de data"
+ ],
+ "Date set according to your timezone: %s.": [
+  "Data definida conforme o seu fuso horário: %s."
+ ],
+ "Date:": [
+  "Data:"
+ ],
+ "Day": [
+  "Dia"
+ ],
+ "Day Of Cycle": [
+  "Dia do ciclo"
+ ],
+ "Day of the week": [
+  "Dia da semana"
+ ],
+ "Day: %s": [
+  "Dia: %s"
+ ],
+ "Days": [
+  "Dias"
+ ],
  "Default": [
   "Padrão"
+ ],
+ "Default (Simple)": [
+  "Padrão (simples)"
+ ],
+ "Default Page Template from your theme": [
+  "Modelo de página padrão do seu tema"
+ ],
+ "Default Value": [
+  "Valor padrão"
+ ],
+ "Default to New Theme Builder": [
+  "Usar o novo Construtor de Temas por padrão"
+ ],
+ "Default value": [
+  "Valor padrão"
+ ],
+ "Define in which order the Custom Code will appear": [
+  "Defina em que ordem o código personalizado vai aparecer"
+ ],
+ "Define where the Custom Code will appear": [
+  "Defina onde o código personalizado vai aparecer"
  ],
  "Delay": [
   "Atraso"
@@ -509,11 +2561,59 @@
  "Delete": [
   "Excluir"
  ],
+ "Delete Permanently": [
+  "Excluir permanentemente"
+ ],
+ "Delete property": [
+  "Excluir propriedade"
+ ],
+ "Delete this component?": [
+  "Excluir este componente?"
+ ],
+ "Delete this note?": [
+  "Excluir esta nota?"
+ ],
+ "Delete this reply?": [
+  "Excluir esta resposta?"
+ ],
+ "Deleted notes can't be recovered.": [
+  "Notas excluídas não podem ser recuperadas."
+ ],
+ "Deleted replies can't be recovered.": [
+  "Respostas excluídas não podem ser recuperadas."
+ ],
+ "Depth": [
+  "Profundidade"
+ ],
  "Description": [
   "Descrição"
  ],
+ "Description Color": [
+  "Cor da descrição"
+ ],
+ "Description HTML Tag": [
+  "Tag HTML da descrição"
+ ],
+ "Descriptions": [
+  "Descrições"
+ ],
  "Desktop": [
   "Desktop"
+ ],
+ "Desktop (or smaller)": [
+  "Desktop (ou menor)"
+ ],
+ "Digits": [
+  "Dígitos"
+ ],
+ "Direct": [
+  "Direto"
+ ],
+ "Direct child %s of": [
+  "%s filho direto de"
+ ],
+ "Direct child of": [
+  "Filho direto de"
  ],
  "Direction": [
   "Direção"
@@ -521,8 +2621,20 @@
  "Disable": [
   "Desativar"
  ],
+ "Disable Page Scrolling": [
+  "Desativar rolagem da página"
+ ],
+ "Disc": [
+  "Disco"
+ ],
  "Discard": [
   "Descartar"
+ ],
+ "Discord": [
+  "Discord"
+ ],
+ "Dismiss": [
+  "Dispensar"
  ],
  "Dismiss this notice.": [
   "Dispensar esta notificação."
@@ -530,14 +2642,44 @@
  "Display Conditions": [
   "Condições de exibição"
  ],
+ "Display Name": [
+  "Nome de exibição"
+ ],
  "Display Percentage": [
   "Exibir porcentagem"
+ ],
+ "Displayed Elements": [
+  "Elementos exibidos"
+ ],
+ "Displayed if no relevant results are found. Manual selection display order is random": [
+  "Exibido se não houver resultados relevantes. A ordem da seleção manual é aleatória"
+ ],
+ "Distance": [
+  "Distância"
  ],
  "Distance from content": [
   "Distância do conteúdo"
  ],
+ "Distance from dropdown": [
+  "Distância do menu suspenso"
+ ],
+ "Distance from search field": [
+  "Distância do campo de pesquisa"
+ ],
  "Divider": [
   "Divisor"
+ ],
+ "Divider Gap": [
+  "Espaço do divisor"
+ ],
+ "Divider Style": [
+  "Estilo do divisor"
+ ],
+ "Divider Total": [
+  "Divisor do total"
+ ],
+ "Divider Width": [
+  "Largura do divisor"
  ],
  "Dividers": [
   "Divisores"
@@ -545,8 +2687,35 @@
  "Do not show this message again": [
   "Não mostrar esta mensagem novamente"
  ],
+ "Document doesn't exist": [
+  "O documento não existe"
+ ],
+ "Document not found": [
+  "Documento não encontrado"
+ ],
+ "Documentation on date and time formatting": [
+  "Documentação sobre formatação de data e hora"
+ ],
+ "Does not contain": [
+  "Não contém"
+ ],
  "Don't Show Again": [
   "Não mostrar novamente"
+ ],
+ "Don't rely solely on the FontAwesome icons everyone else is using! Differentiate your website and your style with custom icons you can upload from your favorite icons source.": [
+  "Não fique só nos ícones do FontAwesome que todo mundo usa! Diferencie seu site com ícones personalizados enviados da sua fonte de ícones favorita."
+ ],
+ "Don't want to receive these notifications?": [
+  "Não quer receber estas notificações?"
+ ],
+ "Donation": [
+  "Doação"
+ ],
+ "Donation Amount": [
+  "Valor da doação"
+ ],
+ "Done!": [
+  "Pronto!"
  ],
  "Dots": [
   "Pontos"
@@ -557,8 +2726,62 @@
  "Double": [
   "Duplo"
  ],
+ "Double Line": [
+  "Linha dupla"
+ ],
+ "Double Opt-In": [
+  "Confirmação dupla"
+ ],
+ "Double-click the loop item on your canvas or click the button below to enter Edit mode.": [
+  "Clique duas vezes no item de loop na tela ou clique no botão abaixo para entrar no modo de edição."
+ ],
+ "Down": [
+  "Para baixo"
+ ],
+ "Download Resume": [
+  "Baixar currículo"
+ ],
+ "Downloads": [
+  "Downloads"
+ ],
+ "Drag & Drop to Upload": [
+  "Arraste e solte para enviar"
+ ],
+ "Drag & Drop your .JSON or .zip template file": [
+  "Arraste e solte seu arquivo de modelo .JSON ou .zip"
+ ],
  "Drag widget here": [
   "Arraste o widget para cá"
+ ],
+ "Drip": [
+  "Drip"
+ ],
+ "Drop this widget anywhere on the page or template where you want notices to appear.": [
+  "Coloque este widget onde quiser que os avisos apareçam, na página ou no modelo."
+ ],
+ "Dropdown": [
+  "Menu suspenso"
+ ],
+ "Dropdown Box": [
+  "Caixa do menu suspenso"
+ ],
+ "Dropdown Content": [
+  "Conteúdo do menu suspenso"
+ ],
+ "Dropdown Effect": [
+  "Efeito do menu suspenso"
+ ],
+ "Dropdown Indicator": [
+  "Indicador do menu suspenso"
+ ],
+ "Dropdown Menu": [
+  "Menu suspenso"
+ ],
+ "Dropdown Width": [
+  "Largura do menu suspenso"
+ ],
+ "Due Date": [
+  "Data final"
  ],
  "Duration": [
   "Duração"
@@ -566,20 +2789,71 @@
  "Dynamic Tags": [
   "Tags dinâmicas"
  ],
+ "Edge": [
+  "Edge"
+ ],
  "Edit": [
   "Editar"
  ],
  "Edit %s": [
   "Editar %s"
  ],
+ "Edit Alternating Item": [
+  "Editar item alternado"
+ ],
+ "Edit Conditions": [
+  "Editar condições"
+ ],
+ "Edit Font": [
+  "Editar fonte"
+ ],
+ "Edit Font Type": [
+  "Editar tipo de fonte"
+ ],
+ "Edit Handle Selector": [
+  "Seletor da alça de edição"
+ ],
+ "Edit Icon Set": [
+  "Editar conjunto de ícones"
+ ],
  "Edit Template": [
   "Editar modelo"
+ ],
+ "Edit code": [
+  "Editar código"
  ],
  "Edit content": [
   "Editar conteúdo"
  ],
+ "Edit global widget": [
+  "Editar widget global"
+ ],
+ "Edit loop item": [
+  "Editar item de loop"
+ ],
+ "Edit template": [
+  "Editar modelo"
+ ],
+ "Edit this global widget to simultaneously update every place you used it, or unlink it so it gets back to being regular widget.": [
+  "Edite este widget global para atualizar ao mesmo tempo todos os lugares onde ele é usado, ou desvincule para ele voltar a ser um widget comum."
+ ],
+ "Edit your loop item": [
+  "Edite seu item de loop"
+ ],
+ "Editing Mode": [
+  "Modo de edição"
+ ],
  "Effect": [
   "Efeito"
+ ],
+ "Effects Offset": [
+  "Deslocamento dos efeitos"
+ ],
+ "Effects Relative To": [
+  "Efeitos relativos a"
+ ],
+ "Either choose an existing template or create a new one and use it as the main item for your loop.": [
+  "Escolha um modelo existente ou crie um novo e use como item principal do loop."
  ],
  "Element": [
   "Elemento"
@@ -590,17 +2864,137 @@
  "Elementor %s": [
   "Elementor %s"
  ],
+ "Elementor Custom-Code #": [
+  "Código personalizado do Elementor nº "
+ ],
  "Email": [
   "E-mail"
+ ],
+ "Email 2": [
+  "E-mail 2"
+ ],
+ "Email Address": [
+  "Endereço de e-mail"
+ ],
+ "Email sent successfully": [
+  "E-mail enviado com sucesso"
+ ],
+ "Email with attachment": [
+  "E-mail com anexo"
+ ],
+ "Email with both": [
+  "E-mail com os dois"
+ ],
+ "Email with link": [
+  "E-mail com link"
+ ],
+ "Embed": [
+  "Incorporar"
+ ],
+ "Embed your saved elements.": [
+  "Incorpore seus elementos salvos."
+ ],
+ "Embedded OpenType, Used by IE6-IE9 Browsers": [
+  "Embedded OpenType, usado pelos navegadores IE6-IE9"
+ ],
+ "Empty Cart Message Color": [
+  "Cor da mensagem de carrinho vazio"
+ ],
+ "Empty Items": [
+  "Itens vazios"
+ ],
+ "Empty Star Color": [
+  "Cor da estrela vazia"
+ ],
+ "Empty attribute names aren't valid and won't render on the page.": [
+  "Nomes de atributo vazios não são válidos e não aparecem na página."
+ ],
+ "Empty state": [
+  "Estado vazio"
  ],
  "Enable": [
   "Ativar"
  ],
+ "Enable PRO Elements Notes notifications": [
+  "Ativar notificações das notas do PRO Elements"
+ ],
  "End": [
   "Fim"
  ],
+ "End (after)": [
+  "Fim (depois)"
+ ],
+ "End Date": [
+  "Data final"
+ ],
+ "End Point": [
+  "Ponto final"
+ ],
+ "Ensure form submission emails reach the inbox and track delivery with built-in logs. Email Deliverability is included in your ONE subscription.": [
+  "Garanta que os e-mails dos formulários cheguem à caixa de entrada e acompanhe a entrega com registros. A entregabilidade de e-mail está incluída na sua assinatura ONE."
+ ],
+ "Ensure form submission emails reach the inbox and track delivery with built-in logs. Email Deliverability is included in your ONE subscription. Activate it to continue.": [
+  "Garanta que os e-mails dos formulários cheguem à caixa de entrada e acompanhe a entrega com registros. A entregabilidade de e-mail está incluída na sua assinatura ONE. Ative para continuar."
+ ],
+ "Ensure your site’s emails reach the inbox every time. Email Deliverability is included in your ONE subscription. Activate it to continue.": [
+  "Garanta que os e-mails do seu site cheguem sempre à caixa de entrada. A entregabilidade de e-mail está incluída na sua assinatura ONE. Ative para continuar."
+ ],
+ "Enter Font Family": [
+  "Digite a família da fonte"
+ ],
+ "Enter Icon Set Name": [
+  "Digite o nome do conjunto de ícones"
+ ],
+ "Enter Your %1$sFont Awesome Pro Kit ID%2$s.": [
+  "Insira o %1$sID do kit do Font Awesome Pro%2$s."
+ ],
+ "Enter Your %1$sTypeKit Project ID%2$s.": [
+  "Insira o %1$sID do projeto no TypeKit%2$s."
+ ],
+ "Enter a value": [
+  "Digite um valor"
+ ],
+ "Enter checkbox group name": [
+  "Digite o nome do grupo de caixas de seleção"
+ ],
+ "Enter choice value": [
+  "Digite o valor da opção"
+ ],
+ "Enter coupon code": [
+  "Digite o código do cupom"
+ ],
+ "Enter default value": [
+  "Digite o valor padrão"
+ ],
+ "Enter each option in a separate line. To differentiate between label and value, separate them with a pipe char (\"|\"). For example: First Name|f_name": [
+  "Digite uma opção por linha. Para separar rótulo e valor, use uma barra vertical (\"|\"). Exemplo: Nome|f_name"
+ ],
+ "Enter each word in a separate line": [
+  "Digite cada palavra numa linha separada"
+ ],
+ "Enter key": [
+  "Tecla Enter"
+ ],
+ "Enter radio button group name": [
+  "Digite o nome do grupo de botões de opção"
+ ],
  "Enter text": [
   "Digitar o texto"
+ ],
+ "Enter the allowed file types, separated by a comma (jpg, gif, pdf, etc).": [
+  "Informe os tipos de arquivo permitidos, separados por vírgula (jpg, gif, pdf, etc)."
+ ],
+ "Enter the integration URL (like Zapier) that will receive the form's submitted data.": [
+  "Informe a URL da integração (como o Zapier) que vai receber os dados enviados pelo formulário."
+ ],
+ "Enter the webhook URL that will receive the form's submitted data.": [
+  "Informe a URL do webhook que vai receber os dados enviados pelo formulário."
+ ],
+ "Enter value": [
+  "Digite o valor"
+ ],
+ "Enter your Live secret key %1$slink%2$s.": [
+  "Insira sua chave secreta de produção %1$slink%2$s."
  ],
  "Enter your URL": [
   "Digite seu URL"
@@ -611,6 +3005,9 @@
  "Enter your email": [
   "Digite seu e-mail"
  ],
+ "Enter your headline": [
+  "Digite seu título"
+ ],
  "Enter your image caption": [
   "Digite a legenda da sua imagem"
  ],
@@ -619,6 +3016,12 @@
  ],
  "Enter your number": [
   "Digite seu número"
+ ],
+ "Enter your quote": [
+  "Digite sua citação"
+ ],
+ "Enter your test secret key %1$slink%2$s.": [
+  "Insira sua chave secreta de teste %1$slink%2$s."
  ],
  "Enter your text here": [
   "Digite seu texto aqui"
@@ -629,23 +3032,125 @@
  "Enter your username": [
   "Digite seu nome de usuário"
  ],
+ "Enter your video link": [
+  "Insira o link do vídeo"
+ ],
+ "Entering the Theme Builder through WP Dashboard > Templates > Theme Builder opens the New theme builder by default. But don’t worry, you can always view the WP styled version of the screen with a simple click of a button.": [
+  "Ao entrar no Construtor de Temas por Painel do WP > Modelos > Construtor de Temas, o novo construtor abre por padrão. Mas você sempre pode ver a versão no estilo do WP com um clique."
+ ],
+ "Entire Page": [
+  "Página inteira"
+ ],
+ "Entire Shop": [
+  "Loja inteira"
+ ],
+ "Entire site": [
+  "Site inteiro"
+ ],
+ "Entrance": [
+  "Entrada"
+ ],
  "Entrance Animation": [
   "Animação de entrada"
+ ],
+ "Equal Height": [
+  "Altura igual"
+ ],
+ "Equal height": [
+  "Altura igual"
+ ],
+ "Error 404": [
+  "Erro 404"
+ ],
+ "Error Message": [
+  "Mensagem de erro"
+ ],
+ "Error Message Color": [
+  "Cor da mensagem de erro"
+ ],
+ "Error Notices": [
+  "Avisos de erro"
+ ],
+ "Error while saving conditions.": [
+  "Erro ao salvar as condições."
+ ],
+ "Error!": [
+  "Erro!"
  ],
  "Error:": [
   "Erro:"
  ],
+ "Evaluates all matching terms in PHP before paging. May impact performance on very large taxonomies.": [
+  "Avalia todos os termos encontrados em PHP antes de paginar. Pode afetar o desempenho em taxonomias muito grandes."
+ ],
+ "Events": [
+  "Eventos"
+ ],
+ "Evergreen Timer": [
+  "Cronômetro perene"
+ ],
  "Excerpt": [
   "Resumo"
+ ],
+ "Excerpt Length": [
+  "Tamanho do resumo"
+ ],
+ "Exclude": [
+  "Excluir"
+ ],
+ "Exclude By": [
+  "Excluir por"
+ ],
+ "Exclude filter": [
+  "Filtro de exclusão"
+ ],
+ "Existing instances on your pages will remain functional. You will no longer find this component in your list.": [
+  "As instâncias que já estão nas suas páginas continuam funcionando. O componente deixa de aparecer na sua lista."
  ],
  "Exit": [
   "Sair"
  ],
+ "Exit Animation": [
+  "Animação de saída"
+ ],
+ "Exit component editing mode": [
+  "Sair do modo de edição do componente"
+ ],
+ "Exit loop editing mode": [
+  "Sair do modo de edição do loop"
+ ],
  "Expand": [
   "Expandir"
  ],
+ "Expand %1$s": [
+  "Expandir %1$s"
+ ],
+ "Expand Icon": [
+  "Ícone de expandir"
+ ],
+ "Experiencing email deliverability issues? Get your emails delivered with Email Deliverability.": [
+  "Problemas para seus e-mails chegarem? Resolva com a entregabilidade de e-mail."
+ ],
+ "Expire message": [
+  "Mensagem ao expirar"
+ ],
+ "Explore our resources": [
+  "Conheça nossos recursos"
+ ],
  "Export": [
   "Exportar"
+ ],
+ "Export All to CSV": [
+  "Exportar tudo para CSV"
+ ],
+ "Export Filtered to CSV": [
+  "Exportar filtrados para CSV"
+ ],
+ "Export Selected to CSV": [
+  "Exportar selecionados para CSV"
+ ],
+ "External Links": [
+  "Links externos"
  ],
  "External URL": [
   "URL externo"
@@ -656,8 +3161,101 @@
  "Extra Small": [
   "Extra pequeno"
  ],
+ "Facebook App ID is not valid": [
+  "O ID do app do Facebook não é válido"
+ ],
+ "Facebook Button": [
+  "Botão do Facebook"
+ ],
+ "Facebook Comments": [
+  "Comentários do Facebook"
+ ],
+ "Facebook Embed": [
+  "Incorporação do Facebook"
+ ],
+ "Facebook Page": [
+  "Página do Facebook"
+ ],
+ "Facebook SDK": [
+  "SDK do Facebook"
+ ],
+ "Facebook SDK lets you connect to your %1$sdedicated application%2$s so you can track the Facebook Widgets analytics on your site.": [
+  "O SDK do Facebook conecta seu %1$saplicativo dedicado%2$s para acompanhar as estatísticas dos widgets do Facebook no seu site."
+ ],
+ "Facebook page embedding is exclusively available for the web, mobile devices are not supported. %1$sLearn more%2$s": [
+  "A incorporação de páginas do Facebook só funciona na web; dispositivos móveis não são compatíveis. %1$sSaiba mais%2$s"
+ ],
+ "Facebook post embedding is exclusively available for the web, mobile devices are not supported. %1$sLearn more%2$s": [
+  "A incorporação de posts do Facebook só funciona na web; dispositivos móveis não são compatíveis. %1$sSaiba mais%2$s"
+ ],
+ "Faces": [
+  "Rostos"
+ ],
  "Fade": [
   "Esmaecer"
+ ],
+ "Fade By Direction": [
+  "Surgir pela direção"
+ ],
+ "Fade Grow": [
+  "Surgir crescendo"
+ ],
+ "Fade In": [
+  "Surgir"
+ ],
+ "Fade In Down": [
+  "Surgir de cima"
+ ],
+ "Fade In Left": [
+  "Surgir da esquerda"
+ ],
+ "Fade In Right": [
+  "Surgir da direita"
+ ],
+ "Fade In Up": [
+  "Surgir de baixo"
+ ],
+ "Fade In/Out": [
+  "Surgir/Desaparecer"
+ ],
+ "Fade Out": [
+  "Desaparecer"
+ ],
+ "Fade Out Down": [
+  "Desaparecer para baixo"
+ ],
+ "Fade Out Left": [
+  "Desaparecer para a esquerda"
+ ],
+ "Fade Out Right": [
+  "Desaparecer para a direita"
+ ],
+ "Fade Out Up": [
+  "Desaparecer para cima"
+ ],
+ "Fade in": [
+  "Surgir"
+ ],
+ "Failed to create component. Please try again.": [
+  "Não foi possível criar o componente. Tente novamente."
+ ],
+ "Failed to delete the site part.": [
+  "Não foi possível excluir a parte do site."
+ ],
+ "Failed to save conditions.": [
+  "Não foi possível salvar as condições."
+ ],
+ "Failed to save submission to database": [
+  "Não foi possível salvar o envio no banco de dados"
+ ],
+ "Failed to send email": [
+  "Não foi possível enviar o e-mail"
+ ],
+ "Failed to write file to disk.": [
+  "Não foi possível gravar o arquivo no disco."
+ ],
+ "Failed to write the file to disk.": [
+  "Não foi possível gravar o arquivo no disco."
  ],
  "Fallback": [
   "Alternativo"
@@ -671,11 +3269,74 @@
  "Featured Image": [
   "Imagem destacada"
  ],
+ "Featured Image Data": [
+  "Dados da imagem destacada"
+ ],
  "Features": [
   "Recursos"
  ],
  "Field": [
   "Campo"
+ ],
+ "Field Mapping": [
+  "Mapeamento de campos"
+ ],
+ "Fields": [
+  "Campos"
+ ],
+ "File Field": [
+  "Campo de arquivo"
+ ],
+ "File URL": [
+  "URL do arquivo"
+ ],
+ "File Upload": [
+  "Envio de arquivo"
+ ],
+ "File is too large. Maximum size is %d MB.": [
+  "O arquivo é grande demais. O tamanho máximo é %d MB."
+ ],
+ "Filter Bar": [
+  "Barra de filtros"
+ ],
+ "Filter By": [
+  "Filtrar por"
+ ],
+ "Filter Logic": [
+  "Lógica do filtro"
+ ],
+ "Filter by": [
+  "Filtrar por"
+ ],
+ "Filter by Page": [
+  "Filtrar por página"
+ ],
+ "Filter by date": [
+  "Filtrar por data"
+ ],
+ "Filter by depth": [
+  "Filtrar por profundidade"
+ ],
+ "Filter by form": [
+  "Filtrar por formulário"
+ ],
+ "Firefox": [
+  "Firefox"
+ ],
+ "First Item": [
+  "Primeiro item"
+ ],
+ "First Item Title": [
+  "Título do primeiro item"
+ ],
+ "First Name": [
+  "Nome"
+ ],
+ "First item on the list": [
+  "Primeiro item da lista"
+ ],
+ "Fit To Content": [
+  "Ajustar ao conteúdo"
  ],
  "Fit To Screen": [
   "Ajustar à tela"
@@ -683,11 +3344,29 @@
  "Fixed": [
   "Fixo"
  ],
+ "Flash": [
+  "Piscar"
+ ],
+ "Flat": [
+  "Plano"
+ ],
+ "Flip Box": [
+  "Caixa giratória"
+ ],
+ "Flip Direction": [
+  "Direção do giro"
+ ],
+ "Flip Effect": [
+  "Efeito de giro"
+ ],
  "Floating Bar": [
   "Barra flutuante"
  ],
  "Floating Bars": [
   "Barras flutuantes"
+ ],
+ "Floating Button": [
+  "Botão flutuante"
  ],
  "Floating Buttons": [
   "Botões flutuantes"
@@ -701,8 +3380,74 @@
  "Focus": [
   "Foco"
  ],
+ "Font\u0004Custom Fonts": [
+  "Fontes personalizadas"
+ ],
+ "Font %s was not found.": [
+  "A fonte %s não foi encontrada."
+ ],
+ "Font Awesome - Brands Pro": [
+  "Font Awesome - Brands Pro"
+ ],
+ "Font Awesome - Duotone Pro": [
+  "Font Awesome - Duotone Pro"
+ ],
+ "Font Awesome - Light Pro": [
+  "Font Awesome - Light Pro"
+ ],
+ "Font Awesome - Regular Pro": [
+  "Font Awesome - Regular Pro"
+ ],
+ "Font Awesome - Solid Pro": [
+  "Font Awesome - Solid Pro"
+ ],
+ "Font Awesome Pro": [
+  "Font Awesome Pro"
+ ],
+ "Font Awesome, the web's most popular icon set and toolkit, Pro Integration": [
+  "Integração Pro com o Font Awesome, o conjunto de ícones mais popular da web"
+ ],
+ "Font Family": [
+  "Família da fonte"
+ ],
+ "Font Size": [
+  "Tamanho da fonte"
+ ],
+ "Font Types": [
+  "Tipos de fonte"
+ ],
+ "Font draft updated.": [
+  "Rascunho da fonte atualizado."
+ ],
+ "Font restored to revision from %s": [
+  "Fonte restaurada para a revisão de %s"
+ ],
+ "Font saved.": [
+  "Fonte salva."
+ ],
+ "Font submitted.": [
+  "Fonte enviada."
+ ],
+ "Font type singular name\u0004Font Type": [
+  "Tipo de fonte"
+ ],
+ "Font type taxonomy general name\u0004Font Types": [
+  "Tipos de fonte"
+ ],
+ "Font updated.": [
+  "Fonte atualizada."
+ ],
+ "Fontastic": [
+  "Fontastic"
+ ],
+ "Fontello": [
+  "Fontello"
+ ],
  "Fonts": [
   "Fontes"
+ ],
+ "Fonts Families Found in project. Please note that typekit takes a few minutes to sync once you publish or update a project.": [
+  "Famílias de fontes encontradas no projeto. O TypeKit leva alguns minutos para sincronizar depois que você publica ou atualiza um projeto."
  ],
  "Footer": [
   "Rodapé"
@@ -710,23 +3455,152 @@
  "Footers": [
   "Rodapés"
  ],
+ "For example, choose 'Entire Site' to display the code snippet across your site.": [
+  "Por exemplo, escolha 'Site inteiro' para exibir o trecho de código em todo o site."
+ ],
+ "For example, choose 'Entire Site' to display the template across your site.": [
+  "Por exemplo, escolha 'Site inteiro' para exibir o modelo em todo o site."
+ ],
+ "For multiple Loop Widgets on the same page, toggle this on to control the pagination for each individually. Note: It affects the page's URL structure.": [
+  "Com vários widgets de loop na mesma página, ative para controlar a paginação de cada um separadamente. Observação: isso muda a estrutura da URL da página."
+ ],
+ "For multiple Posts Widgets on the same page, toggle this on to control the pagination for each individually. Note: It affects the page's URL structure.": [
+  "Com vários widgets de posts na mesma página, ative para controlar a paginação de cada um separadamente. Observação: isso muda a estrutura da URL da página."
+ ],
+ "For this widget to work, you need to set your Stripe API keys in the %1$sIntegrations Settings%2$s.": [
+  "Para este widget funcionar, defina as chaves de API do Stripe nas %1$sConfigurações de integrações%2$s."
+ ],
+ "For visitors from the EU, Facebook widgets will only work for site visitors if they have logged into Facebook and consented to cookies. %1$sLearn more%2$s": [
+  "Para visitantes da União Europeia, os widgets do Facebook só funcionam se eles estiverem logados no Facebook e tiverem aceitado os cookies. %1$sSaiba mais%2$s"
+ ],
  "Form": [
   "Formulário"
+ ],
+ "Form Data": [
+  "Dados do formulário"
+ ],
+ "Form Error": [
+  "Erro no formulário"
  ],
  "Form Fields": [
   "Campos do formulário"
  ],
+ "Form ID": [
+  "ID do formulário"
+ ],
+ "Form Items": [
+  "Itens do formulário"
+ ],
+ "Form Name": [
+  "Nome do formulário"
+ ],
+ "Form Name (ID)": [
+  "Nome do formulário (ID)"
+ ],
+ "Form Submissions": [
+  "Envios de formulário"
+ ],
+ "Form Validation": [
+  "Validação do formulário"
+ ],
+ "Form element not found": [
+  "Elemento de formulário não encontrado"
+ ],
+ "Form label": [
+  "Rótulo do formulário"
+ ],
+ "Form:": [
+  "Formulário:"
+ ],
+ "Format": [
+  "Formato"
+ ],
+ "Forms": [
+  "Formulários"
+ ],
+ "Fraction": [
+  "Fração"
+ ],
+ "Fractional Part": [
+  "Parte decimal"
+ ],
  "Framed": [
   "Emoldurado"
+ ],
+ "Friday": [
+  "Sexta-feira"
+ ],
+ "From": [
+  "De"
+ ],
+ "From Email": [
+  "E-mail do remetente"
+ ],
+ "From Name": [
+  "Nome do remetente"
+ ],
+ "From URL": [
+  "Pela URL"
+ ],
+ "Front": [
+  "Frente"
+ ],
+ "Front page": [
+  "Página inicial"
+ ],
+ "Full Content": [
+  "Conteúdo completo"
+ ],
+ "Full Post": [
+  "Post completo"
+ ],
+ "Full Screen": [
+  "Tela cheia"
  ],
  "Full Width": [
   "Largura total"
  ],
+ "Galleries": [
+  "Galerias"
+ ],
+ "Gallery": [
+  "Galeria"
+ ],
+ "Gallery Field": [
+  "Campo de galeria"
+ ],
+ "Gallery filter": [
+  "Filtro da galeria"
+ ],
  "Gap": [
   "Espaçamento"
  ],
+ "Gap between columns": [
+  "Espaço entre colunas"
+ ],
+ "Gap between input and button": [
+  "Espaço entre campo e botão"
+ ],
+ "Gap between rows": [
+  "Espaço entre linhas"
+ ],
+ "Gap between slides": [
+  "Espaço entre slides"
+ ],
+ "Gap between text and icon": [
+  "Espaço entre texto e ícone"
+ ],
+ "Gateway not connected. Contact seller": [
+  "Gateway não conectado. Fale com o vendedor"
+ ],
  "General": [
   "Geral"
+ ],
+ "General Text": [
+  "Texto geral"
+ ],
+ "Get Advanced Features": [
+  "Obtenha recursos avançados"
  ],
  "Get Healthy": [
   "Fique saudável"
@@ -734,8 +3608,44 @@
  "Get Popup Builder": [
   "Obter o construtor de pop-ups"
  ],
+ "Get Project ID": [
+  "Obter ID do projeto"
+ ],
+ "Get Video Data": [
+  "Buscar dados do vídeo"
+ ],
+ "Get Your Emails Delivered With Email Deliverability": [
+  "Garanta a entrega dos seus e-mails com a entregabilidade de e-mail"
+ ],
+ "Get in touch": [
+  "Fale conosco"
+ ],
+ "Get your emails delivered with Email Deliverability": [
+  "Garanta a entrega dos seus e-mails com a entregabilidade de e-mail"
+ ],
+ "GetResponse": [
+  "GetResponse"
+ ],
+ "Gift Tag": [
+  "Etiqueta de presente"
+ ],
+ "Give access to Notes": [
+  "Dar acesso às notas"
+ ],
+ "Give your Query a custom unique id to allow server side filtering": [
+  "Dê à consulta um ID único para permitir filtragem no servidor"
+ ],
+ "Give your query a custom unique ID to allow server side filtering.": [
+  "Dê à consulta um ID único para permitir filtragem no servidor."
+ ],
  "Global": [
   "Global"
+ ],
+ "Global Widget": [
+  "Widget global"
+ ],
+ "Global Widgets": [
+  "Widgets globais"
  ],
  "Go Back": [
   "Voltar"
@@ -743,11 +3653,44 @@
  "Go To Dashboard": [
   "Acessar o painel"
  ],
+ "Go to WP Dashboard": [
+  "Ir para o painel do WP"
+ ],
+ "Go to slide 1": [
+  "Ir para o slide 1"
+ ],
+ "Go to slide 2": [
+  "Ir para o slide 2"
+ ],
+ "Go to slide 3": [
+  "Ir para o slide 3"
+ ],
+ "Go to the %1$sMenus screen%2$s to create one.": [
+  "Vá na %1$stela de menus%2$s para criar um."
+ ],
+ "Go to the %1$sMenus screen%2$s to manage your menus.": [
+  "Vá na %1$stela de menus%2$s para gerenciar seus menus."
+ ],
+ "Google Calendar": [
+  "Google Agenda"
+ ],
  "Got it": [
   "Entendi"
  ],
  "Gradient": [
   "Gradiente"
+ ],
+ "Graphic Element": [
+  "Elemento gráfico"
+ ],
+ "Gravatar": [
+  "Gravatar"
+ ],
+ "Greater than or equal": [
+  "Maior ou igual"
+ ],
+ "Greeting": [
+  "Saudação"
  ],
  "Grid": [
   "Grade"
@@ -755,11 +3698,53 @@
  "Groove": [
   "Sulco"
  ],
+ "Group": [
+  "Grupo"
+ ],
+ "Group ID or component ID is missing": [
+  "Falta o ID do grupo ou do componente"
+ ],
+ "Group Name": [
+  "Nome do grupo"
+ ],
+ "Group actions": [
+  "Ações do grupo"
+ ],
+ "Group name": [
+  "Nome do grupo"
+ ],
+ "Group name already exists": [
+  "Já existe um grupo com esse nome"
+ ],
+ "Group name is required": [
+  "O nome do grupo é obrigatório"
+ ],
+ "Group your content by type, topic, or any structure you choose.": [
+  "Agrupe seu conteúdo por tipo, assunto ou qualquer estrutura que preferir."
+ ],
+ "Groups": [
+  "Grupos"
+ ],
  "HTML": [
   "HTML"
  ],
+ "HTML Field": [
+  "Campo HTML"
+ ],
  "HTML Tag": [
   "Tag HTML"
+ ],
+ "Hamburger": [
+  "Hambúrguer"
+ ],
+ "Have a coupon?": [
+  "Tem um cupom?"
+ ],
+ "Head": [
+  "Head"
+ ],
+ "Head Shake": [
+  "Balançar a cabeça"
  ],
  "Header": [
   "Cabeçalho"
@@ -773,8 +3758,20 @@
  "Headline": [
   "Manchete"
  ],
+ "Headline Spacing": [
+  "Espaçamento do título"
+ ],
+ "Healthful Resources": [
+  "Recursos saudáveis"
+ ],
  "Height": [
   "Altura"
+ ],
+ "Here's a link": [
+  "Aqui está um link"
+ ],
+ "Here's where you can customize how notices form WooCommerce will appear for your customers": [
+  "Aqui você personaliza como os avisos do WooCommerce aparecem para os seus clientes"
  ],
  "Hidden": [
   "Oculto"
@@ -782,11 +3779,41 @@
  "Hide": [
   "Ocultar"
  ],
+ "Hide Empty": [
+  "Ocultar vazias"
+ ],
+ "Hide empty": [
+  "Ocultar vazios"
+ ],
+ "Hide for logged in users": [
+  "Ocultar para usuários logados"
+ ],
+ "Hierarchical View": [
+  "Visualização hierárquica"
+ ],
+ "Highlight Lines": [
+  "Destacar linhas"
+ ],
+ "Highlighted Shape": [
+  "Forma do destaque"
+ ],
+ "Highlighted Text": [
+  "Texto destacado"
+ ],
+ "Home page": [
+  "Página inicial"
+ ],
+ "Honeypot": [
+  "Honeypot"
+ ],
  "Horizontal": [
   "Horizontal"
  ],
  "Horizontal Orientation": [
   "Orientação horizontal"
+ ],
+ "Horizontal Padding": [
+  "Espaçamento horizontal"
  ],
  "Horizontal Position": [
   "Posição horizontal"
@@ -794,23 +3821,92 @@
  "Horizontal Scroll": [
   "Rolagem horizontal"
  ],
+ "Hotspot": [
+  "Ponto de destaque"
+ ],
+ "Hours": [
+  "Horas"
+ ],
  "Hover": [
   "Ao passar o mouse"
  ],
  "Hover Animation": [
   "Animação ao passar o mouse"
  ],
+ "Hover Area": [
+  "Área do mouse"
+ ],
+ "Hover Effect": [
+  "Efeito ao passar o mouse"
+ ],
+ "Hover Effects": [
+  "Efeitos ao passar o mouse"
+ ],
+ "Hover animation": [
+  "Animação ao passar o mouse"
+ ],
+ "Hover over the date next to the comment, and copy its link address.": [
+  "Passe o mouse sobre a data ao lado do comentário e copie o endereço do link."
+ ],
+ "Hover over the date next to the post, and copy its link address.": [
+  "Passe o mouse sobre a data ao lado do post e copie o endereço do link."
+ ],
+ "Hover over the date next to the video, and copy its link address.": [
+  "Passe o mouse sobre a data ao lado do vídeo e copie o endereço do link."
+ ],
+ "Human Readable": [
+  "Legível"
+ ],
+ "I combine my love of food and storytelling to create beautiful photos.": [
+  "Eu junto meu amor por comida e por contar histórias para criar fotos lindas."
+ ],
+ "I have read and agree to the website": [
+  "Li e concordo com os"
+ ],
  "ID": [
   "ID"
+ ],
+ "Icomoon": [
+  "Icomoon"
  ],
  "Icon": [
   "Ícone"
  ],
+ "Icon & Text": [
+  "Ícone e texto"
+ ],
  "Icon Color": [
   "Cor do Ícone"
  ],
+ "Icon Padding": [
+  "Espaçamento do ícone"
+ ],
  "Icon Position": [
   "Posição do ícone"
+ ],
+ "Icon Rotate": [
+  "Rotação do ícone"
+ ],
+ "Icon Set": [
+  "Conjunto de ícones"
+ ],
+ "Icon Set draft updated.": [
+  "Rascunho do conjunto de ícones atualizado."
+ ],
+ "Icon Set restored to revision from %s": [
+  "Conjunto de ícones restaurado para a revisão de %s"
+ ],
+ "Icon Set saved.": [
+  "Conjunto de ícones salvo."
+ ],
+ "Icon Set submitted.": [
+  "Conjunto de ícones enviado."
+ ],
+ "Icon Set updated.": [
+  "Conjunto de ícones atualizado."
+ ],
+ "Icon Size": [
+  "Tamanho do ícone"
  ],
  "Icon Spacing": [
   "Espaçamento do ícone"
@@ -818,14 +3914,62 @@
  "Icons": [
   "Ícones"
  ],
+ "Icons Count": [
+  "Quantidade de ícones"
+ ],
  "Identity": [
   "Identidade"
+ ],
+ "If the user has seen another popup on the page hide this popup": [
+  "Se o usuário já viu outro pop-up na página, ocultar este"
+ ],
+ "If you are using the Facebook Comments Widget, you can add moderating options through your application. Note that this option will not work on local sites and on domains that don't have public access.": [
+  "Se você usa o widget de comentários do Facebook, pode adicionar opções de moderação pelo seu aplicativo. Esta opção não funciona em sites locais nem em domínios sem acesso público."
+ ],
+ "If you have a coupon code, please apply it below.": [
+  "Se você tem um código de cupom, aplique abaixo."
+ ],
+ "If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section.": [
+  "Se você já comprou conosco, informe seus dados abaixo. Se é um cliente novo, siga para a seção de cobrança."
+ ],
+ "If your snippet includes jQuery, this will ensure it will work for all visitors. It may have a minor impact on loading speed.": [
+  "Se o seu código usa jQuery, isto garante que ele funcione para todos os visitantes. Pode ter um pequeno impacto na velocidade de carregamento."
  ],
  "If you’d like a different style for a specific category, it’s easy to create a separate archive template whose condition is to only display when users are viewing that category’s list of posts.": [
   "Se você desejar um estilo diferente para uma categoria específica, é fácil criar um modelo de arquivo separado, cuja condição seja a exibição apenas quando os usuários estiverem visualizando a lista de posts dessa categoria."
  ],
+ "Ignore Sticky Posts": [
+  "Ignorar posts fixos"
+ ],
+ "Ignore sticky posts": [
+  "Ignorar posts fixos"
+ ],
  "Image": [
   "Imagem"
+ ],
+ "Image Above": [
+  "Imagem acima"
+ ],
+ "Image Alt": [
+  "Texto alternativo da imagem"
+ ],
+ "Image Border": [
+  "Borda da imagem"
+ ],
+ "Image Caption": [
+  "Legenda da imagem"
+ ],
+ "Image Field": [
+  "Campo de imagem"
+ ],
+ "Image Fit": [
+  "Ajuste da imagem"
+ ],
+ "Image Inline": [
+  "Imagem em linha"
+ ],
+ "Image Left": [
+  "Imagem à esquerda"
  ],
  "Image Overlay": [
   "Sobreposição de imagem"
@@ -833,8 +3977,14 @@
  "Image Position": [
   "Posição da imagem"
  ],
+ "Image Ratio": [
+  "Proporção da imagem"
+ ],
  "Image Resolution": [
   "Resolução da imagem"
+ ],
+ "Image Right": [
+  "Imagem à direita"
  ],
  "Image Size": [
   "Tamanho da imagem"
@@ -842,41 +3992,164 @@
  "Image Spacing": [
   "Espaçamento da imagem"
  ],
+ "Image Stacked": [
+  "Imagem empilhada"
+ ],
+ "Image Title": [
+  "Título da imagem"
+ ],
+ "Image Width": [
+  "Largura da imagem"
+ ],
+ "Import Template To Your Library": [
+  "Importar modelo para a sua biblioteca"
+ ],
+ "Import template": [
+  "Importar modelo"
+ ],
+ "Imported template part": [
+  "Parte do modelo importado"
+ ],
  "In": [
   "Interno"
+ ],
+ "In %s": [
+  "Em %s"
+ ],
+ "In Categories": [
+  "Nas categorias"
+ ],
+ "In Tags": [
+  "Nas tags"
+ ],
+ "In child %s": [
+  "Em %s filho"
+ ],
+ "In order to open a popup on selector click, please set your Popup Conditions": [
+  "Para abrir um pop-up ao clicar num seletor, defina as condições do pop-up"
+ ],
+ "In same Term": [
+  "No mesmo termo"
  ],
  "Inactive": [
   "Inativo"
  ],
+ "Include": [
+  "Incluir"
+ ],
+ "Include By": [
+  "Incluir por"
+ ],
+ "Include Context": [
+  "Incluir contexto"
+ ],
+ "Include filter": [
+  "Filtro de inclusão"
+ ],
+ "Incompatible archive": [
+  "Arquivo incompatível"
+ ],
+ "Indent": [
+  "Recuo"
+ ],
+ "Indicate Watched": [
+  "Indicar assistidos"
+ ],
+ "Indicates whether next post must be within the same taxonomy term as the current post, this lets you set a taxonomy per each post type": [
+  "Define se o próximo post deve ser do mesmo termo de taxonomia do post atual. Permite definir uma taxonomia para cada tipo de post"
+ ],
+ "Individual Pagination": [
+  "Paginação individual"
+ ],
  "Infinite Loop": [
   "Repetição infinita (loop)"
+ ],
+ "Infinite Scroll": [
+  "Rolagem infinita"
+ ],
+ "Infinite scroll": [
+  "Rolagem infinita"
+ ],
+ "Infinite scroll is inactive while editing. Preview your page to see it in action.": [
+  "A rolagem infinita fica inativa durante a edição. Visualize a página para ver funcionando."
  ],
  "Info": [
   "Informação"
  ],
+ "Info Box": [
+  "Caixa de informação"
+ ],
+ "Info Button": [
+  "Botão de informações"
+ ],
+ "Info Button Box": [
+  "Caixa do botão de informações"
+ ],
  "Info Links": [
   "Links de informações"
+ ],
+ "Info Notices": [
+  "Avisos informativos"
  ],
  "Inline": [
   "Em linha"
  ],
+ "Inline List": [
+  "Lista em linha"
+ ],
+ "Inline Message Color": [
+  "Cor da mensagem em linha"
+ ],
  "Input": [
   "Entrada"
+ ],
+ "Input Size": [
+  "Tamanho do campo"
+ ],
+ "Input placeholder": [
+  "Texto de exemplo do campo"
+ ],
+ "Insert the API keys provided in the stripe admin dashboard to start collecting payments on your website using Stripe.": [
+  "Insira as chaves de API do painel do Stripe para começar a receber pagamentos no seu site com o Stripe."
  ],
  "Inside": [
   "Dentro"
  ],
+ "Install Angie": [
+  "Instalar o Angie"
+ ],
+ "Install Angie to build components": [
+  "Instale o Angie para criar componentes"
+ ],
  "Install Manually": [
   "Instalar manualmente"
+ ],
+ "Install Now": [
+  "Instalar agora"
+ ],
+ "Install and activate the Elementor plugin to access all PRO Elements features.": [
+  "Instale e ative o plugin Elementor para acessar todos os recursos do PRO Elements."
  ],
  "Install now": [
   "Instalar agora"
  ],
+ "Install once to start building directly inside the editor.": [
+  "Instale uma vez para começar a criar direto no editor."
+ ],
  "Installation failed": [
   "Falha ao instalar"
  ],
+ "InstallingвЂ¦": [
+  "Instalando…"
+ ],
  "Instances": [
   "Instâncias"
+ ],
+ "Integrate your favorite marketing software": [
+  "Integre seu software de marketing favorito"
+ ],
+ "Integration requires an email field": [
+  "A integração exige um campo de e-mail"
  ],
  "Integrations": [
   "Integrações"
@@ -884,11 +4157,80 @@
  "Interactions": [
   "Interações"
  ],
+ "Interactive": [
+  "Interativo"
+ ],
+ "Internal Links": [
+  "Links internos"
+ ],
+ "Internal URL": [
+  "URL interna"
+ ],
+ "Internet Explorer": [
+  "Internet Explorer"
+ ],
+ "Interval": [
+  "Intervalo"
+ ],
+ "Invalid Form": [
+  "Formulário inválido"
+ ],
+ "Invalid Form.": [
+  "Formulário inválido."
+ ],
+ "Invalid SVG Format, file not uploaded for security reasons": [
+  "Formato SVG inválido: o arquivo não foi enviado por motivos de segurança"
+ ],
+ "Invalid Setup": [
+  "Configuração inválida"
+ ],
+ "Invalid action type: %s": [
+  "Tipo de ação inválido: %s"
+ ],
+ "Invalid email address: %s": [
+  "E-mail inválido: %s"
+ ],
+ "Invalid form, reCAPTCHA validation failed.": [
+  "Formulário inválido: a validação do reCAPTCHA falhou."
+ ],
  "Invalid operation.": [
   "Operação inválida."
  ],
+ "Invalid post type.": [
+  "Tipo de post inválido."
+ ],
  "Invert": [
   "Inverter"
+ ],
+ "Is": [
+  "É"
+ ],
+ "Is After": [
+  "É depois de"
+ ],
+ "Is Before": [
+  "É antes de"
+ ],
+ "Is Empty": [
+  "Está vazio"
+ ],
+ "Is Not": [
+  "Não é"
+ ],
+ "Is not Empty": [
+  "Não está vazio"
+ ],
+ "Is on or after": [
+  "É em ou depois de"
+ ],
+ "Is on or before": [
+  "É em ou antes de"
+ ],
+ "It seems we can’t find what you’re looking for.": [
+  "Parece que não encontramos o que você procura."
+ ],
+ "It will only appear on your website when all the conditions are met.": [
+  "Ele só aparece no site quando todas as condições forem atendidas."
  ],
  "Italic": [
   "Itálico"
@@ -908,14 +4250,44 @@
  "Item #3": [
   "Item Nº 3"
  ],
+ "Item Alignment": [
+  "Alinhamento dos itens"
+ ],
+ "Item Gap": [
+  "Espaço entre itens"
+ ],
+ "Item Layout": [
+  "Layout dos itens"
+ ],
+ "Item Name": [
+  "Nome do item"
+ ],
+ "Item Overlay": [
+  "Sobreposição do item"
+ ],
  "Item Position": [
   "Posição do item"
+ ],
+ "Item Ratio": [
+  "Proporção do item"
  ],
  "Item Title": [
   "Título do item"
  ],
  "Items": [
   "Itens"
+ ],
+ "Items Indicator": [
+  "Indicador de itens"
+ ],
+ "Items Per Page": [
+  "Itens por página"
+ ],
+ "Items per page": [
+  "Itens por página"
+ ],
+ "Jello": [
+  "Gelatina"
  ],
  "John Doe": [
   "Fulano de Tal"
@@ -926,6 +4298,9 @@
  "Justify": [
   "Justificar"
  ],
+ "Keep in mind: Certain cache plugins can conflict with your display conditions.": [
+  "Atenção: alguns plugins de cache podem entrar em conflito com as condições de exibição."
+ ],
  "Keep your site's visitors happy when they get lost by displaying your recent posts, a search bar, or any information that might help the user find what they were looking for.": [
   "Mantenha os visitantes do seu site satisfeitos quando se perderem, exibindo seus posts recentes, uma barra de pesquisa ou qualquer informação que possa ajudar o usuário a encontrar o que estava procurando."
  ],
@@ -935,8 +4310,23 @@
  "Key": [
   "Chave"
  ],
+ "Kit ID": [
+  "ID do kit"
+ ],
  "Label": [
   "Rótulo"
+ ],
+ "Label Position": [
+  "Posição do rótulo"
+ ],
+ "Label text": [
+  "Texto do rótulo"
+ ],
+ "Labels": [
+  "Rótulos"
+ ],
+ "Language": [
+  "Linguagem"
  ],
  "Large": [
   "Grande"
@@ -947,8 +4337,29 @@
  "Last 7 days": [
   "Últimos 7 dias"
  ],
+ "Last Modified": [
+  "Última modificação"
+ ],
+ "Last Name": [
+  "Sobrenome"
+ ],
+ "Last modified": [
+  "Última modificação"
+ ],
+ "Latest Order": [
+  "Último pedido"
+ ],
+ "Latest Products": [
+  "Produtos mais recentes"
+ ],
+ "Latest products": [
+  "Produtos mais recentes"
+ ],
  "Layout": [
   "Layout"
+ ],
+ "Layout Style Panel": [
+  "Painel de estilo do layout"
  ],
  "Lazy Load": [
   "Carregamento tardio"
@@ -959,14 +4370,38 @@
  "Learn more": [
   "Saiba mais"
  ],
+ "Learn more about adding custom code": [
+  "Saiba mais sobre como adicionar código personalizado"
+ ],
+ "Leave a Note": [
+  "Deixar uma nota"
+ ],
  "Left": [
   "Esquerda"
+ ],
+ "Length": [
+  "Tamanho"
+ ],
+ "Less than or equal": [
+  "Menor ou igual"
+ ],
+ "Level": [
+  "Nível"
  ],
  "Library": [
   "Biblioteca"
  ],
+ "Light": [
+  "Leve"
+ ],
  "Lightbox": [
   "Lightbox"
+ ],
+ "Like": [
+  "Curtir"
+ ],
+ "Line Numbers": [
+  "Números de linha"
  ],
  "Link": [
   "Link"
@@ -974,11 +4409,32 @@
  "Link Color": [
   "Cor do link"
  ],
+ "Link Text": [
+  "Texto do link"
+ ],
+ "Link Timeout": [
+  "Tempo do link"
+ ],
  "Link Type": [
   "Tipo de link"
  ],
+ "Link for the Author Name and Image": [
+  "Link do nome e da imagem do autor"
+ ],
  "Link to media": [
   "Vincular à mídia"
+ ],
+ "Linked to Global": [
+  "Vinculado ao global"
+ ],
+ "Links": [
+  "Links"
+ ],
+ "Links Color": [
+  "Cor dos links"
+ ],
+ "Links Hover Color": [
+  "Cor dos links ao passar o mouse"
  ],
  "List": [
   "Lista"
@@ -998,8 +4454,32 @@
  "List Items": [
   "Itens da lista"
  ],
+ "List Site Parts": [
+  "Listar partes do site"
+ ],
+ "Live Results": [
+  "Resultados ao vivo"
+ ],
+ "Live Secret key": [
+  "Chave secreta de produção"
+ ],
  "Load More": [
   "Carregar mais"
+ ],
+ "Load Type": [
+  "Tipo de carregamento"
+ ],
+ "Load on Click": [
+  "Carregar ao clicar"
+ ],
+ "Load type": [
+  "Tipo de carregamento"
+ ],
+ "Loader": [
+  "Carregamento"
+ ],
+ "Loader Color": [
+  "Cor do carregamento"
  ],
  "Loading": [
   "Carregando"
@@ -1010,32 +4490,224 @@
  "Location": [
   "Localização"
  ],
+ "Location '%s' is not a core location.": [
+  "O local '%s' não é um local padrão."
+ ],
+ "Location Settings": [
+  "Configurações de local"
+ ],
+ "Log In": [
+  "Entrar"
+ ],
  "Logged In": [
   "Conectado"
+ ],
+ "Logged Out": [
+  "Desconectado"
+ ],
+ "Logged in Message": [
+  "Mensagem de usuário conectado"
+ ],
+ "Logical Combination": [
+  "Combinação lógica"
+ ],
+ "Login": [
+  "Entrar"
+ ],
+ "Login Button": [
+  "Botão de entrar"
+ ],
+ "Login Form": [
+  "Formulário de login"
+ ],
+ "Login Messages": [
+  "Mensagens de login"
+ ],
+ "Login Status": [
+  "Status de login"
+ ],
+ "Login form": [
+  "Formulário de login"
+ ],
+ "Logout": [
+  "Sair"
+ ],
+ "Looks like you are using WooCommerce, while your theme does not support it. Please consider switching themes.": [
+  "Você está usando o WooCommerce, mas seu tema não é compatível com ele. Considere trocar de tema."
  ],
  "Loop": [
   "Repetir"
  ],
+ "Loop Base": [
+  "Base do loop"
+ ],
+ "Loop Carousel": [
+  "Carrossel de loop"
+ ],
+ "Loop Carousel starts with a template.": [
+  "O carrossel de loop começa com um modelo."
+ ],
+ "Loop Grid": [
+  "Grade de loop"
+ ],
+ "Loop Grid starts with a template.": [
+  "A grade de loop começa com um modelo."
+ ],
+ "Loop Item": [
+  "Item de loop"
+ ],
+ "Loop Items": [
+  "Itens de loop"
+ ],
+ "Loop Layout": [
+  "Layout do loop"
+ ],
+ "Loop element for repeating dynamic content. Note: This feature requires the \"Atomic Widgets\" experiment to be enabled.": [
+  "Elemento de loop para repetir conteúdo dinâmico. Observação: este recurso exige que o experimento \"Atomic Widgets\" esteja ativado."
+ ],
+ "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor": [
+  "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor"
+ ],
  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.": [
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+ ],
+ "Lost your password?": [
+  "Esqueceu sua senha?"
+ ],
+ "Lottie": [
+  "Lottie"
+ ],
+ "M j, Y @ G:i": [
+  "j \\d\\e M \\d\\e Y, \\à\\s G:i"
+ ],
+ "MailChimp": [
+  "MailChimp"
+ ],
+ "MailPoet": [
+  "MailPoet"
+ ],
+ "MailPoet 3": [
+  "MailPoet 3"
+ ],
+ "MailerLite": [
+  "MailerLite"
+ ],
+ "Main": [
+  "Principal"
+ ],
+ "Main Menu": [
+  "Menu principal"
+ ],
+ "Make instances flexible while keeping design synced.": [
+  "Deixe as instâncias flexíveis mantendo o design sincronizado."
+ ],
+ "Make prop overridable": [
+  "Tornar a propriedade substituível"
+ ],
+ "Make sure emails reach the inbox every time with improved deliverability, detailed email logs, and an easy setup with no need for an SMTP plugin.": [
+  "Garanta que os e-mails cheguem sempre à caixa de entrada, com entrega melhor, registros detalhados e configuração fácil, sem precisar de plugin de SMTP."
+ ],
+ "Make sure your emails reach the inbox every time with Email Deliverability.": [
+  "Garanta que seus e-mails cheguem sempre à caixa de entrada com a entregabilidade de e-mail."
+ ],
+ "Make sure your site’s emails reach the inbox every time. Email Deliverability is included in your ONE subscription.": [
+  "Garanta que os e-mails do seu site cheguem sempre à caixa de entrada. A entregabilidade de e-mail está incluída na sua assinatura ONE."
+ ],
+ "Manage Elementor Site Parts": [
+  "Gerenciar partes do site do Elementor"
+ ],
+ "Manage Your Font Files": [
+  "Gerencie seus arquivos de fonte"
+ ],
+ "Manage and create all of your custom code here.<br />Organize all of your custom code and incorporate code snippets in your site. Add tracking codes, meta titles, and other scripts. Set display conditions, locations, and priority all from one place.": [
+  "Gerencie e crie todo o seu código personalizado aqui.<br />Organize seu código personalizado e inclua trechos de código no site. Adicione códigos de rastreamento, metatítulos e outros scripts. Defina condições de exibição, locais e prioridade num só lugar."
  ],
  "Manage your site’s lightbox settings in the %1$sLightbox panel%2$s.": [
   "Gerencie as configurações do lightbox do seu site no painel %1$sLightbox%2$s."
  ],
+ "Manual Selection": [
+  "Seleção manual"
+ ],
+ "Manual selection": [
+  "Seleção manual"
+ ],
+ "Many Comment Format": [
+  "Formato para vários comentários"
+ ],
  "Margin": [
   "Margem"
+ ],
+ "Mark Color": [
+  "Cor da marca"
+ ],
+ "Mark as Read": [
+  "Marcar como lido"
+ ],
+ "Mark as Unread": [
+  "Marcar como não lido"
+ ],
+ "Mark as read": [
+  "Marcar como lida"
+ ],
+ "Mark as unread": [
+  "Marcar como não lida"
+ ],
+ "Marker": [
+  "Marcador"
+ ],
+ "Marker View": [
+  "Tipo de marcador"
+ ],
+ "Masonry": [
+  "Alvenaria"
+ ],
+ "Max": [
+  "Máx."
+ ],
+ "Max Height": [
+  "Altura máxima"
+ ],
+ "Max Weight": [
+  "Peso máximo"
  ],
  "Max Width": [
   "Largura máxima"
  ],
+ "Max file size": [
+  "Tamanho máximo do arquivo"
+ ],
+ "Max files": [
+  "Máximo de arquivos"
+ ],
  "Max height": [
   "Altura máxima"
+ ],
+ "Max length": [
+  "Tamanho máximo"
+ ],
+ "Max. Date": [
+  "Data máxima"
+ ],
+ "Max. File Size": [
+  "Tamanho máximo do arquivo"
+ ],
+ "Max. Files": [
+  "Máximo de arquivos"
+ ],
+ "Max. Value": [
+  "Valor máximo"
  ],
  "Maximum %d operations per request.": [
   "Máximo de %d operações por solicitação."
  ],
  "Meal Prep": [
   "Preparo da refeição"
+ ],
+ "Media": [
+  "Mídia"
+ ],
+ "Media Carousel": [
+  "Carrossel de mídia"
  ],
  "Media File": [
   "Arquivo de mídia"
@@ -1046,6 +4718,9 @@
  "Medium": [
   "Médio"
  ],
+ "Meet Angie": [
+  "Conheça o Angie"
+ ],
  "Meet Our Attributes": [
   "Conheça nossos atributos"
  ],
@@ -1055,17 +4730,65 @@
  "Meet Our Global Widget": [
   "Conheça nosso widget global"
  ],
+ "Meet the new Theme Builder: more intuitive and visual than ever": [
+  "Conheça o novo Construtor de Temas: mais intuitivo e visual do que nunca"
+ ],
  "Menu": [
   "Menu"
+ ],
+ "Menu Button": [
+  "Botão de menu"
+ ],
+ "Menu Cart": [
+  "Carrinho do menu"
+ ],
+ "Menu Icon": [
+  "Ícone do menu"
+ ],
+ "Menu Items": [
+  "Itens do menu"
+ ],
+ "Menu Name": [
+  "Nome do menu"
+ ],
+ "Menu Order": [
+  "Ordem do menu"
+ ],
+ "Menu Toggle": [
+  "Botão do menu"
+ ],
+ "Menu order": [
+  "Ordem do menu"
  ],
  "Menus": [
   "Menus"
  ],
+ "Merchant Account": [
+  "Conta de comerciante"
+ ],
  "Message": [
   "Mensagem"
  ],
+ "Message Notices": [
+  "Avisos de mensagem"
+ ],
+ "Messages": [
+  "Mensagens"
+ ],
  "Messenger": [
   "Messenger"
+ ],
+ "Meta": [
+  "Metadados"
+ ],
+ "Meta Border Color": [
+  "Cor da borda dos metadados"
+ ],
+ "Meta Data": [
+  "Metadados"
+ ],
+ "Meta Key": [
+  "Chave do metadado"
  ],
  "Metadata": [
   "Metadados"
@@ -1073,14 +4796,98 @@
  "Middle": [
   "Meio"
  ],
+ "Min": [
+  "Mín."
+ ],
  "Min Height": [
   "Altura mínima"
+ ],
+ "Min Weight": [
+  "Peso mínimo"
+ ],
+ "Min Width": [
+  "Largura mínima"
+ ],
+ "Min length": [
+  "Tamanho mínimo"
+ ],
+ "Min. Date": [
+  "Data mínima"
+ ],
+ "Min. Value": [
+  "Valor mínimo"
+ ],
+ "Mini Cart": [
+  "Mini carrinho"
+ ],
+ "Mini Cart Template": [
+  "Modelo do mini carrinho"
+ ],
+ "Minimal": [
+  "Mínimo"
+ ],
+ "Minimize Box": [
+  "Minimizar caixa"
+ ],
+ "Minimized On": [
+  "Minimizado em"
+ ],
+ "Minimum length cannot be greater than maximum length.": [
+  "O tamanho mínimo não pode ser maior que o máximo."
+ ],
+ "Minimum number of comments: 5": [
+  "Número mínimo de comentários: 5"
+ ],
+ "Minimum search characters": [
+  "Mínimo de caracteres para pesquisar"
+ ],
+ "Minimum value cannot be greater than maximum value.": [
+  "O valor mínimo não pode ser maior que o máximo."
+ ],
+ "Minutes": [
+  "Minutos"
+ ],
+ "Missing": [
+  "Ausente"
+ ],
+ "Missing a temporary folder.": [
+  "Falta uma pasta temporária."
+ ],
+ "Mobile Bar": [
+  "Barra para celular"
+ ],
+ "Mobile Dropdown": [
+  "Menu suspenso no celular"
+ ],
+ "Mode": [
+  "Modo"
+ ],
+ "Monday": [
+  "Segunda-feira"
+ ],
+ "Month": [
+  "Mês"
+ ],
+ "Month: %s": [
+  "Mês: %s"
+ ],
+ "Monthly": [
+  "Mensal"
+ ],
+ "Months": [
+  "Meses"
  ],
  "Motion Effects": [
   "Efeitos de movimento"
  ],
  "Mouse Effects": [
   "Efeitos do mouse"
+ ],
+ "Mouse Track": [
+  "Seguir o mouse"
+ ],
+ "Move Item To Trash": [
+  "Mover item para a lixeira"
  ],
  "Move X": [
   "Mover em X"
@@ -1091,23 +4898,116 @@
  "Move Z": [
   "Mover em Z"
  ],
+ "Move to Trash": [
+  "Mover para a lixeira"
+ ],
+ "Multi Chat": [
+  "Vários chats"
+ ],
  "Multiple": [
   "Múltiplo"
+ ],
+ "Multiple Files": [
+  "Vários arquivos"
+ ],
+ "Multiple Selection": [
+  "Seleção múltipla"
+ ],
+ "Multiple files": [
+  "Vários arquivos"
+ ],
+ "Multiple selections": [
+  "Seleção múltipla"
  ],
  "My Account": [
   "Minha conta"
  ],
+ "N/A": [
+  "N/D"
+ ],
+ "NEW10": [
+  "NOVO10"
+ ],
  "Name": [
   "Nome"
+ ],
+ "Names can only use letters, numbers, dashes (-) and underscores (_).": [
+  "Os nomes só podem ter letras, números, hífens (-) e sublinhados (_)."
+ ],
+ "Native HTML5": [
+  "HTML5 nativo"
  ],
  "Navigation": [
   "Navegação"
  ],
+ "Need help?": [
+  "Precisa de ajuda?"
+ ],
+ "Nested Spinners": [
+  "Giratórios aninhados"
+ ],
+ "Network": [
+  "Rede"
+ ],
+ "Never lose another submission! Using \"Actions After Submit\" you can now choose to save all submissions to an internal database.": [
+  "Nunca mais perca um envio! Em \"Ações após o envio\" você pode salvar todos os envios num banco de dados interno."
+ ],
  "New": [
   "Novo"
  ],
+ "New Font": [
+  "Nova fonte"
+ ],
+ "New Font Type Name": [
+  "Nome do novo tipo de fonte"
+ ],
+ "New Form": [
+  "Novo formulário"
+ ],
+ "New Gallery": [
+  "Nova galeria"
+ ],
+ "New Icon Set": [
+  "Novo conjunto de ícones"
+ ],
+ "New code": [
+  "Novo código"
+ ],
+ "New mention in Note #%1$s on %2$s - %3$s": [
+  "Nova menção na nota #%1$s em %2$s - %3$s"
+ ],
+ "New message from \"%s\"": [
+  "Nova mensagem de \"%s\""
+ ],
+ "New reply in Note #%1$s on %2$s - %3$s": [
+  "Nova resposta na nota #%1$s em %2$s - %3$s"
+ ],
  "Next": [
   "Próximo"
+ ],
+ "Next & Submit Button": [
+  "Botão próximo e enviar"
+ ],
+ "Next &raquo;": [
+  "Próximo &raquo;"
+ ],
+ "Next Arrow": [
+  "Próxima seta"
+ ],
+ "Next Button": [
+  "Botão próximo"
+ ],
+ "Next Icon": [
+  "Ícone de próximo"
+ ],
+ "Next Label": [
+  "Rótulo de próximo"
+ ],
+ "Next Up": [
+  "A seguir"
+ ],
+ "Next page": [
+  "Próxima página"
  ],
  "Next slide": [
   "Próximo slide"
@@ -1115,8 +5015,101 @@
  "No": [
   "Não"
  ],
+ "No Comments": [
+  "Nenhum comentário"
+ ],
+ "No Comments Format": [
+  "Formato para nenhum comentário"
+ ],
+ "No Font Types found.": [
+  "Nenhum tipo de fonte encontrado."
+ ],
+ "No Headings Found Message": [
+  "Mensagem de nenhum título encontrado"
+ ],
+ "No Label": [
+  "Sem rótulo"
+ ],
+ "No More Posts Message": [
+  "Mensagem de não há mais posts"
+ ],
+ "No Rating Reviews": [
+  "Nenhuma avaliação"
+ ],
+ "No Responses": [
+  "Nenhuma resposta"
+ ],
+ "No Templates found. Want to create one?": [
+  "Nenhum modelo encontrado. Quer criar um?"
+ ],
+ "No actions configured for this form": [
+  "Nenhuma ação configurada para este formulário"
+ ],
+ "No data": [
+  "Sem dados"
+ ],
+ "No file was uploaded.": [
+  "Nenhum arquivo foi enviado."
+ ],
+ "No fonts found": [
+  "Nenhuma fonte encontrada"
+ ],
+ "No fonts found in trash": [
+  "Nenhuma fonte na lixeira"
+ ],
+ "No form actions.": [
+  "Nenhuma ação de formulário."
+ ],
+ "No header, no footer": [
+  "Sem cabeçalho e sem rodapé"
+ ],
+ "No headings were found on this page.": [
+  "Nenhum título foi encontrado nesta página."
+ ],
+ "No icons found": [
+  "Nenhum ícone encontrado"
+ ],
+ "No icons found in trash": [
+  "Nenhum ícone na lixeira"
+ ],
+ "No instances": [
+  "Nenhuma instância"
+ ],
+ "No items found": [
+  "Nenhum item encontrado"
+ ],
+ "No more posts message": [
+  "Mensagem de não há mais posts"
+ ],
+ "No more posts to show": [
+  "Não há mais posts para mostrar"
+ ],
+ "No payment method connected. Contact seller.": [
+  "Nenhuma forma de pagamento conectada. Fale com o vendedor."
+ ],
+ "No products in the cart.": [
+  "Nenhum produto no carrinho."
+ ],
+ "No project data was returned.": [
+  "Nenhum dado do projeto foi retornado."
+ ],
+ "No results": [
+  "Nenhum resultado"
+ ],
+ "No submissions found.": [
+  "Nenhum envio encontrado."
+ ],
+ "No taxonomies found": [
+  "Nenhuma taxonomia encontrada"
+ ],
+ "No taxonomy terms found.": [
+  "Nenhum termo de taxonomia encontrado."
+ ],
  "No thanks": [
   "Não"
+ ],
+ "No valid recipient email address.": [
+  "Nenhum e-mail de destinatário válido."
  ],
  "None": [
   "Nenhum"
@@ -1127,11 +5120,104 @@
  "Not Found": [
   "Não encontrado"
  ],
+ "Not Set": [
+  "Não definido"
+ ],
+ "Note #%1$s resolved on %2$s - %3$s": [
+  "Nota #%1$s resolvida em %2$s - %3$s"
+ ],
+ "Note that these layout settings will override settings made in Appearance > Customize": [
+  "Estas configurações de layout substituem as feitas em Aparência > Personalizar"
+ ],
  "Note:": [
   "Observação:"
  ],
+ "Note: Because of security reasons, you can ONLY use your current domain here.": [
+  "Observação: por segurança, aqui só é possível usar o seu domínio atual."
+ ],
+ "Note: By default, only your last order is displayed while editing the orders section. You can see other orders on your live site or in the WooCommerce orders section": [
+  "Observação: ao editar a seção de pedidos, só o seu último pedido aparece. Os outros aparecem no site publicado ou na seção de pedidos do WooCommerce"
+ ],
+ "Note: Changes you make here will also be reflected in the WooCommerce settings on your WP dashboard": [
+  "Observação: as alterações feitas aqui também aparecem nas configurações do WooCommerce no painel do WP"
+ ],
+ "Note: Item layout will switch to dropdown on any screen smaller than the selected breakpoint.": [
+  "Observação: o layout dos itens vira menu suspenso em telas menores que o ponto de quebra escolhido."
+ ],
+ "Note: Item will span across a number of columns.": [
+  "Observação: o item ocupa várias colunas."
+ ],
+ "Note: Repeat the alternate template once every chosen number of items.": [
+  "Observação: o modelo alternativo se repete a cada quantidade de itens escolhida."
+ ],
+ "Note: Scroll menu items if they don’t fit into their parent container.": [
+  "Observação: os itens do menu rolam se não couberem no contêiner pai."
+ ],
+ "Note: Static Items remain in place when new items are added to grid. Other items appear according to query settings.": [
+  "Observação: itens fixos ficam no lugar quando novos itens entram na grade. Os outros itens aparecem conforme a consulta."
+ ],
+ "Note: The Cross-Sells Query is available when creating a Cart page": [
+  "Observação: a consulta de vendas cruzadas está disponível ao criar uma página de carrinho"
+ ],
+ "Note: The Masonry option combined with Column Span might cause unexpected results and break the layout.": [
+  "Observação: a opção Alvenaria combinada com ocupar colunas pode ter resultados inesperados e quebrar o layout."
+ ],
+ "Note: The Related Products Query is available when creating a Single Product template": [
+  "Observação: a consulta de produtos relacionados está disponível ao criar um modelo de produto individual"
+ ],
+ "Note: The Upsells Query is available when creating a Single Product template": [
+  "Observação: a consulta de upsells está disponível ao criar um modelo de produto individual"
+ ],
+ "Note: This content cannot be changed due to local regulations.": [
+  "Observação: este conteúdo não pode ser alterado por causa de regras locais."
+ ],
+ "Note: This control will only affect screen sizes Tablet and below": [
+  "Observação: este controle só afeta telas do tamanho de tablet ou menores"
+ ],
+ "Note: This label and placeholder are taken from the Billing section. You can change it there.": [
+  "Observação: este rótulo e o texto de exemplo vêm da seção de cobrança. Altere por lá."
+ ],
+ "Note: This message will appear when no content is loaded in the grid.": [
+  "Observação: esta mensagem aparece quando nenhum conteúdo é carregado na grade."
+ ],
+ "Note: To find an order ID, go to the WP dashboard: WooCommerce > Orders": [
+  "Observação: para achar o ID de um pedido, vá no painel do WP: WooCommerce > Pedidos"
+ ],
+ "Note: You can only track progress relative to Post Content on a single post template.": [
+  "Observação: o progresso em relação ao conteúdo do post só funciona em modelos de post individual."
+ ],
+ "Noted on:": [
+  "Nota em:"
+ ],
  "Notes": [
   "Anotações"
+ ],
+ "Notes Panel": [
+  "Painel de notas"
+ ],
+ "Notes Proxy": [
+  "Proxy de notas"
+ ],
+ "Notes about your order, e.g. special notes for delivery.": [
+  "Observações sobre o pedido, ex.: instruções especiais para a entrega."
+ ],
+ "Nothing Found Message": [
+  "Mensagem de nada encontrado"
+ ],
+ "Notice Box": [
+  "Caixa do aviso"
+ ],
+ "Notice Text": [
+  "Texto do aviso"
+ ],
+ "Notice Type": [
+  "Tipo de aviso"
+ ],
+ "Notice! Please make sure to meet Stripe's guidelines regarding minimum charge amounts. %1$s Learn more. %2$s": [
+  "Atenção! Siga as regras do Stripe sobre valores mínimos de cobrança. %1$s Saiba mais. %2$s"
+ ],
+ "Notices": [
+  "Avisos"
  ],
  "Notifications": [
   "Notificações"
@@ -1139,17 +5225,149 @@
  "Number": [
   "Número"
  ],
+ "Number & Text": [
+  "Número e texto"
+ ],
+ "Number of Comments": [
+  "Número de comentários"
+ ],
+ "Number of items to skip before the grid starts.": [
+  "Quantidade de itens a pular antes de a grade começar."
+ ],
+ "Number of slides": [
+  "Número de slides"
+ ],
+ "Number of taxonomies": [
+  "Número de taxonomias"
+ ],
+ "Numbers": [
+  "Números"
+ ],
+ "Numbers + Previous/Next": [
+  "Números + Anterior/Próximo"
+ ],
+ "Numeric": [
+  "Numérico"
+ ],
+ "OFF": [
+  "DESL."
+ ],
  "OK": [
   "OK"
+ ],
+ "ON": [
+  "LIG."
+ ],
+ "OR": [
+  "OU"
+ ],
+ "Oblique": [
+  "Oblíqua"
+ ],
+ "Of Authors": [
+  "Dos autores"
+ ],
+ "Of Categories": [
+  "Das categorias"
+ ],
+ "Of Tags": [
+  "Das tags"
  ],
  "Off": [
   "Desativado"
  ],
+ "Off-Canvas": [
+  "Off-canvas"
+ ],
+ "Off-Canvas Name": [
+  "Nome do off-canvas"
+ ],
+ "Off-canvas widget": [
+  "Widget off-canvas"
+ ],
+ "Offer Text": [
+  "Texto da oferta"
+ ],
+ "Official": [
+  "Oficial"
+ ],
  "Offset": [
   "Deslocamento"
  ],
+ "Offset Sides": [
+  "Lados do deslocamento"
+ ],
+ "Offset Width": [
+  "Largura do deslocamento"
+ ],
+ "Offset is inactive while editing. Preview your page to see it in action.": [
+  "O deslocamento fica inativo durante a edição. Visualize a página para ver funcionando."
+ ],
  "On": [
   "Ativado"
+ ],
+ "On Click": [
+  "Ao clicar"
+ ],
+ "On Close": [
+  "Ao fechar"
+ ],
+ "On Hover": [
+  "Ao passar o mouse"
+ ],
+ "On Hover Out": [
+  "Ao tirar o mouse"
+ ],
+ "On Load": [
+  "Ao carregar"
+ ],
+ "On Open": [
+  "Ao abrir"
+ ],
+ "On Page Exit Intent": [
+  "Ao tentar sair da página"
+ ],
+ "On Page Load": [
+  "Ao carregar a página"
+ ],
+ "On Scroll": [
+  "Ao rolar"
+ ],
+ "On Scroll To Element": [
+  "Ao rolar até um elemento"
+ ],
+ "On desktop, this will affect the submenu. On mobile, this will affect the entire menu.": [
+  "No desktop, isto afeta o submenu. No celular, afeta o menu inteiro."
+ ],
+ "On page scroll": [
+  "Ao rolar a página"
+ ],
+ "Once deleted, those notes will remain and include an indication that this user was deleted. If you wish, you can manually delete this user's notes.": [
+  "Depois da exclusão, essas notas continuam existindo, com a indicação de que o usuário foi excluído. Se quiser, exclua as notas dele manualmente."
+ ],
+ "One Comment": [
+  "Um comentário"
+ ],
+ "One Comment Format": [
+  "Formato para um comentário"
+ ],
+ "One Response": [
+  "Uma resposta"
+ ],
+ "One column": [
+  "Uma coluna"
+ ],
+ "Only Top Level": [
+  "Só o nível superior"
+ ],
+ "Only numbers and phone characters (#, -, *, etc) are accepted.": [
+  "Só são aceitos números e caracteres de telefone (#, -, *, etc)."
+ ],
+ "Only yours": [
+  "Só as suas"
+ ],
+ "Only zip files are allowed": [
+  "Só são permitidos arquivos zip"
  ],
  "Opacity": [
   "Opacidade"
@@ -1157,11 +5375,59 @@
  "Open": [
   "Abrir"
  ],
+ "Open %1$s": [
+  "Abrir %1$s"
+ ],
+ "Open %1$s %2$s": [
+  "Abrir %1$s %2$s"
+ ],
  "Open %s": [
   "Abrir %s"
  ],
+ "Open %s In New Tab": [
+  "Abrir %s em nova aba"
+ ],
+ "Open By Selector": [
+  "Abrir por seletor"
+ ],
+ "Open Cart": [
+  "Abrir carrinho"
+ ],
+ "Open Off-Canvas": [
+  "Abrir off-canvas"
+ ],
+ "Open On": [
+  "Abrir ao"
+ ],
+ "Open Popup": [
+  "Abrir pop-up"
+ ],
+ "Open Site Editor": [
+  "Abrir editor do site"
+ ],
  "Open in new window": [
   "Abrir em nova janela"
+ ],
+ "Open page in a new tab": [
+  "Abrir página em nova aba"
+ ],
+ "Open table of contents": [
+  "Abrir sumário"
+ ],
+ "Open the cart every time an item is added.": [
+  "Abre o carrinho toda vez que um item é adicionado."
+ ],
+ "Opposing Nested Rings": [
+  "Anéis aninhados opostos"
+ ],
+ "Opposing Nested Spinners": [
+  "Giratórios aninhados opostos"
+ ],
+ "Opposite": [
+  "Oposto"
+ ],
+ "Options": [
+  "Opções"
  ],
  "Or": [
   "Ou"
@@ -1175,8 +5441,59 @@
  "Order By": [
   "Ordenar por"
  ],
+ "Order Date:": [
+  "Data do pedido:"
+ ],
+ "Order Details": [
+  "Detalhes do pedido"
+ ],
+ "Order Email:": [
+  "E-mail do pedido:"
+ ],
+ "Order ID": [
+  "ID do pedido"
+ ],
+ "Order Notes": [
+  "Observações do pedido"
+ ],
+ "Order Number:": [
+  "Número do pedido:"
+ ],
+ "Order Summary": [
+  "Resumo do pedido"
+ ],
+ "Order Total:": [
+  "Total do pedido:"
+ ],
+ "Order Tracking Form": [
+  "Formulário de rastreio de pedido"
+ ],
+ "Order by": [
+  "Ordenar por"
+ ],
+ "Ordering is not available if this widget is placed in your front page. Visible on frontend only.": [
+  "A ordenação não fica disponível se este widget estiver na página inicial. Visível só no site."
+ ],
+ "Orders": [
+  "Pedidos"
+ ],
+ "Organization name": [
+  "Nome da organização"
+ ],
+ "Orientation": [
+  "Orientação"
+ ],
+ "Original": [
+  "Original"
+ ],
+ "Original Price": [
+  "Preço original"
+ ],
  "Other": [
   "Outro"
+ ],
+ "Our Bank Details": [
+  "Nossos dados bancários"
  ],
  "Out": [
   "Externo"
@@ -1184,14 +5501,53 @@
  "Outline": [
   "Contorno"
  ],
+ "Outlook Calendar": [
+  "Calendário do Outlook"
+ ],
  "Outside": [
   "Fora"
+ ],
+ "Overlap": [
+  "Sobreposição"
  ],
  "Overlay": [
   "Sobreposição"
  ],
+ "Overlay Color": [
+  "Cor da sobreposição"
+ ],
  "Overline": [
   "Sobrelinhado"
+ ],
+ "Overridable property": [
+  "Propriedade substituível"
+ ],
+ "Override Property": [
+  "Substituir propriedade"
+ ],
+ "PRO Elements": [
+  "PRO Elements"
+ ],
+ "PRO Elements Canvas": [
+  "PRO Elements Canvas"
+ ],
+ "PRO Elements Data Updater": [
+  "Atualizador de dados do PRO Elements"
+ ],
+ "PRO Elements Font\u0004Custom Icons": [
+  "Ícones personalizados"
+ ],
+ "PRO Elements Full Width": [
+  "PRO Elements largura total"
+ ],
+ "PRO Elements Is Making the Web Beautiful": [
+  "O PRO Elements deixa a web mais bonita"
+ ],
+ "PRO Elements Notes": [
+  "Notas do PRO Elements"
+ ],
+ "PRO Elements plugin requires installing the Elementor plugin": [
+  "O PRO Elements requer a instalação do plugin Elementor"
  ],
  "Padding": [
   "Preenchimento"
@@ -1199,8 +5555,26 @@
  "Page": [
   "Página"
  ],
+ "Page %1$s of %2$s": [
+  "Página %1$s de %2$s"
+ ],
  "Page Layout": [
   "Layout da página"
+ ],
+ "Page Limit": [
+  "Limite de páginas"
+ ],
+ "Page Not Found": [
+  "Página não encontrada"
+ ],
+ "Page Parent": [
+  "Página pai"
+ ],
+ "Page Reload": [
+  "Recarregar a página"
+ ],
+ "Page Title": [
+  "Título da página"
  ],
  "Page Transitions": [
   "Transições de página"
@@ -1208,11 +5582,26 @@
  "Page URL": [
   "URL da página"
  ],
+ "Page Views": [
+  "Visualizações de página"
+ ],
+ "Page reload": [
+  "Recarregar a página"
+ ],
+ "Page:": [
+  "Página:"
+ ],
  "Pages": [
   "Páginas"
  ],
+ "Pages:": [
+  "Páginas:"
+ ],
  "Pagination": [
   "Paginação"
+ ],
+ "Pagination type": [
+  "Tipo de paginação"
  ],
  "Panel": [
   "Painel"
@@ -1220,14 +5609,77 @@
  "Paragraph Spacing": [
   "Espaçamento entre parágrafos"
  ],
+ "Parameter Name": [
+  "Nome do parâmetro"
+ ],
+ "Parent": [
+  "Pai"
+ ],
+ "Parent Comment": [
+  "Comentário pai"
+ ],
+ "Parent ID": [
+  "ID do pai"
+ ],
+ "Password": [
+  "Senha"
+ ],
+ "Password Label": [
+  "Rótulo da senha"
+ ],
+ "Password Placeholder": [
+  "Texto de exemplo da senha"
+ ],
+ "Past Day": [
+  "Último dia"
+ ],
+ "Past Month": [
+  "Último mês"
+ ],
+ "Past Quarter": [
+  "Último trimestre"
+ ],
+ "Past Week": [
+  "Última semana"
+ ],
+ "Past Year": [
+  "Último ano"
+ ],
+ "Past day": [
+  "Último dia"
+ ],
+ "Past month": [
+  "Último mês"
+ ],
+ "Past quarter": [
+  "Último trimestre"
+ ],
+ "Past week": [
+  "Última semana"
+ ],
+ "Past year": [
+  "Último ano"
+ ],
+ "Paste URL": [
+  "Cole a URL"
+ ],
  "Paste URL or type": [
   "Cole o URL ou digite"
  ],
  "Paste Waze link": [
   "Colar o link do Waze"
  ],
+ "Paste display conditions": [
+  "Colar condições de exibição"
+ ],
+ "Paste the URL of the Facebook page.": [
+  "Cole a URL da página do Facebook."
+ ],
  "Pause": [
   "Pausar"
+ ],
+ "Pause %1$s": [
+  "Pausar %1$s"
  ],
  "Pause on Hover": [
   "Pausar ao passar o mouse"
@@ -1235,23 +5687,146 @@
  "Pause on Interaction": [
   "Pausar na interação"
  ],
+ "Pause on hover": [
+  "Pausar ao passar o mouse"
+ ],
+ "Pause on interaction": [
+  "Pausar ao interagir"
+ ],
+ "PayPal Account": [
+  "Conta do PayPal"
+ ],
+ "PayPal Button": [
+  "Botão do PayPal"
+ ],
+ "Payment": [
+  "Pagamento"
+ ],
+ "Payment Details": [
+  "Detalhes do pagamento"
+ ],
+ "Payment Method:": [
+  "Forma de pagamento:"
+ ],
+ "Per": [
+  "Por"
+ ],
  "Percentage": [
   "Porcentagem"
+ ],
+ "Percentage Position": [
+  "Posição da porcentagem"
+ ],
+ "Period": [
+  "Período"
+ ],
+ "Permissions": [
+  "Permissões"
+ ],
+ "Persisting": [
+  "Permanente"
+ ],
+ "Phone": [
+  "Telefone"
+ ],
+ "Picture Size": [
+  "Tamanho da foto"
+ ],
+ "Picture of %s": [
+  "Foto de %s"
+ ],
+ "Placeholder": [
+  "Texto de exemplo"
+ ],
+ "Placeholder Color": [
+  "Cor do texto de exemplo"
+ ],
+ "Plain": [
+  "Simples"
+ ],
+ "Plain Permalink": [
+  "Link permanente simples"
  ],
  "Play": [
   "Reproduzir"
  ],
+ "Play %1$s": [
+  "Reproduzir %1$s"
+ ],
  "Play Icon": [
   "Ícone de reprodução"
+ ],
+ "Play Speed": [
+  "Velocidade de reprodução"
  ],
  "Play Video": [
   "Reproduzir vídeo"
  ],
+ "Playlist": [
+  "Playlist"
+ ],
+ "Playlist Items": [
+  "Itens da playlist"
+ ],
+ "Playlist Name": [
+  "Nome da playlist"
+ ],
+ "Please enable the Review Rating": [
+  "Ative a avaliação nas resenhas"
+ ],
+ "Please enter a valid URL": [
+  "Insira uma URL válida"
+ ],
  "Please make sure the ID is unique and not used elsewhere on the page. This field allows %1$sA-z 0-9%2$s & underscore chars without spaces.": [
   "Certifique-se de que o ID seja único e não seja usado em nenhum outro lugar da página. Este campo permite os caracteres %1$sA-z 0-9%2$s e sublinhados sem espaços."
  ],
+ "Please note that switching on this option will disable some of the design controls.": [
+  "Ativar esta opção desativa alguns controles de design."
+ ],
+ "Please note that this user has notes/replies in PRO Elements Notes feature.": [
+  "Este usuário tem notas ou respostas no recurso de notas do PRO Elements."
+ ],
+ "Please note: The Stripe name and logos are trademarks or service marks of Stripe, Inc. or its affiliates in the U.S. and other countries. %s Other names may be trademarks of their respective owners.": [
+  "Observação: o nome e os logotipos do Stripe são marcas comerciais ou de serviço da Stripe, Inc. ou de suas afiliadas nos EUA e em outros países. %s Outros nomes podem ser marcas de seus respectivos proprietários."
+ ],
+ "Please refresh the page and try again.": [
+  "Atualize a página e tente novamente."
+ ],
+ "Please select a taxonomy.": [
+  "Selecione uma taxonomia."
+ ],
+ "Please set a valid product": [
+  "Defina um produto válido"
+ ],
+ "Please set the embed type": [
+  "Defina o tipo de incorporação"
+ ],
+ "Plugin reactivated successfully.": [
+  "Plugin reativado com sucesso."
+ ],
+ "Plural": [
+  "Plural"
+ ],
+ "Pods": [
+  "Pods"
+ ],
+ "Pointer": [
+  "Indicador"
+ ],
+ "Pointer Color": [
+  "Cor do indicador"
+ ],
+ "Pointer Width": [
+  "Largura do indicador"
+ ],
  "Popular": [
   "Popular"
+ ],
+ "Popular Font Types": [
+  "Tipos de fonte populares"
+ ],
+ "Popularity": [
+  "Popularidade"
  ],
  "Popup": [
   "Pop-up"
@@ -1259,14 +5834,128 @@
  "Popups": [
   "Pop-ups"
  ],
+ "Portfolio": [
+  "Portfólio"
+ ],
+ "Portfolio Bio": [
+  "Bio do portfólio"
+ ],
  "Position": [
   "Posição"
+ ],
+ "Position in grid": [
+  "Posição na grade"
  ],
  "Post": [
   "Post"
  ],
+ "Post Code": [
+  "CEP"
+ ],
+ "Post Comments": [
+  "Comentários do post"
+ ],
+ "Post Content": [
+  "Conteúdo do post"
+ ],
+ "Post Custom Field": [
+  "Campo personalizado do post"
+ ],
+ "Post Date": [
+  "Data do post"
+ ],
+ "Post Excerpt": [
+  "Resumo do post"
+ ],
+ "Post ID": [
+  "ID do post"
+ ],
+ "Post Image Attachments": [
+  "Anexos de imagem do post"
+ ],
+ "Post Info": [
+  "Informações do post"
+ ],
+ "Post Modified": [
+  "Modificação do post"
+ ],
+ "Post Navigation": [
+  "Navegação de posts"
+ ],
+ "Post Published": [
+  "Publicação do post"
+ ],
+ "Post Taxonomy": [
+  "Taxonomia do post"
+ ],
+ "Post Terms": [
+  "Termos do post"
+ ],
+ "Post Time": [
+  "Hora do post"
+ ],
+ "Post Title": [
+  "Título do post"
+ ],
+ "Post Type": [
+  "Tipo de post"
+ ],
+ "Post URL": [
+  "URL do post"
+ ],
+ "Post taxonomy": [
+  "Taxonomia do post"
+ ],
  "Posts": [
   "Posts"
+ ],
+ "Posts Archive": [
+  "Arquivo de posts"
+ ],
+ "Posts Per Page": [
+  "Posts por página"
+ ],
+ "Posts Query Control\u0004Manual Selection": [
+  "Seleção manual"
+ ],
+ "Posts widget doesn't exist": [
+  "O widget de posts não existe"
+ ],
+ "Powered by": [
+  "Feito com"
+ ],
+ "Powered by %s": [
+  "Feito com %s"
+ ],
+ "Pre Text": [
+  "Texto anterior"
+ ],
+ "Preloader": [
+  "Pré-carregador"
+ ],
+ "Preloader Delay": [
+  "Atraso do pré-carregador"
+ ],
+ "Pretty Permalink": [
+  "Link permanente amigável"
+ ],
+ "Prev": [
+  "Anterior"
+ ],
+ "Prev / Next": [
+  "Anterior / Próxima"
+ ],
+ "Prevent Closing on ESC Overlay": [
+  "Impedir fechar pela sobreposição ou ESC"
+ ],
+ "Prevent Closing on ESC key": [
+  "Impedir fechar pela tecla ESC"
+ ],
+ "Prevent Closing on Overlay": [
+  "Impedir fechar pela sobreposição"
+ ],
+ "Prevents duplicate terms from appearing across multiple loops on the same page. Applies to the frontend only.": [
+  "Evita que termos duplicados apareçam em vários loops da mesma página. Afeta só o site."
  ],
  "Preview": [
   "Pré-visualizar"
@@ -1274,29 +5963,260 @@
  "Preview Changes": [
   "Pré-visualizar alterações"
  ],
+ "Preview Dynamic Content as": [
+  "Visualizar conteúdo dinâmico como"
+ ],
+ "Preview Page Transition": [
+  "Visualizar transição de página"
+ ],
+ "Preview Settings": [
+  "Configurações de visualização"
+ ],
+ "Preview a specific post or item": [
+  "Visualizar um post ou item específico"
+ ],
+ "Preview order with": [
+  "Visualizar pedido com"
+ ],
  "Previous": [
   "Anterior"
+ ],
+ "Previous Arrow": [
+  "Seta anterior"
+ ],
+ "Previous Button": [
+  "Botão anterior"
+ ],
+ "Previous Icon": [
+  "Ícone de anterior"
+ ],
+ "Previous Label": [
+  "Rótulo de anterior"
+ ],
+ "Previous page": [
+  "Página anterior"
  ],
  "Previous slide": [
   "Slide anterior"
  ],
+ "Previous/Next": [
+  "Anterior/Próximo"
+ ],
+ "Price": [
+  "Preço"
+ ],
+ "Price List": [
+  "Lista de preços"
+ ],
+ "Price Table": [
+  "Tabela de preços"
+ ],
+ "Price Tag": [
+  "Etiqueta de preço"
+ ],
+ "Price and Quantity": [
+  "Preço e quantidade"
+ ],
+ "Pricing": [
+  "Preços"
+ ],
+ "Pricing & Payments": [
+  "Preços e pagamentos"
+ ],
  "Primary Color": [
   "Cor primária"
+ ],
+ "Priority": [
+  "Prioridade"
  ],
  "Pro": [
   "Pro"
  ],
+ "Pro Elements": [
+  "Pro Elements"
+ ],
+ "Proceed to Checkout": [
+  "Finalizar compra"
+ ],
  "Product": [
   "Produto"
+ ],
+ "Product Archive": [
+  "Arquivo de produtos"
+ ],
+ "Product Categories": [
+  "Categorias de produtos"
+ ],
+ "Product Content": [
+  "Conteúdo do produto"
+ ],
+ "Product Data Tabs": [
+  "Abas de dados do produto"
+ ],
+ "Product Gallery": [
+  "Galeria do produto"
+ ],
+ "Product Image": [
+  "Imagem do produto"
+ ],
+ "Product Images": [
+  "Imagens do produto"
+ ],
+ "Product Link": [
+  "Link do produto"
+ ],
+ "Product Meta": [
+  "Metadados do produto"
+ ],
+ "Product Name": [
+  "Nome do produto"
+ ],
+ "Product Post": [
+  "Post de produto"
+ ],
+ "Product Posts": [
+  "Posts de produto"
+ ],
+ "Product Price": [
+  "Preço do produto"
+ ],
+ "Product Rating": [
+  "Avaliação do produto"
+ ],
+ "Product Related": [
+  "Produtos relacionados"
+ ],
+ "Product SKU": [
+  "SKU do produto"
+ ],
+ "Product Sale": [
+  "Promoção do produto"
+ ],
+ "Product Short Description": [
+  "Descrição curta do produto"
+ ],
+ "Product Stock": [
+  "Estoque do produto"
+ ],
+ "Product Taxonomy": [
+  "Taxonomia de produto"
+ ],
+ "Product Terms": [
+  "Termos do produto"
+ ],
+ "Product Title": [
+  "Título do produto"
+ ],
+ "Product taxonomy": [
+  "Taxonomia de produto"
+ ],
+ "Products": [
+  "Produtos"
  ],
  "Products Archive": [
   "Arquivo de produtos"
  ],
+ "Products Archives": [
+  "Arquivos de produtos"
+ ],
+ "Products Count": [
+  "Contagem de produtos"
+ ],
+ "Products Per Page": [
+  "Produtos por página"
+ ],
  "Profile": [
   "Perfil"
  ],
+ "Profile Photos": [
+  "Fotos de perfil"
+ ],
+ "Profile Picture": [
+  "Foto do perfil"
+ ],
+ "Progress": [
+  "Progresso"
+ ],
  "Progress Bar": [
   "Barra de progresso"
+ ],
+ "Progress Color": [
+  "Cor do progresso"
+ ],
+ "Progress Indicator": [
+  "Indicador de progresso"
+ ],
+ "Progress Tracker": [
+  "Indicador de progresso"
+ ],
+ "Progress relative to": [
+  "Progresso em relação a"
+ ],
+ "Project ID": [
+  "ID do projeto"
+ ],
+ "Project not found.": [
+  "Projeto não encontrado."
+ ],
+ "Properties make instances flexible.": [
+  "Propriedades deixam as instâncias flexíveis."
+ ],
+ "Property name already exists": [
+  "Já existe uma propriedade com esse nome"
+ ],
+ "Property name is required": [
+  "O nome da propriedade é obrigatório"
+ ],
+ "Protected Posts": [
+  "Posts protegidos"
+ ],
+ "Publish Settings": [
+  "Configurações de publicação"
+ ],
+ "Pulse": [
+  "Pulsar"
+ ],
+ "Pulsing Dots": [
+  "Pontos pulsantes"
+ ],
+ "Purchase Button": [
+  "Botão de compra"
+ ],
+ "Purchase Summary": [
+  "Resumo da compra"
+ ],
+ "Quantity": [
+  "Quantidade"
+ ],
+ "Quantity Borders": [
+  "Bordas da quantidade"
+ ],
+ "Query": [
+  "Consulta"
+ ],
+ "Query ID": [
+  "ID da consulta"
+ ],
+ "Quick Access Bar": [
+  "Barra de acesso rápido"
+ ],
+ "Quotation": [
+  "Aspas"
+ ],
+ "Quote": [
+  "Citação"
+ ],
+ "Radio": [
+  "Opção"
+ ],
+ "Radio Button": [
+  "Botão de opção"
+ ],
+ "Radio Buttons": [
+  "Botões de opção"
+ ],
+ "Radio button": [
+  "Botão de opção"
  ],
  "Random": [
   "Aleatório"
@@ -1304,26 +6224,248 @@
  "Rating": [
   "Classificação"
  ],
+ "Rating Count": [
+  "Número de avaliações"
+ ],
+ "Ratio": [
+  "Proporção"
+ ],
+ "Re-open": [
+  "Reabrir"
+ ],
+ "Reaction": [
+  "Reação"
+ ],
+ "Read": [
+  "Lido"
+ ],
+ "Read Less Label": [
+  "Rótulo de ler menos"
+ ],
  "Read More": [
   "Leia mais"
+ ],
+ "Read More Label": [
+  "Rótulo de ler mais"
  ],
  "Read More Text": [
   "Texto \"Leia mais\""
  ],
+ "Read More »": [
+  "Leia mais »"
+ ],
+ "Read more about %s": [
+  "Leia mais sobre %s"
+ ],
+ "Read only": [
+  "Somente leitura"
+ ],
+ "Recent Posts": [
+  "Posts recentes"
+ ],
+ "Recent posts": [
+  "Posts recentes"
+ ],
+ "Recommend": [
+  "Recomendar"
+ ],
+ "Recommended": [
+  "Recomendado"
+ ],
+ "Redirect": [
+  "Redirecionar"
+ ],
+ "Redirect After Login": [
+  "Redirecionar após entrar"
+ ],
+ "Redirect After Logout": [
+  "Redirecionar após sair"
+ ],
+ "Redirect After Success": [
+  "Redirecionar após sucesso"
+ ],
+ "Redirect To": [
+  "Redirecionar para"
+ ],
+ "Redirect URL": [
+  "URL de redirecionamento"
+ ],
+ "Redirect to link after selected timeout": [
+  "Redirecionar para o link após o tempo escolhido"
+ ],
+ "Referer": [
+  "Origem"
+ ],
+ "Referrer": [
+  "Origem"
+ ],
+ "Refresh": [
+  "Atualizar"
+ ],
+ "Regex": [
+  "Expressão regular"
+ ],
+ "Register": [
+  "Cadastrar"
+ ],
+ "Registration Date": [
+  "Data de cadastro"
+ ],
+ "Regular Price": [
+  "Preço normal"
+ ],
+ "Related": [
+  "Relacionados"
+ ],
+ "Related Products": [
+  "Produtos relacionados"
+ ],
+ "Related products": [
+  "Produtos relacionados"
+ ],
+ "Reload Page": [
+  "Recarregar página"
+ ],
+ "Remember Me": [
+  "Lembrar de mim"
+ ],
+ "Remember me": [
+  "Lembrar de mim"
+ ],
+ "Remember to add the domain to your %1$sApp Domains%2$s": [
+  "Lembre-se de adicionar o domínio em %1$sDomínios do app%2$s"
+ ],
+ "Remote IP": [
+  "IP remoto"
+ ],
+ "Remove Alternating Item": [
+  "Remover item alternado"
+ ],
+ "Remove Item": [
+  "Remover item"
+ ],
+ "Remove Item Icon": [
+  "Ícone de remover item"
+ ],
+ "Remove icon": [
+  "Ícone de remover"
+ ],
+ "Remove this item": [
+  "Remover este item"
+ ],
  "Rename": [
   "Renomear"
+ ],
+ "Rename Site Part": [
+  "Renomear parte do site"
+ ],
+ "Renderer": [
+  "Renderizador"
+ ],
+ "Renew": [
+  "Renovar"
+ ],
+ "Renew now": [
+  "Renovar agora"
+ ],
+ "Repeat every": [
+  "Repetir a cada"
+ ],
+ "Repeater State - hidden": [
+  "Estado do repetidor - oculto"
+ ],
+ "Repeating Bar": [
+  "Barra repetida"
+ ],
+ "Replaces the default WooCommerce Empty Cart screen with a custom template. (Don’t have one? Head over to %1$sSaved Templates%2$s)": [
+  "Substitui a tela padrão de carrinho vazio do WooCommerce por um modelo personalizado. (Ainda não tem um? Vá em %1$sModelos salvos%2$s)"
+ ],
+ "Replaces the default WooCommerce customer dashboard screen with a custom template. (Don't have one? Head over to %1$sSaved Templates%2$s.)": [
+  "Substitui a tela padrão do painel do cliente do WooCommerce por um modelo personalizado. (Ainda não tem um? Vá em %1$sModelos salvos%2$s.)"
+ ],
+ "Reply": [
+  "Responder"
+ ],
+ "Reply Button": [
+  "Botão de responder"
+ ],
+ "Reply-To": [
+  "Responder para"
+ ],
+ "Request Parameter": [
+  "Parâmetro da requisição"
+ ],
+ "Required": [
+  "Obrigatório"
+ ],
+ "Required Field": [
+  "Campo obrigatório"
+ ],
+ "Required Mark": [
+  "Marca de obrigatório"
+ ],
+ "Requirements that have to be met for the popup to open.": [
+  "Requisitos que precisam ser atendidos para o pop-up abrir."
+ ],
+ "Resizable": [
+  "Redimensionável"
+ ],
+ "Resolve": [
+  "Resolver"
+ ],
+ "Resource Box": [
+  "Caixa de recursos"
  ],
  "Resource Links": [
   "Links de recursos"
  ],
+ "Resources": [
+  "Recursos"
+ ],
  "Restore": [
   "Restaurar"
+ ],
+ "Restore Element": [
+  "Restaurar elemento"
+ ],
+ "Results": [
+  "Resultados"
+ ],
+ "Results for search": [
+  "Resultados da pesquisa"
+ ],
+ "Returning Customer": [
+  "Cliente que já comprou"
+ ],
+ "Returning customer?": [
+  "Já é cliente?"
+ ],
+ "Reverse": [
+  "Inverter"
+ ],
+ "Reverse Time": [
+  "Tempo invertido"
  ],
  "Review": [
   "Avaliar"
  ],
+ "Review Count": [
+  "Número de comentários"
+ ],
+ "Reviews": [
+  "Avaliações"
+ ],
+ "Revision restored.": [
+  "Revisão restaurada."
+ ],
+ "Ribbon": [
+  "Faixa"
+ ],
  "Right": [
   "Direita"
+ ],
+ "Role": [
+  "Função"
  ],
  "Rotate": [
   "Rotacionar"
@@ -1337,11 +6479,23 @@
  "Rotate Z": [
   "Rotacionar em Z"
  ],
+ "Rotating Text": [
+  "Texto rotativo"
+ ],
+ "Round Ticket": [
+  "Ingresso redondo"
+ ],
  "Rounded": [
   "Arredondado"
  ],
+ "Rounded Edges": [
+  "Bordas arredondadas"
+ ],
  "Row": [
   "Linha"
+ ],
+ "Row Height": [
+  "Altura da linha"
  ],
  "Rows": [
   "Linhas"
@@ -1349,20 +6503,86 @@
  "Rows Gap": [
   "Espaço entre as linhas"
  ],
+ "Rubber Band": [
+  "Elástico"
+ ],
+ "SDK Token": [
+  "Token do SDK"
+ ],
+ "SKU": [
+  "SKU"
+ ],
  "SMS": [
   "SMS"
  ],
  "SVG": [
   "SVG"
  ],
+ "SVG fonts allow SVG to be used as glyphs when displaying text, Used by Legacy iOS": [
+  "Fontes SVG permitem usar SVG como glifos ao exibir texto. Usadas por versões antigas do iOS"
+ ],
+ "Safari": [
+  "Safari"
+ ],
+ "Sale": [
+  "Promoção"
+ ],
+ "Sale Flash": [
+  "Selo de promoção"
+ ],
+ "Sale Price": [
+  "Preço promocional"
+ ],
+ "Sale!": [
+  "Promoção!"
+ ],
+ "Sale! Upgrade Now": [
+  "Promoção! Faça upgrade agora"
+ ],
+ "Sample Link Text": [
+  "Texto de link de exemplo"
+ ],
+ "Sample Video": [
+  "Vídeo de exemplo"
+ ],
+ "Sandbox": [
+  "Sandbox"
+ ],
+ "Sandbox Email Account": [
+  "Conta de e-mail do sandbox"
+ ],
+ "Saturday": [
+  "Sábado"
+ ],
  "Save": [
   "Salvar"
+ ],
+ "Save %s": [
+  "Salvar %s"
+ ],
+ "Save & Close": [
+  "Salvar e fechar"
  ],
  "Save Changes": [
   "Salvar alterações"
  ],
+ "Save Your First Global Widget": [
+  "Salve seu primeiro widget global"
+ ],
+ "Save a widget as global, then add it to multiple areas. All areas will be editable from one single place.": [
+  "Salve um widget como global e use em várias áreas. Todas elas poderão ser editadas num lugar só."
+ ],
  "Save media to the cloud": [
   "Salvar mídia na nuvem"
+ ],
+ "Save your widget as a global widget": [
+  "Salve seu widget como widget global"
+ ],
+ "Say hello to %s WooCommerce notices!": [
+  "Conheça os novos avisos do WooCommerce com %s!"
+ ],
+ "Say hello to %s WooCommerce pages!": [
+  "Conheça as novas páginas do WooCommerce com %s!"
  ],
  "Scale": [
   "Escala"
@@ -1373,32 +6593,203 @@
  "Scale Y": [
   "Escala em Y"
  ],
+ "Schedule date and time": [
+  "Agendar data e hora"
+ ],
+ "Score Threshold": [
+  "Limite de pontuação"
+ ],
+ "Score threshold should be a value between 0 and 1, default: 0.5": [
+  "O limite de pontuação deve ser um valor entre 0 e 1. Padrão: 0.5"
+ ],
  "Scroll": [
   "Rolar"
+ ],
+ "Scroll Direction": [
+  "Direção da rolagem"
+ ],
+ "Scroll Padding": [
+  "Espaçamento da rolagem"
+ ],
+ "Scroll Snap": [
+  "Encaixe na rolagem"
+ ],
+ "Scroll Snap Stop": [
+  "Parada do encaixe"
+ ],
+ "Scroll Snap makes the viewport stop on a specific position of a section when scrolling ends.%sTo avoid glitches and conflicts, we recommend not to use Scroll Snap together with animations or Motion effects.": [
+  "O encaixe na rolagem faz a tela parar numa posição específica da seção quando a rolagem termina.%sPara evitar falhas e conflitos, não recomendamos usar o encaixe na rolagem junto com animações ou efeitos de movimento."
+ ],
+ "Scroll Speed": [
+  "Velocidade de rolagem"
+ ],
+ "Scroll items if they don’t fit into their parent container": [
+  "Rolar os itens se não couberem no contêiner pai"
+ ],
+ "Scroll speed": [
+  "Velocidade da rolagem"
  ],
  "Scrolling Effects": [
   "Efeitos de rolagem"
  ],
+ "Seal the deal on your Form Submissions": [
+  "Aproveite ao máximo os envios dos formulários"
+ ],
  "Search": [
   "Pesquisar"
+ ],
+ "Search & Select": [
+  "Pesquisar e selecionar"
+ ],
+ "Search Engines": [
+  "Mecanismos de busca"
+ ],
+ "Search Field": [
+  "Campo de pesquisa"
+ ],
+ "Search Font": [
+  "Pesquisar fonte"
+ ],
+ "Search Font Types": [
+  "Pesquisar tipos de fonte"
+ ],
+ "Search Form": [
+  "Formulário de pesquisa"
+ ],
+ "Search Icon Set": [
+  "Pesquisar conjunto de ícones"
  ],
  "Search Results": [
   "Resultados da pesquisa"
  ],
+ "Search Results for: %s": [
+  "Resultados da pesquisa por: %s"
+ ],
+ "Search Term": [
+  "Termo de pesquisa"
+ ],
+ "Search results": [
+  "Resultados da pesquisa"
+ ],
+ "Search...": [
+  "Pesquisar..."
+ ],
+ "Searching...": [
+  "Pesquisando..."
+ ],
+ "Second item on the list": [
+  "Segundo item da lista"
+ ],
  "Secondary Color": [
   "Cor secundária"
+ ],
+ "Secondary Title": [
+  "Título secundário"
+ ],
+ "Secondary Titles": [
+  "Títulos secundários"
+ ],
+ "Seconds": [
+  "Segundos"
+ ],
+ "Secret Key": [
+  "Chave secreta"
  ],
  "Section": [
   "Seção"
  ],
+ "Section Title": [
+  "Título da seção"
+ ],
+ "Section Titles": [
+  "Títulos das seções"
+ ],
  "Sections": [
   "Seções"
+ ],
+ "Seen by": [
+  "Visto por"
  ],
  "Select": [
   "Selecionar"
  ],
+ "Select .%s file": [
+  "Selecionar arquivo .%s"
+ ],
+ "Select Off-canvas": [
+  "Selecionar off-canvas"
+ ],
+ "Select Roles": [
+  "Selecionar funções"
+ ],
+ "Select a date": [
+  "Selecione uma data"
+ ],
+ "Select a location": [
+  "Selecione um local"
+ ],
+ "Select a page": [
+  "Selecione uma página"
+ ],
+ "Select a taxonomy": [
+  "Selecione uma taxonomia"
+ ],
+ "Select a time": [
+  "Selecione um horário"
+ ],
+ "Select a widget": [
+  "Selecione um widget"
+ ],
+ "Select an element on the page to leave a comment, ask a question, etc.": [
+  "Selecione um elemento da página para deixar um comentário, fazer uma pergunta etc."
+ ],
+ "Select an option": [
+  "Selecione uma opção"
+ ],
+ "Select any Element, then in the General tab, click next to any setting you want users to customize - like text, images, or links.": [
+  "Selecione um elemento e, na aba Geral, clique ao lado da configuração que você quer deixar personalizável, como textos, imagens ou links."
+ ],
+ "Select any element, then click + next to a setting to expose it.": [
+  "Selecione um elemento e clique em + ao lado de uma configuração para expô-la."
+ ],
+ "Select bulk action": [
+  "Selecione uma ação em massa"
+ ],
+ "Select field": [
+  "Selecionar campo"
+ ],
  "Select how do you want to save & export the media files.": [
   "Selecione como você quer salvar e exportar os arquivos de mídia."
+ ],
+ "Select post type": [
+  "Selecione o tipo de post"
+ ],
+ "Select sections of the cart to customize:": [
+  "Selecione as seções do carrinho para personalizar:"
+ ],
+ "Select sections of the checkout to customize:": [
+  "Selecione as seções da finalização de compra para personalizar:"
+ ],
+ "Select the pages you want to use as your default WooCommerce shop pages": [
+  "Selecione as páginas que serão as páginas padrão da loja WooCommerce"
+ ],
+ "Select...": [
+  "Selecionar..."
+ ],
+ "Selectable": [
+  "Selecionável"
+ ],
+ "Selected Text": [
+  "Texto selecionado"
+ ],
+ "Selected loop grid": [
+  "Grade de loop selecionada"
+ ],
+ "Selection": [
+  "Seleção"
+ ],
+ "Selector": [
+  "Seletor"
  ],
  "Self Hosted": [
   "Auto-hospedado"
@@ -1406,14 +6797,116 @@
  "Send": [
   "Enviar"
  ],
+ "Send Additional Data to Drip": [
+  "Enviar dados adicionais ao Drip"
+ ],
+ "Send As": [
+  "Enviar como"
+ ],
+ "Send all form fields to drip as custom fields": [
+  "Enviar todos os campos do formulário ao Drip como campos personalizados"
+ ],
+ "Send file": [
+  "Enviar arquivo"
+ ],
+ "Send files": [
+  "Enviar arquivos"
+ ],
+ "Separate Font Types with commas": [
+  "Separe os tipos de fonte com vírgulas"
+ ],
+ "Separate emails with commas": [
+  "Separe os e-mails com vírgula"
+ ],
  "Separator": [
   "Separador"
+ ],
+ "Separator Between": [
+  "Separador entre itens"
+ ],
+ "Separator Color": [
+  "Cor do separador"
+ ],
+ "Separator Width": [
+  "Largura do separador"
+ ],
+ "Sequence Duration": [
+  "Duração da sequência"
+ ],
+ "Sequenced Animation": [
+  "Animação em sequência"
  ],
  "Server Error": [
   "Erro do servidor"
  ],
+ "Server Time": [
+  "Hora do servidor"
+ ],
+ "Server is missing a temporary folder for uploads.": [
+  "Falta no servidor uma pasta temporária para envios."
+ ],
+ "Services": [
+  "Serviços"
+ ],
+ "Session": [
+  "Sessão"
+ ],
+ "Sessions": [
+  "Sessões"
+ ],
+ "Set": [
+  "Definido"
+ ],
+ "Set custom Hotspot size that will only affect this specific hotspot.": [
+  "Defina um tamanho personalizado que afeta só este ponto de destaque."
+ ],
+ "Set custom Tooltip opening that will only affect this specific hotspot.": [
+  "Defina uma abertura personalizada da dica que afeta só este ponto de destaque."
+ ],
+ "Set custom attributes for the wrapper element. Each attribute in a separate line. Separate attribute key from the value using %s character.": [
+  "Defina atributos personalizados para o elemento de contêiner. Um atributo por linha. Separe a chave do valor usando o caractere %s."
+ ],
+ "Set custom style that will only affect this specific slide.": [
+  "Defina um estilo personalizado que afeta só este slide."
+ ],
  "Set how many slides are scrolled per swipe.": [
   "Defina quantos slides são rolados por deslizamento."
+ ],
+ "Set one or more conditions for this element": [
+  "Defina uma ou mais condições para este elemento"
+ ],
+ "Set the conditions that determine where your %s is used throughout your site.": [
+  "Defina as condições que determinam onde seu %s é usado no site."
+ ],
+ "Set the conditions that determine where your code snippet is used throughout your site.": [
+  "Defina as condições que determinam onde seu trecho de código é usado no site."
+ ],
+ "Set the conditions that determine where your template is used throughout your site.": [
+  "Defina as condições que determinam onde seu modelo é usado no site."
+ ],
+ "Set to Yes to avoid duplicate posts from showing up on the page. This only affects the frontend.": [
+  "Defina como Sim para evitar que posts duplicados apareçam na página. Afeta só o site, não o editor."
+ ],
+ "Set to Yes to avoid duplicate posts from showing up. This only effects the frontend.": [
+  "Defina como Sim para evitar que posts duplicados apareçam. Afeta só o site, não o editor."
+ ],
+ "Set to `Disable` in order to use your Theme's or WooCommerce's mini-cart template instead of Elementor's.": [
+  "Defina como `Desativar` para usar o modelo de mini carrinho do seu tema ou do WooCommerce em vez do Elementor."
+ ],
+ "Set to include parent comment (if URL is a reply).": [
+  "Incluir o comentário pai (se a URL for uma resposta)."
+ ],
+ "Set your %1$s in the %2$sIntegrations Settings%3$s.": [
+  "Defina %1$s nas %2$sConfigurações de integrações%3$s."
+ ],
+ "Set your Facebook App ID in the %1$sIntegrations Settings%2$s": [
+  "Defina o ID do seu app do Facebook nas %1$sConfigurações de integrações%2$s"
+ ],
+ "Setting a ‘Before’ date will show all the posts published until the chosen date (inclusive).": [
+  "Definir uma data 'Antes' mostra todos os posts publicados até a data escolhida (inclusive)."
+ ],
+ "Setting an ‘After’ date will show all the posts published since the chosen date (inclusive).": [
+  "Definir uma data 'Depois' mostra todos os posts publicados desde a data escolhida (inclusive)."
  ],
  "Settings": [
   "Configurações"
@@ -1421,26 +6914,170 @@
  "Shadow": [
   "Sombra"
  ],
+ "Shake": [
+  "Tremer"
+ ],
  "Shape": [
   "Forma"
  ],
  "Shape Divider": [
   "Divisor de forma"
  ],
+ "Shapes\u0004Circle": [
+  "Círculo"
+ ],
  "Shapes\u0004Curly": [
   "Cacheado"
+ ],
+ "Shapes\u0004Diagonal": [
+  "Diagonal"
+ ],
+ "Shapes\u0004Double": [
+  "Duplo"
+ ],
+ "Shapes\u0004Double Underline": [
+  "Sublinhado duplo"
+ ],
+ "Shapes\u0004Strikethrough": [
+  "Tachado"
+ ],
+ "Shapes\u0004Underline": [
+  "Sublinhado"
+ ],
+ "Shapes\u0004Underline Zigzag": [
+  "Sublinhado em zigue-zague"
  ],
  "Share Button": [
   "Botão \"Compartilhar\""
  ],
+ "Share Buttons": [
+  "Botões de compartilhamento"
+ ],
+ "Share on %s": [
+  "Compartilhar no %s"
+ ],
+ "Share your thoughts with a Note": [
+  "Compartilhe suas ideias numa nota"
+ ],
+ "Sharing": [
+  "Compartilhamento"
+ ],
+ "Ship to a different address?": [
+  "Entregar em outro endereço?"
+ ],
+ "Shipping Address": [
+  "Endereço de entrega"
+ ],
+ "Shipping Details": [
+  "Dados de entrega"
+ ],
+ "Shipping Price": [
+  "Valor da entrega"
+ ],
+ "Shop": [
+  "Loja"
+ ],
+ "Shop Now": [
+  "Compre agora"
+ ],
+ "Shop Page": [
+  "Página da loja"
+ ],
+ "Short Description": [
+  "Descrição curta"
+ ],
  "Shortcode": [
   "Shortcode"
+ ],
+ "Shorten": [
+  "Encurtar"
  ],
  "Show": [
   "Mostrar"
  ],
+ "Show All": [
+  "Mostrar todas"
+ ],
+ "Show Close Button After": [
+  "Mostrar botão de fechar após"
+ ],
+ "Show Home Title": [
+  "Mostrar título da página inicial"
+ ],
+ "Show Image": [
+  "Mostrar imagem"
+ ],
+ "Show Label": [
+  "Mostrar rótulo"
+ ],
+ "Show Less": [
+  "Mostrar menos"
+ ],
+ "Show Message": [
+  "Mostrar mensagem"
+ ],
+ "Show More": [
+  "Mostrar mais"
+ ],
+ "Show Quantity": [
+  "Mostrar quantidade"
+ ],
+ "Show Result Count": [
+  "Mostrar número de resultados"
+ ],
+ "Show Text": [
+  "Mostrar texto"
+ ],
+ "Show Thumbnail": [
+  "Mostrar miniatura"
+ ],
+ "Show Title": [
+  "Mostrar título"
+ ],
+ "Show after X page views": [
+  "Mostrar após X visualizações de página"
+ ],
+ "Show after X sessions": [
+  "Mostrar após X sessões"
+ ],
+ "Show all": [
+  "Mostrar todos"
+ ],
+ "Show captions if available (only on desktop).": [
+  "Mostrar legendas, se houver (só no desktop)."
+ ],
  "Show me how": [
   "Me mostre como"
+ ],
+ "Show more details": [
+  "Mostrar mais detalhes"
+ ],
+ "Show on browsers": [
+  "Mostrar nos navegadores"
+ ],
+ "Show on devices": [
+  "Mostrar nos dispositivos"
+ ],
+ "Show resolved": [
+  "Mostrar resolvidas"
+ ],
+ "Show the full text of the post": [
+  "Mostrar o texto completo do post"
+ ],
+ "Show unread only": [
+  "Mostrar só não lidas"
+ ],
+ "Show up to X times": [
+  "Mostrar até X vezes"
+ ],
+ "Show when arriving from": [
+  "Mostrar ao chegar de"
+ ],
+ "Showcase": [
+  "Vitrine"
+ ],
+ "Side Cart": [
+  "Carrinho lateral"
  ],
  "Single": [
   "Único"
@@ -1457,14 +7094,53 @@
  "Single Posts": [
   "Posts únicos"
  ],
+ "Single Product": [
+  "Produto individual"
+ ],
+ "Single Product Page": [
+  "Página de produto individual"
+ ],
+ "Single Products": [
+  "Produtos individuais"
+ ],
+ "Singles": [
+  "Individuais"
+ ],
+ "Singular": [
+  "Singular"
+ ],
  "Site": [
   "Site"
+ ],
+ "Site Key": [
+  "Chave do site"
  ],
  "Site Logo": [
   "Logo do site"
  ],
+ "Site Tagline": [
+  "Descrição do site"
+ ],
+ "Site Title": [
+  "Título do site"
+ ],
+ "Site URL": [
+  "URL do site"
+ ],
+ "Site pages": [
+  "Páginas do site"
+ ],
+ "Sitemap": [
+  "Mapa do site"
+ ],
  "Size": [
   "Tamanho"
+ ],
+ "Size in MB": [
+  "Tamanho em MB"
+ ],
+ "Size is in MB. If you need to increase max upload size please contact your hosting.": [
+  "Tamanho em MB. Para aumentar o tamanho máximo de envio, fale com a sua hospedagem."
  ],
  "Skew X": [
   "Inclinar em X"
@@ -1475,8 +7151,92 @@
  "Skin": [
   "Aparência"
  ],
+ "Skip Taxonomy": [
+  "Pular taxonomia"
+ ],
+ "Skip items": [
+  "Pular itens"
+ ],
+ "Skipped": [
+  "Ignorado"
+ ],
+ "Slack": [
+  "Slack"
+ ],
  "Slide": [
   "Deslizar"
+ ],
+ "Slide #%d": [
+  "Slide nº %d"
+ ],
+ "Slide #1": [
+  "Slide nº 1"
+ ],
+ "Slide #2": [
+  "Slide nº 2"
+ ],
+ "Slide #3": [
+  "Slide nº 3"
+ ],
+ "Slide 1 Heading": [
+  "Título do slide 1"
+ ],
+ "Slide 2 Heading": [
+  "Título do slide 2"
+ ],
+ "Slide 3 Heading": [
+  "Título do slide 3"
+ ],
+ "Slide By Direction": [
+  "Deslizar pela direção"
+ ],
+ "Slide Heading": [
+  "Título do slide"
+ ],
+ "Slide In Down": [
+  "Deslizar de cima"
+ ],
+ "Slide In Left": [
+  "Deslizar da esquerda"
+ ],
+ "Slide In Right": [
+  "Deslizar da direita"
+ ],
+ "Slide In Up": [
+  "Deslizar de baixo"
+ ],
+ "Slide Out Down": [
+  "Deslizar para baixo"
+ ],
+ "Slide Out Left": [
+  "Deslizar para a esquerda"
+ ],
+ "Slide Out Right": [
+  "Deslizar para a direita"
+ ],
+ "Slide Out Up": [
+  "Deslizar para cima"
+ ],
+ "Slide Title": [
+  "Título do slide"
+ ],
+ "Slider Options": [
+  "Opções do slider"
+ ],
+ "Slides": [
+  "Slides"
+ ],
+ "Slides Name": [
+  "Nome dos slides"
+ ],
+ "Slides Per View": [
+  "Slides por visualização"
+ ],
+ "Slides on display": [
+  "Slides exibidos"
+ ],
+ "Slides on scroll": [
+  "Slides por rolagem"
  ],
  "Slides to Scroll": [
   "Slides para rolar"
@@ -1487,20 +7247,50 @@
  "Slow": [
   "Lento"
  ],
+ "Slug": [
+  "Slug"
+ ],
  "Small": [
   "Pequeno"
+ ],
+ "Small Header": [
+  "Cabeçalho pequeno"
+ ],
+ "Snap Position": [
+  "Posição de encaixe"
+ ],
+ "Social": [
+  "Social"
+ ],
+ "Soft Beat": [
+  "Batida suave"
  ],
  "Solid": [
   "Sólido"
  ],
+ "Some notes are not shown.": [
+  "Algumas notas não aparecem."
+ ],
+ "Some parts are in conflict. Choose which one you want to assign.": [
+  "Algumas partes estão em conflito. Escolha qual delas você quer atribuir."
+ ],
  "Something went wrong": [
   "Algo deu errado"
+ ],
+ "Something went wrong, please refresh the page.": [
+  "Algo deu errado. Atualize a página."
+ ],
+ "Something went wrong, please try again later.": [
+  "Algo deu errado. Tente novamente mais tarde."
  ],
  "Something went wrong.": [
   "Algo deu errado."
  ],
  "Source": [
   "Fonte"
+ ],
+ "Source Type": [
+  "Tipo de origem"
  ],
  "Space": [
   "Espaço"
@@ -1511,38 +7301,155 @@
  "Space Between Dots": [
   "Espaço entre pontos"
  ],
+ "Space From slides": [
+  "Espaço dos slides"
+ ],
  "Space between": [
   "Espaço entre"
  ],
  "Space between Items": [
   "Espaço entre os itens"
  ],
+ "Space from bottom": [
+  "Espaço da base"
+ ],
+ "Space from top": [
+  "Espaço do topo"
+ ],
  "Spacing": [
   "Espaçamento"
+ ],
+ "Spam detected": [
+  "Spam detectado"
+ ],
+ "Speed": [
+  "Velocidade"
+ ],
+ "Spinner": [
+  "Indicador de carregamento"
+ ],
+ "Spinner Color": [
+  "Cor do indicador de carregamento"
+ ],
+ "Spinners": [
+  "Giratórios"
+ ],
+ "Spinning": [
+  "Girando"
  ],
  "Square": [
   "Quadrado"
  ],
+ "Square Ticket": [
+  "Ingresso quadrado"
+ ],
  "Stacked": [
   "Empilhado"
+ ],
+ "Standard": [
+  "Padrão"
+ ],
+ "Star Color": [
+  "Cor da estrela"
+ ],
+ "Star Size": [
+  "Tamanho da estrela"
  ],
  "Start": [
   "Início"
  ],
+ "Start (before)": [
+  "Início (antes)"
+ ],
+ "Start Date": [
+  "Data inicial"
+ ],
+ "Start Point": [
+  "Ponto inicial"
+ ],
+ "Start building": [
+  "Começar a criar"
+ ],
+ "Start by creating a master item. All the other instances in the grid will match this design. Then go back to the widget in the editor panel and assign both a template and a source of content. Your grid should populate automatically.": [
+  "Comece criando um item principal. Todos os outros itens da grade seguem esse design. Depois volte ao widget no painel do editor e escolha um modelo e uma origem de conteúdo. A grade é preenchida automaticamente."
+ ],
+ "Start customizing every part of your site": [
+  "Comece a personalizar cada parte do seu site"
+ ],
+ "Start grid from chosen taxonomy": [
+  "Começar a grade pela taxonomia escolhida"
+ ],
+ "Start typing its name": [
+  "Comece a digitar o nome"
+ ],
+ "State": [
+  "Estado"
+ ],
  "Static": [
   "Estático"
+ ],
+ "Static item position": [
+  "Posição do item fixo"
+ ],
+ "Static position": [
+  "Posição fixa"
  ],
  "Status": [
   "Status"
  ],
+ "Stay In Column": [
+  "Ficar na coluna"
+ ],
+ "Step": [
+  "Etapa"
+ ],
+ "Step Buttons": [
+  "Botões das etapas"
+ ],
+ "Steps": [
+  "Etapas"
+ ],
+ "Steps Settings": [
+  "Configurações das etapas"
+ ],
  "Sticky": [
   "Fixo"
+ ],
+ "Sticky Offset": [
+  "Deslocamento do fixo"
+ ],
+ "Sticky On": [
+  "Fixo em"
+ ],
+ "Sticky Right Column": [
+  "Coluna direita fixa"
+ ],
+ "Sticky-posts ordering is visible on frontend only": [
+  "A ordenação de posts fixos só aparece no site"
+ ],
+ "Stock Status": [
+  "Status do estoque"
  ],
  "Stores only the URLs. The export stays light, but files load only while the original site is online.": [
   "Armazena apenas os URLs. A exportação permanece leve, mas os arquivos são carregados apenas enquanto o site original estiver on-line."
  ],
+ "Street Address": [
+  "Endereço"
+ ],
  "Stretch": [
   "Esticar"
+ ],
+ "Stretch the dropdown of the menu to full width.": [
+  "Esticar o menu suspenso para a largura total."
+ ],
+ "Stripe": [
+  "Stripe"
+ ],
+ "Stripe Button": [
+  "Botão do Stripe"
+ ],
+ "Stripe test environment": [
+  "Ambiente de teste do Stripe"
  ],
  "Structure": [
   "Estrutura"
@@ -1550,8 +7457,38 @@
  "Style": [
   "Estilo"
  ],
+ "Style the dropdown box that contains menu items.": [
+  "Estilize a caixa do menu suspenso que contém os itens."
+ ],
+ "Styles apply to items when the menu switches to dropdown layout": [
+  "Os estilos se aplicam aos itens quando o menu muda para o layout suspenso"
+ ],
+ "Sub Title": [
+  "Subtítulo"
+ ],
  "Subject": [
   "Assunto"
+ ],
+ "Submenu Indicator": [
+  "Indicador de submenu"
+ ],
+ "Submission": [
+  "Envio"
+ ],
+ "Submission Date": [
+  "Data do envio"
+ ],
+ "Submission ID": [
+  "ID do envio"
+ ],
+ "Submission not found or not in trash.": [
+  "Envio não encontrado ou não está na lixeira."
+ ],
+ "Submission not found.": [
+  "Envio não encontrado."
+ ],
+ "Submission saved successfully": [
+  "Envio salvo com sucesso"
  ],
  "Submissions": [
   "Envios"
@@ -1559,11 +7496,62 @@
  "Submit": [
   "Enviar"
  ],
+ "Submit Button": [
+  "Botão de enviar"
+ ],
  "Submit button": [
   "Botão “Enviar”"
  ],
+ "Subscriber already exists.": [
+  "O assinante já existe."
+ ],
+ "Subscription": [
+  "Assinatura"
+ ],
+ "Subtotal": [
+  "Subtotal"
+ ],
+ "Succeed": [
+  "Sucesso"
+ ],
  "Success": [
   "Sucesso"
+ ],
+ "Success Icon": [
+  "Ícone de sucesso"
+ ],
+ "Success Message": [
+  "Mensagem de sucesso"
+ ],
+ "Success Message Color": [
+  "Cor da mensagem de sucesso"
+ ],
+ "Success Message Duration": [
+  "Duração da mensagem de sucesso"
+ ],
+ "Successfully deleted component %s": [
+  "Componente %s excluído com sucesso"
+ ],
+ "Sunday": [
+  "Domingo"
+ ],
+ "Supported in \"https\" sites only": [
+  "Funciona só em sites com \"https\""
+ ],
+ "Swing": [
+  "Balançar"
+ ],
+ "Switch on comments from either the discussion box on the WordPress post edit screen or from the WordPress discussion settings.": [
+  "Ative os comentários na caixa \"Discussão\" da tela de edição do post ou nas configurações de discussão do WordPress."
+ ],
+ "Switch to table view": [
+  "Mudar para visualização em tabela"
+ ],
+ "Switch to the Atomic form for full styling control and unlimited design flexibility.": [
+  "Mude para o formulário atômico para ter controle total do estilo e liberdade de design."
+ ],
+ "Sync Project": [
+  "Sincronizar projeto"
  ],
  "Tab #1": [
   "Aba Nº 1"
@@ -1571,11 +7559,35 @@
  "Tab #2": [
   "Aba Nº 2"
  ],
+ "Tab 1 Name": [
+  "Nome da aba 1"
+ ],
+ "Tab 2 Name": [
+  "Nome da aba 2"
+ ],
+ "Tab Name": [
+  "Nome da aba"
+ ],
+ "Table": [
+  "Tabela"
+ ],
+ "Table of Contents": [
+  "Sumário"
+ ],
  "Tabs": [
   "Abas"
  ],
+ "Tabs Position": [
+  "Posição das abas"
+ ],
+ "Tada": [
+  "Tada"
+ ],
  "Tag": [
   "Tag"
+ ],
+ "Tag: %s": [
+  "Tag: %s"
  ],
  "Tags": [
   "Tags"
@@ -1583,20 +7595,65 @@
  "Take me there": [
   "Me leve até lá"
  ],
+ "Target": [
+  "Destino"
+ ],
+ "Target URL": [
+  "URL de destino"
+ ],
+ "Tax": [
+  "Imposto"
+ ],
+ "Tax Percentage": [
+  "Porcentagem do imposto"
+ ],
+ "Tax Rate": [
+  "Alíquota de imposto"
+ ],
  "Taxonomies": [
   "Taxonomias"
  ],
  "Taxonomy": [
   "Taxonomia"
  ],
+ "Taxonomy Children": [
+  "Filhos da taxonomia"
+ ],
+ "Taxonomy Filter": [
+  "Filtro de taxonomia"
+ ],
+ "Tel": [
+  "Telefone"
+ ],
  "Template": [
   "Modelo"
+ ],
+ "Template shortcode for template %s": [
+  "Shortcode do modelo %s"
+ ],
+ "Template type": [
+  "Tipo de modelo"
  ],
  "Templates": [
   "Modelos"
  ],
+ "Term": [
+  "Termo"
+ ],
  "Terms": [
   "Termos"
+ ],
+ "Terms & Conditions": [
+  "Termos e condições"
+ ],
+ "Terms are items in a taxonomy. The available taxonomies are: Categories, Tags, Formats and custom taxonomies.": [
+  "Termos são itens de uma taxonomia. As taxonomias disponíveis são: categorias, tags, formatos e taxonomias personalizadas."
+ ],
+ "Test Secret key": [
+  "Chave secreta de teste"
+ ],
+ "Testimonial Carousel": [
+  "Carrossel de depoimentos"
  ],
  "Text": [
   "Texto"
@@ -1607,20 +7664,128 @@
  "Text Color": [
   "Cor do texto"
  ],
+ "Text Padding": [
+  "Espaçamento do texto"
+ ],
+ "Text Shadow Control\u0004Shadow": [
+  "Sombra"
+ ],
+ "Text Wrap": [
+  "Quebra de texto"
+ ],
  "Text and Icon Color": [
   "Cor do texto e do ícone"
  ],
  "Text area": [
   "Área de texto"
  ],
+ "Text area placeholder": [
+  "Texto de exemplo da área de texto"
+ ],
+ "Textarea": [
+  "Área de texto"
+ ],
+ "Thank You. Your order has been received.": [
+  "Obrigado. Seu pedido foi recebido."
+ ],
+ "The \"Collapse\" option should only be used if the Table of Contents is made sticky": [
+  "A opção \"Recolher\" só deve ser usada se o sumário estiver fixo"
+ ],
+ "The %s widget was not found in your template.": [
+  "O widget %s não foi encontrado no seu modelo."
+ ],
+ "The Autoplay is inactive while editing. Preview your page to see it in action.": [
+  "A reprodução automática fica inativa durante a edição. Visualize a página para ver funcionando."
+ ],
+ "The Captcha field cannot be blank. Please enter a value.": [
+  "O campo do captcha não pode ficar vazio. Preencha um valor."
+ ],
+ "The Icon Set prefix already exists in your site. In order to avoid conflicts we recommend to use a unique prefix per Icon Set.": [
+  "O prefixo deste conjunto de ícones já existe no seu site. Para evitar conflitos, use um prefixo único para cada conjunto."
+ ],
+ "The Order Summary and Payment sections will remain in place while scrolling.": [
+  "As seções de resumo do pedido e pagamento ficam fixas durante a rolagem."
+ ],
+ "The Theme Comments skin uses the currently active theme comments design and layout to display the comment form and comments.": [
+  "A aparência \"Comentários do tema\" usa o design e o layout de comentários do tema ativo para exibir o formulário e os comentários."
+ ],
+ "The Web Open Font Format 2, Used by Super Modern Browsers": [
+  "Web Open Font Format 2, usado pelos navegadores mais modernos"
+ ],
+ "The Web Open Font Format, Used by Modern Browsers": [
+  "Web Open Font Format, usado pelos navegadores modernos"
+ ],
+ "The amount of items displayed in your Archive is set in your WordPress settings. %s": [
+  "A quantidade de itens exibidos no arquivo é definida nas configurações do WordPress. %s"
+ ],
+ "The editor preview might look different from the live site. Please make sure to check the frontend.": [
+  "A visualização no editor pode ser diferente do site publicado. Confira sempre no site."
+ ],
+ "The field accepts only numbers and phone characters (#, -, *, etc).": [
+  "O campo aceita só números e caracteres de telefone (#, -, *, etc)."
+ ],
+ "The field should be in HH:MM format.": [
+  "O campo deve estar no formato HH:MM."
+ ],
+ "The field value must be greater than or equal to %s.": [
+  "O valor do campo deve ser maior ou igual a %s."
+ ],
+ "The field value must be less than or equal to %s.": [
+  "O valor do campo deve ser menor ou igual a %s."
+ ],
+ "The file was only partially uploaded.": [
+  "O arquivo foi enviado só em parte."
+ ],
  "The footer template allows you to easily design and edit custom WordPress footers without the limits of your theme’s footer design constraints": [
   "O modelo de rodapé permite que você crie e edite facilmente rodapés personalizados do WordPress sem os limites das restrições de design do rodapé do seu tema"
+ ],
+ "The given post_id is not a Theme Builder document.": [
+  "O post_id informado não é um documento do Construtor de Temas."
  ],
  "The header template allows you to easily design and edit custom WordPress headers so you are no longer constrained by your theme’s header design limitations.": [
   "O modelo de cabeçalho permite projetar e editar facilmente cabeçalhos personalizados do WordPress para que você não fique mais restrito às limitações de design de cabeçalho do seu tema."
  ],
+ "The hover effect is inactive while editing. Preview your page to see it in action.": [
+  "O efeito ao passar o mouse fica inativo durante a edição. Visualize a página para ver funcionando."
+ ],
  "The media will be uploaded automatically, just as it was saved during export": [
   "A mídia será enviada automaticamente, da mesma forma que foi salva durante a exportação"
+ ],
+ "The note you are looking for was not found.": [
+  "A nota que você procura não foi encontrada."
+ ],
+ "The plugin has been updated, but could not be reactivated. Please reactivate it manually.": [
+  "O plugin foi atualizado, mas não pôde ser reativado. Reative-o manualmente."
+ ],
+ "The response parameter is invalid or malformed.": [
+  "O parâmetro response é inválido ou está malformado."
+ ],
+ "The response parameter is missing.": [
+  "O parâmetro response está faltando."
+ ],
+ "The secret parameter is invalid or malformed.": [
+  "O parâmetro secret é inválido ou está malformado."
+ ],
+ "The secret parameter is missing.": [
+  "O parâmetro secret está faltando."
+ ],
+ "The style of this widget is often affected by your theme and plugins. If you experience any such issue, try to switch to a basic theme and deactivate related plugins.": [
+  "O estilo deste widget costuma ser afetado pelo tema e pelos plugins. Se tiver algum problema, troque para um tema básico e desative os plugins relacionados."
+ ],
+ "The uploaded file exceeds the %1$s directive in %2$s.": [
+  "O arquivo enviado passa da diretiva %1$s em %2$s."
+ ],
+ "The uploaded file exceeds the %s directive that was specified in the HTML form.": [
+  "O arquivo enviado passa da diretiva %s definida no formulário HTML."
+ ],
+ "The uploaded file exceeds the allowed size.": [
+  "O arquivo enviado passa do tamanho permitido."
+ ],
+ "The uploaded file was only partially uploaded.": [
+  "O arquivo foi enviado só em parte."
+ ],
+ "The zip file provided is not supported!": [
+  "O arquivo zip enviado não é compatível!"
  ],
  "Theme": [
   "Tema"
@@ -1631,20 +7796,155 @@
  "Theme Builder could not be loaded": [
   "Não foi possível carregar o construtor de temas"
  ],
+ "Theme Comments": [
+  "Comentários do tema"
+ ],
+ "Theme builder": [
+  "Construtor de temas"
+ ],
+ "There are no menus in your site.": [
+  "Não há menus no seu site."
+ ],
+ "There is no error, the file uploaded with success.": [
+  "Nenhum erro: o arquivo foi enviado com sucesso."
+ ],
+ "There is nothing to export.": [
+  "Não há nada para exportar."
+ ],
+ "There was an error while trying to upload your file.": [
+  "Ocorreu um erro ao enviar seu arquivo."
+ ],
+ "These keys will serve as your default API key for all stripe implementations on your site.": [
+  "Estas chaves serão a chave de API padrão de todas as integrações com o Stripe no seu site."
+ ],
+ "These messages override Stripe's error messages.": [
+  "Estas mensagens substituem as mensagens de erro do Stripe."
+ ],
+ "They need permission to view this post.": [
+  "Ela precisa de permissão para ver este post."
+ ],
+ "Third item on the list": [
+  "Terceiro item da lista"
+ ],
+ "This Facebook widget has been discontinued by Meta and will no longer show any content. Please remove it from your page layout to maintain a professional site appearance. %1$sLearn more%2$s": [
+  "Este widget do Facebook foi descontinuado pela Meta e não mostra mais conteúdo. Remova-o do layout da página para manter o site com aparência profissional. %1$sSaiba mais%2$s"
+ ],
+ "This affects the types of widgets and templates you can use for your master item.": [
+  "Define os tipos de widgets e modelos que você pode usar no item principal."
+ ],
+ "This appears when the search yields no results.": [
+  "Aparece quando a pesquisa não encontra resultados."
+ ],
+ "This control confines the Table of Contents to heading elements under a specific container": [
+  "Este controle limita o sumário aos títulos dentro de um contêiner específico"
+ ],
+ "This field is required.": [
+  "Este campo é obrigatório."
+ ],
+ "This file exceeds the maximum allowed size.": [
+  "Este arquivo passa do tamanho máximo permitido."
+ ],
+ "This file type is not allowed for security reasons.": [
+  "Este tipo de arquivo não é permitido por motivos de segurança."
+ ],
+ "This file type is not allowed.": [
+  "Este tipo de arquivo não é permitido."
+ ],
+ "This is an example of a WooCommerce notice. (You won't see this while previewing your site.)": [
+  "Este é um exemplo de aviso do WooCommerce. (Ele não aparece ao visualizar o site.)"
+ ],
+ "This is how WooCommerce provides an info notice.": [
+  "É assim que o WooCommerce mostra um aviso informativo."
+ ],
+ "This is how an error notice would look.": [
+  "É assim que um aviso de erro aparece."
+ ],
+ "This is text element": [
+  "Este é um elemento de texto"
+ ],
+ "This is the address given to you by PayPal when you set up a sandbox with your developer account. You can use the sandbox to test your purchase flow.": [
+  "É o endereço que o PayPal fornece ao configurar um sandbox na sua conta de desenvolvedor. Use o sandbox para testar o fluxo de compra."
+ ],
  "This is the heading": [
   "Este é o título"
+ ],
+ "This is the page color behind your loading animation": [
+  "Esta é a cor da página atrás da animação de carregamento"
+ ],
+ "This is what a WooCommerce message notice looks like.": [
+  "É assim que uma mensagem do WooCommerce aparece."
+ ],
+ "This message is not visible to site visitors.": [
+  "Esta mensagem não aparece para os visitantes do site."
+ ],
+ "This option will allow the right column (e.g, Cart Totals) to be sticky while scrolling.": [
+  "Mantém a coluna direita (ex.: totais do carrinho) fixa durante a rolagem."
+ ],
+ "This page contains notes on elements that are still in draft mode.": [
+  "Esta página tem notas em elementos que ainda estão em rascunho."
+ ],
+ "This page is": [
+  "Esta página é"
+ ],
+ "This person needs: (1) permission to view this post, as well as (2) access to use Notes.": [
+  "Essa pessoa precisa de: (1) permissão para ver este post e (2) acesso às notas."
+ ],
+ "This post is password protected. Enter the password to view comments.": [
+  "Este post é protegido por senha. Digite a senha para ver os comentários."
  ],
  "This template includes the header, full-width content and footer": [
   "Este modelo inclui o cabeçalho, conteúdo com largura total e rodapé"
  ],
+ "This widget isn't compatible with components. Use atomic elements instead.": [
+  "Este widget não é compatível com componentes. Use elementos atômicos."
+ ],
+ "This will make the widget stop being global. It'll be reverted into being just a regular widget.": [
+  "O widget deixa de ser global e volta a ser um widget comum."
+ ],
+ "Thumbnail": [
+  "Miniatura"
+ ],
+ "Thumbnails": [
+  "Miniaturas"
+ ],
+ "Thursday": [
+  "Quinta-feira"
+ ],
+ "Ticker": [
+  "Letreiro"
+ ],
  "Time": [
   "Tempo"
+ ],
+ "Time Format": [
+  "Formato da hora"
+ ],
+ "Time of the day": [
+  "Hora do dia"
+ ],
+ "Time picker": [
+  "Seletor de hora"
+ ],
+ "Timeline": [
+  "Linha do tempo"
  ],
  "Times": [
   "Vezes"
  ],
+ "Timestamp": [
+  "Data e hora"
+ ],
+ "Timezone": [
+  "Fuso horário"
+ ],
  "Title": [
   "Título"
+ ],
+ "Title Alignment": [
+  "Alinhamento do título"
+ ],
+ "Title Color": [
+  "Cor do título"
  ],
  "Title HTML Tag": [
   "Tag HTML do título"
@@ -1652,14 +7952,92 @@
  "Titles": [
   "Títulos"
  ],
+ "Titles & Totals": [
+  "Títulos e totais"
+ ],
+ "To": [
+  "Para"
+ ],
+ "To Left": [
+  "Para a esquerda"
+ ],
+ "To Right": [
+  "Para a direita"
+ ],
+ "To change the Products Archive’s layout, go to Appearance > Customize.": [
+  "Para alterar o layout do arquivo de produtos, vá em Aparência > Personalizar."
+ ],
+ "To change the design of your notices, go to your %1$sWooCommerce Settings%2$s": [
+  "Para mudar o design dos avisos, vá em %1$sConfigurações do WooCommerce%2$s"
+ ],
+ "To continue, set different conditions for each so they don't conflict.": [
+  "Para continuar, defina condições diferentes para cada um, para não entrarem em conflito."
+ ],
+ "To control the layout of the items use the Style Panel of the \"Loop Layout\".": [
+  "Para controlar o layout dos itens, use o painel de estilo do \"Layout do loop\"."
+ ],
+ "To create, press": [
+  "Para criar, pressione"
+ ],
+ "To delete the group, first remove all the properties": [
+  "Para excluir o grupo, remova antes todas as propriedades"
+ ],
+ "To edit the title of your site, go to %1$sSite Identity%2$s.": [
+  "Para editar o título do site, vá em %1$sIdentidade do site%2$s."
+ ],
  "To export a ZIP, go to Edit Content, choose 'Link to Media', then Export as ZIP.": [
   "Para exportar um ZIP, acesse “Editar conteúdo”, escolha “Vincular à mídia” e, em seguida, “Exportar como .zip”."
+ ],
+ "To integrate with our forms you need an %1$sAPI Key%2$s.": [
+  "Para integrar com nossos formulários você precisa de uma %1$schave de API%2$s."
+ ],
+ "To manage these options, go to your Stripe account > Products >  Tax Rates.": [
+  "Para gerenciar estas opções, vá na sua conta do Stripe > Produtos > Alíquotas de imposto."
+ ],
+ "To open your Off-Canvas, add a link or button to your page, and set its dynamic tag to 'Off-Canvas'.": [
+  "Para abrir seu off-canvas, adicione um link ou botão à página e defina a tag dinâmica dele como 'Off-canvas'."
+ ],
+ "To use reCAPTCHA V3, you need to add the API Key and complete the setup process in Dashboard > Elementor > Settings > Integrations > reCAPTCHA V3.": [
+  "Para usar o reCAPTCHA V3, adicione a chave de API e conclua a configuração em Painel > Elementor > Configurações > Integrações > reCAPTCHA V3."
+ ],
+ "To use reCAPTCHA, you need to add the API Key and complete the setup process in Dashboard > Elementor > Settings > Integrations > reCAPTCHA.": [
+  "Para usar o reCAPTCHA, adicione a chave de API e conclua a configuração em Painel > Elementor > Configurações > Integrações > reCAPTCHA."
+ ],
+ "To view the validation badge, switch to preview mode": [
+  "Para ver o selo de validação, mude para o modo de visualização"
+ ],
+ "Today": [
+  "Hoje"
  ],
  "Toggle": [
   "Alternância"
  ],
+ "Toggle %1$s": [
+  "Alternar %1$s"
+ ],
+ "Toggle Align": [
+  "Alinhamento do botão"
+ ],
+ "Toggle Button": [
+  "Botão de alternar"
+ ],
+ "Toggle Icon": [
+  "Ícone de alternar"
+ ],
+ "Toggle Off-Canvas": [
+  "Alternar off-canvas"
+ ],
+ "Toggle Popup": [
+  "Alternar pop-up"
+ ],
+ "Toolset": [
+  "Toolset"
+ ],
  "Tooltip": [
   "Dica de ferramenta (tooltip)"
+ ],
+ "Tooltip Content": [
+  "Conteúdo da dica"
  ],
  "Top": [
   "Superior"
@@ -1670,17 +8048,98 @@
  "Top Bar": [
   "Barra superior"
  ],
+ "Top Recipes": [
+  "Melhores receitas"
+ ],
+ "Top Spacing": [
+  "Espaçamento superior"
+ ],
+ "Total": [
+  "Total"
+ ],
+ "Totals": [
+  "Totais"
+ ],
+ "Town / City": [
+  "Cidade"
+ ],
+ "Tracker": [
+  "Indicador"
+ ],
+ "Tracker Background": [
+  "Fundo do indicador"
+ ],
+ "Tracker Type": [
+  "Tipo de indicador"
+ ],
+ "Transaction Type": [
+  "Tipo de transação"
+ ],
+ "Transactions made through your PayPal button will be registered under this account.": [
+  "As transações feitas pelo seu botão do PayPal ficam registradas nesta conta."
+ ],
  "Transition": [
   "Transição"
  ],
  "Transition Duration": [
   "Duração da transição"
  ],
+ "Transition Speed": [
+  "Velocidade da transição"
+ ],
+ "Transparency": [
+  "Transparência"
+ ],
+ "Trash": [
+  "Lixeira"
+ ],
  "Trigger": [
   "Acionador"
  ],
+ "Triggers": [
+  "Gatilhos"
+ ],
+ "TrueType Fonts, Used for better supporting Safari, Android, iOS": [
+  "Fontes TrueType, usadas para melhor compatibilidade com Safari, Android e iOS"
+ ],
+ "Try it now": [
+  "Experimente agora"
+ ],
+ "Tuesday": [
+  "Terça-feira"
+ ],
+ "Tweet": [
+  "Tweet"
+ ],
+ "Tweet Button": [
+  "Botão de tweet"
+ ],
+ "Two Way Progress Bar": [
+  "Barra de progresso de mão dupla"
+ ],
+ "Two columns": [
+  "Duas colunas"
+ ],
  "Type": [
   "Tipo"
+ ],
+ "Type a note. Use @ to mention...": [
+  "Digite uma nota. Use @ para mencionar..."
+ ],
+ "Type a value": [
+  "Digite um valor"
+ ],
+ "Type to search": [
+  "Digite para pesquisar"
+ ],
+ "Type to start searching...": [
+  "Digite para pesquisar..."
+ ],
+ "Type your reply. Use @ to mention...": [
+  "Digite sua resposta. Use @ para mencionar..."
+ ],
+ "TypeKit partners with the world’s leading type foundries to bring thousands of beautiful fonts to designers every day.": [
+  "O TypeKit trabalha com as principais fundidoras de tipos do mundo para levar milhares de fontes bonitas aos designers todos os dias."
  ],
  "Typography": [
   "Tipografia"
@@ -1694,6 +8153,15 @@
  "URL": [
   "URL"
  ],
+ "URL Field": [
+  "Campo de URL"
+ ],
+ "URL Format": [
+  "Formato da URL"
+ ],
+ "USD": [
+  "USD"
+ ],
  "Underline": [
   "Sublinhado"
  ],
@@ -1706,8 +8174,20 @@
  "Unknown action: %s.": [
   "Ação desconhecida: %s."
  ],
+ "Unknown error.": [
+  "Erro desconhecido."
+ ],
+ "Unknown upload error.": [
+  "Erro de envio desconhecido."
+ ],
  "Unlink": [
   "Separar"
+ ],
+ "Unlink Widget": [
+  "Desvincular widget"
+ ],
+ "Unlink from global": [
+  "Desvincular do global"
  ],
  "Unmarked Color": [
   "Cor não marcada"
@@ -1715,11 +8195,50 @@
  "Unmarked Style": [
   "Estilo não marcado"
  ],
+ "Unread": [
+  "Não lido"
+ ],
+ "Unsupported": [
+  "Não compatível"
+ ],
+ "Up": [
+  "Para cima"
+ ],
  "Update": [
   "Atualizar"
  ],
+ "Update Cart": [
+  "Atualizar carrinho"
+ ],
+ "Update Cart Automatically": [
+  "Atualizar carrinho automaticamente"
+ ],
+ "Update Cart Button": [
+  "Botão de atualizar carrinho"
+ ],
+ "Update Date:": [
+  "Data de atualização:"
+ ],
+ "Update Font Type": [
+  "Atualizar tipo de fonte"
+ ],
  "Update Now": [
   "Atualizar agora"
+ ],
+ "Update Shipping Button": [
+  "Botão de atualizar entrega"
+ ],
+ "Update property": [
+  "Atualizar propriedade"
+ ],
+ "Updated At": [
+  "Atualizado em"
+ ],
+ "Updated At GMT": [
+  "Atualizado em (GMT)"
+ ],
+ "Updates to the cart (e.g., a removed item) via Ajax. The cart will update without refreshing the whole page.": [
+  "Atualiza o carrinho (ex.: item removido) via Ajax, sem recarregar a página inteira."
  ],
  "Upgrade": [
   "Atualizar"
@@ -1727,26 +8246,131 @@
  "Upgrade Now": [
   "Atualizar agora"
  ],
+ "Upgrade to Elementor Pro Advanced to get the Display Conditions feature as well as additional professional and ecommerce widgets": [
+  "Faça upgrade para o Elementor Pro Advanced para ter as condições de exibição e mais widgets profissionais e de e-commerce"
+ ],
+ "Upgrade your subscription to customize these and much more.": [
+  "Faça upgrade da sua assinatura para personalizar isto e muito mais."
+ ],
  "Upload": [
   "Enviar"
+ ],
+ "Upload JSON File": [
+  "Enviar arquivo JSON"
+ ],
+ "Upload an icon set to publish.": [
+  "Envie um conjunto de ícones para publicar."
+ ],
+ "Upload directory is not writable or does not exist.": [
+  "A pasta de envios não existe ou não permite gravação."
+ ],
+ "Upload font .%s file": [
+  "Enviar arquivo de fonte .%s"
+ ],
+ "Upload your card in .vcf format": [
+  "Envie seu cartão no formato .vcf"
  ],
  "Uploading JSON or ZIP files from unknown sources can be harmful and put your site at risk. For maximum safety, upload only JSON or ZIP files from trusted sources.": [
   "O envio de arquivos JSON ou ZIP de fontes desconhecidas pode ser prejudicial e colocar seu site em risco. Para máxima segurança, envie apenas arquivos JSON ou ZIP de fontes confiáveis."
  ],
+ "Uploading&hellip;": [
+  "Enviando&hellip;"
+ ],
+ "Uploads you receive via link are stored on your server. However, uploads via attachment won't be saved on your server, and under Submissions": [
+  "Os arquivos recebidos por link ficam salvos no seu servidor. Os recebidos como anexo não são salvos no servidor nem em Envios"
+ ],
+ "Upsell": [
+  "Upsell"
+ ],
+ "Upsells": [
+  "Upsells"
+ ],
+ "Use %1$scustom CSS%3$s to style your content or add %2$sthe \"selector\" prefix%3$s to target specific elements.": [
+  "Use %1$sCSS personalizado%3$s para estilizar o conteúdo ou adicione %2$so prefixo \"selector\"%3$s para atingir elementos específicos."
+ ],
  "Use %s widget and dozens more pro features to extend your toolbox and build sites faster and better.": [
   "Use o widget %s e dezenas de outros recursos profissionais para ampliar sua caixa de ferramentas e criar sites de forma mais rápida e melhores."
+ ],
+ "Use Atomic Form": [
+  "Usar formulário atômico"
+ ],
+ "Use them on your live site - not while testing.": [
+  "Use-as no site publicado, não durante os testes."
+ ],
+ "Use this field to set a custom API Key for the current form": [
+  "Use este campo para definir uma chave de API personalizada para este formulário"
+ ],
+ "Use this field to set a custom API URL for the current form": [
+  "Use este campo para definir uma URL de API personalizada para este formulário"
+ ],
+ "Use this setting to skip over posts (e.g. '2' to skip over 2 posts).": [
+  "Use esta opção para pular posts (ex.: '2' para pular 2 posts)."
+ ],
+ "User": [
+  "Usuário"
  ],
  "User Agent": [
   "Agente de usuário"
  ],
+ "User Agent:": [
+  "Navegador do usuário:"
+ ],
+ "User ID": [
+  "ID do usuário"
+ ],
  "User IP": [
   "IP do usuário"
+ ],
+ "User IP:": [
+  "IP do usuário:"
+ ],
+ "User Info": [
+  "Informações do usuário"
+ ],
+ "User Meta": [
+  "Metadados do usuário"
+ ],
+ "User Name:": [
+  "Nome do usuário:"
+ ],
+ "User Profile Picture": [
+  "Foto de perfil do usuário"
  ],
  "Username": [
   "Nome de usuário"
  ],
+ "Username Label": [
+  "Rótulo do usuário"
+ ],
+ "Username Placeholder": [
+  "Texto de exemplo do usuário"
+ ],
+ "Username or Email Address": [
+  "Nome de usuário ou e-mail"
+ ],
+ "Using the Anchor offset may require you to adjust the offset of other sticky elements. %1$s Learn more %2$s": [
+  "Usar o deslocamento da âncora pode exigir ajustar o deslocamento de outros elementos fixos. %1$s Saiba mais %2$s"
+ ],
+ "Validate API Key": [
+  "Validar chave de API"
+ ],
+ "Validate Kit ID": [
+  "Validar ID do kit"
+ ],
+ "Validate Live API Key": [
+  "Validar chave de API de produção"
+ ],
+ "Validate Test API Key": [
+  "Validar chave de API de teste"
+ ],
  "Value": [
   "Valor"
+ ],
+ "Variable": [
+  "Variável"
+ ],
+ "Variable Fonts": [
+  "Fontes variáveis"
  ],
  "Variations": [
   "Variações"
@@ -1757,11 +8381,20 @@
  "Vertical Align": [
   "Alinhar verticalmente"
  ],
+ "Vertical Links": [
+  "Links verticais"
+ ],
  "Vertical Orientation": [
   "Orientação vertical"
  ],
+ "Vertical Padding": [
+  "Espaçamento vertical"
+ ],
  "Vertical Position": [
   "Posição vertical"
+ ],
+ "Vertical Scroll": [
+  "Rolagem vertical"
  ],
  "Viber": [
   "Viber"
@@ -1769,14 +8402,59 @@
  "Video": [
   "Vídeo"
  ],
+ "Video Count": [
+  "Contagem de vídeos"
+ ],
  "Video Link": [
   "Link do vídeo"
+ ],
+ "Video Playlist": [
+  "Playlist de vídeos"
+ ],
+ "Video Position": [
+  "Posição do vídeo"
+ ],
+ "Video URL": [
+  "URL do vídeo"
+ ],
+ "Video Width": [
+  "Largura do vídeo"
+ ],
+ "Videos": [
+  "Vídeos"
  ],
  "View": [
   "Ver"
  ],
+ "View Cart": [
+  "Ver carrinho"
+ ],
+ "View Font": [
+  "Ver fonte"
+ ],
+ "View Icon": [
+  "Ver ícone"
+ ],
+ "View Live Site": [
+  "Ver site publicado"
+ ],
+ "View Site": [
+  "Ver site"
+ ],
+ "Viewport": [
+  "Janela de visualização"
+ ],
  "Vimeo": [
   "Vimeo"
+ ],
+ "Visible only if selected step type contains \"Icon\"": [
+  "Visível só se o tipo de etapa escolhido tiver \"Ícone\""
+ ],
+ "Visitor": [
+  "Visitante"
+ ],
+ "Visitor Time": [
+  "Hora do visitante"
  ],
  "WP Dashboard": [
   "Painel do WP"
@@ -1784,17 +8462,44 @@
  "Want to give access only to content?": [
   "Quer dar acesso apenas ao conteúdo?"
  ],
+ "Want to save this as your cart page?": [
+  "Quer salvar como sua página de carrinho?"
+ ],
+ "Want to save this as your checkout page?": [
+  "Quer salvar como sua página de finalização de compra?"
+ ],
+ "Want to save this as your my account page?": [
+  "Quer salvar como sua página Minha conta?"
+ ],
+ "Want to save this as your purchase summary page?": [
+  "Quer salvar como sua página de resumo da compra?"
+ ],
  "Warning": [
   "Atenção"
  ],
  "Warning: JSON or ZIP files may be unsafe": [
   "Atenção: Arquivos JSON ou ZIP podem ser inseguros"
  ],
+ "Watched Icon": [
+  "Ícone de assistido"
+ ],
  "Waze": [
   "Waze"
  ],
+ "We are experiencing technical difficulties on our end. Please try again to reconnect.": [
+  "Estamos com dificuldades técnicas. Tente reconectar."
+ ],
  "We couldn't install Angie automatically. Click below to install it manually.": [
   "Não foi possível instalar o Angie automaticamente. Clique abaixo, para instalar manualmente."
+ ],
+ "We couldn’t submit your responses because they seem like spam.": [
+  "Não conseguimos enviar suas respostas porque elas parecem spam."
+ ],
+ "We noticed that you already applied %s with the same condition.": [
+  "Percebemos que você já aplicou %s com a mesma condição."
+ ],
+ "We're here for you": [
+  "Estamos aqui para você"
  ],
  "Webhook": [
   "Webhook"
@@ -1802,8 +8507,44 @@
  "Webhook URL": [
   "URL do webhook"
  ],
+ "Webhook URL is required and must be valid": [
+  "A URL do webhook é obrigatória e precisa ser válida"
+ ],
+ "Webhook delivered successfully": [
+  "Webhook entregue com sucesso"
+ ],
+ "Webhook request failed: %s": [
+  "A requisição do webhook falhou: %s"
+ ],
+ "Webhook requires form context (form id, form name, post id, field metadata).": [
+  "O webhook precisa do contexto do formulário (ID do formulário, nome, ID do post e metadados dos campos)."
+ ],
+ "Webhook returned error status code: %d": [
+  "O webhook retornou o código de erro: %d"
+ ],
+ "Website": [
+  "Site"
+ ],
+ "Wednesday": [
+  "Quarta-feira"
+ ],
+ "Week": [
+  "Semana"
+ ],
+ "Weekly": [
+  "Semanal"
+ ],
+ "Weeks": [
+  "Semanas"
+ ],
  "Weight": [
   "Peso"
+ ],
+ "What action the user needs to do for the popup to open.": [
+  "O que o usuário precisa fazer para o pop-up abrir."
+ ],
+ "What is a 404 page template?": [
+  "O que é um modelo de página 404?"
  ],
  "What is a Products Archive Template?": [
   "O que é um modelo de arquivo de produtos?"
@@ -1811,17 +8552,89 @@
  "What is a Single Product Template?": [
   "O que é um modelo de produto único?"
  ],
+ "What is a footer template?": [
+  "O que é um modelo de rodapé?"
+ ],
+ "What is a header template?": [
+  "O que é um modelo de cabeçalho?"
+ ],
+ "What is a loop?": [
+  "O que é um loop?"
+ ],
+ "What is a search results template?": [
+  "O que é um modelo de resultados de pesquisa?"
+ ],
+ "What is a single page template?": [
+  "O que é um modelo de página individual?"
+ ],
+ "What is a single post template?": [
+  "O que é um modelo de post individual?"
+ ],
+ "What is an archive template?": [
+  "O que é um modelo de arquivo?"
+ ],
  "WhatsApp": [
   "WhatsApp"
+ ],
+ "When arriving from specific URL": [
+  "Ao chegar de uma URL específica"
+ ],
+ "Where Do You Want to Display Your Code?": [
+  "Onde você quer exibir seu código?"
+ ],
+ "Where do you want to display your %s?": [
+  "Onde você quer exibir seu %s?"
+ ],
+ "Where do you want to display your template?": [
+  "Onde você quer exibir seu modelo?"
+ ],
+ "Whole Box": [
+  "Caixa inteira"
+ ],
+ "Whole Slide": [
+  "Slide inteiro"
+ ],
+ "Widget Width": [
+  "Largura do widget"
  ],
  "Width": [
   "Largura"
  ],
+ "With the new Theme Builder you can visually manage every part of your site intuitively, making the task of designing a complete website that much easier": [
+  "Com o novo Construtor de Temas você gerencia visualmente cada parte do site, de forma intuitiva, e montar um site completo fica muito mais fácil"
+ ],
  "With your current role, you cannot create components. Contact an administrator to create one.": [
   "Com sua função atual, você não pode criar componentes. Fale com um administrador para criar um."
  ],
+ "Within": [
+  "Em até"
+ ],
+ "Wobble": [
+  "Oscilar"
+ ],
+ "Woo - Products-": [
+  "Woo - Produtos-"
+ ],
+ "Woo - Single Elements": [
+  "Woo - Elementos do produto"
+ ],
  "WooCommerce": [
   "WooCommerce"
+ ],
+ "WooCommerce Breadcrumbs": [
+  "Trilha de navegação do WooCommerce"
+ ],
+ "WooCommerce Notices": [
+  "Avisos do WooCommerce"
+ ],
+ "WooCommerce Pages": [
+  "Páginas do WooCommerce"
+ ],
+ "Word Wrap": [
+  "Quebra de linha"
+ ],
+ "WordPress Menu": [
+  "Menu do WordPress"
  ],
  "Would you like to save the changes you've made?": [
   "Gostaria de salvar as alterações feitas?"
@@ -1832,14 +8645,50 @@
  "Y Anchor Point": [
   "Ponto de ancoragem Y"
  ],
+ "Yahoo Calendar": [
+  "Calendário do Yahoo"
+ ],
+ "Year: %s": [
+  "Ano: %s"
+ ],
+ "Yearly": [
+  "Anual"
+ ],
  "Yes": [
   "Sim"
+ ],
+ "Yesterday": [
+  "Ontem"
+ ],
+ "You Haven’t Saved Templates Yet.": [
+  "Você ainda não salvou nenhum modelo."
+ ],
+ "You are Logged in as %1$s (%2$sLogout%3$s)": [
+  "Você está conectado como %1$s (%2$sSair%3$s)"
+ ],
+ "You are connected to Facebook App %1$s, %2$sChange App%3$s": [
+  "Você está conectado ao app do Facebook %1$s, %2$sTrocar app%3$s"
+ ],
+ "You are currently editing a Search Form Widget in its old version. Any new Search widget dragged into the canvas will be the new Search widget, with the improved search capabilities.": [
+  "Você está editando a versão antiga do widget Formulário de pesquisa. Qualquer widget de pesquisa novo arrastado para a tela será o novo widget de pesquisa, com recursos de busca melhores."
+ ],
+ "You are not autorized to view this Note. Please contact your admin.": [
+  "Você não tem permissão para ver esta nota. Fale com o administrador."
+ ],
+ "You are using %1$s set in the %2$sIntegrations Settings%3$s.": [
+  "Você está usando %1$s definido nas %2$sConfigurações de integrações%3$s."
+ ],
+ "You can also set a different %s by choosing \"Custom\".": [
+  "Você também pode definir outro %s escolhendo \"Personalizado\"."
  ],
  "You can create multiple footers, and assign each to different areas of your site.": [
   "Você pode criar vários rodapés e atribuir cada um a diferentes áreas do seu site."
  ],
  "You can create multiple headers, and assign each to different areas of your site.": [
   "Você pode criar vários cabeçalhos e atribuir cada um a diferentes áreas do seu site."
+ ],
+ "You can create multiple products archive templates, and assign each to different categories of products. This gives you the freedom to customize the appearance for each type of product being shown.": [
+  "Você pode criar vários modelos de arquivo de produtos e atribuir cada um a categorias diferentes. Assim, você personaliza a aparência de cada tipo de produto exibido."
  ],
  "You can create multiple single page templates, and assign each to different areas of your site.": [
   "Você pode criar vários modelos de página única e atribuir cada um a diferentes áreas do seu site."
@@ -1856,17 +8705,153 @@
  "You can easily control the layout and design of the Search Results page with the Search Results template, which is simply a special archive template just for displaying search results.": [
   "Você pode controlar facilmente o layout e o design da página de resultados da pesquisa com o modelo para resultados da pesquisa, que é simplesmente um modelo de arquivo especial apenas para exibir os resultados da pesquisa."
  ],
+ "You can only add the Notices widget once per page.": [
+  "Só é possível adicionar o widget de avisos uma vez por página."
+ ],
+ "You can upload only %d file.": [
+  "Você só pode enviar %d arquivo.",
+  "Você só pode enviar %d arquivos."
+ ],
+ "You do not have permission to create theme templates.": [
+  "Você não tem permissão para criar modelos de tema."
+ ],
+ "You do not have permission to delete this template.": [
+  "Você não tem permissão para excluir este modelo."
+ ],
+ "You do not have permission to edit this template.": [
+  "Você não tem permissão para editar este modelo."
+ ],
+ "You have not entered a valid secret key for this environment, Please add a valid secret key": [
+  "Você não informou uma chave secreta válida para este ambiente. Adicione uma chave secreta válida"
+ ],
+ "You may also like...": [
+  "Você também pode gostar de..."
+ ],
+ "You may be interested in...": [
+  "Talvez você se interesse por..."
+ ],
+ "You must include the %1$s widget in your template (%2$s)": [
+  "Você precisa incluir o widget %1$s no seu modelo (%2$s)"
+ ],
+ "You need at least one WooCommerce order to preview the order here.": [
+  "É preciso ter pelo menos um pedido no WooCommerce para visualizar aqui."
+ ],
+ "You'll be able to add this global widget to multiple areas on your site, and edit it from one single place.": [
+  "Você poderá usar este widget global em várias áreas do site e editá-lo num lugar só."
+ ],
+ "You're not using PRO Elements yet!": [
+  "Você ainda não está usando o PRO Elements!"
+ ],
+ "You've reached the limit of 5 alternating items for this loop. Please remove an alternating item before creating a new one.": [
+  "Você chegou ao limite de 5 itens alternados neste loop. Remova um antes de criar outro."
+ ],
+ "You've updated your cart page.": [
+  "Você atualizou sua página de carrinho."
+ ],
+ "You've updated your checkout page.": [
+  "Você atualizou sua página de finalização de compra."
+ ],
+ "You've updated your my account page.": [
+  "Você atualizou sua página Minha conta."
+ ],
+ "You've updated your summary page.": [
+  "Você atualizou sua página de resumo."
+ ],
  "YouTube": [
   "YouTube"
+ ],
+ "YouTube or Vimeo link": [
+  "Link do YouTube ou Vimeo"
+ ],
+ "Your Fontello, IcoMoon or Fontastic .zip file": [
+  "Seu arquivo .zip do Fontello, IcoMoon ou Fontastic"
+ ],
+ "Your Global Widget is locked": [
+  "Seu widget global está bloqueado"
+ ],
+ "Your Order": [
+  "Seu pedido"
+ ],
+ "Your Pro subscription has expired. Renew to create new components.": [
+  "Sua assinatura Pro expirou. Renove para criar novos componentes."
+ ],
+ "Your Site's Global Parts": [
+  "Partes globais do seu site"
+ ],
+ "Your cart is currently empty.": [
+  "Seu carrinho está vazio."
+ ],
+ "Your comment is awaiting moderation.": [
+  "Seu comentário está aguardando moderação."
+ ],
+ "Your properties will appear in the Properties panel, where you can organize and manage them anytime.": [
+  "Suas propriedades aparecem no painel Propriedades, onde você pode organizá-las e gerenciá-las a qualquer momento."
+ ],
+ "Your submission failed because of a server error.": [
+  "Seu envio falhou por causa de um erro no servidor."
+ ],
+ "Your submission failed because of an error.": [
+  "Seu envio falhou por causa de um erro."
+ ],
+ "Your submission failed because the form is invalid.": [
+  "Seu envio falhou porque o formulário é inválido."
+ ],
+ "Your submission was flagged as spam. Please try again or contact the site administrator.": [
+  "Seu envio foi marcado como spam. Tente novamente ou fale com o administrador do site."
+ ],
+ "Your submission was successful.": [
+  "Seu envio foi realizado com sucesso."
+ ],
+ "Your template was imported": [
+  "Seu modelo foi importado"
+ ],
+ "Zip": [
+  "CEP"
  ],
  "Zoom": [
   "Zoom"
  ],
+ "Zoom Direction": [
+  "Direção do zoom"
+ ],
+ "Zoom In": [
+  "Aproximar"
+ ],
+ "Zoom Out": [
+  "Afastar"
+ ],
+ "daily archives date format\u0004F j, Y": [
+  "j \\d\\e F \\d\\e Y"
+ ],
+ "date format\u0004Use the letters: %s": [
+  "Use as letras: %s"
+ ],
+ "global": [
+  "global"
+ ],
+ "https://your-link.com": [
+  "https://seu-link.com"
+ ],
  "https://your-webhook-url.com": [
   "https://seu-url-de-webhook.com"
  ],
+ "import": [
+  "importar"
+ ],
+ "items": [
+  "itens"
+ ],
+ "key|value": [
+  "chave|valor"
+ ],
+ "monthly archives date format\u0004F Y": [
+  "F \\d\\e Y"
+ ],
  "of": [
   "de"
+ ],
+ "on div-block or flexbox.": [
+  "num bloco div ou flexbox."
  ],
  "operations array is required.": [
   "o array “operations” é obrigatório."
@@ -1877,7 +8862,70 @@
  "or": [
   "ou"
  ],
+ "post": [
+  "post"
+ ],
+ "post format archive title\u0004Asides": [
+  "Notas"
+ ],
+ "post format archive title\u0004Audio": [
+  "Áudio"
+ ],
+ "post format archive title\u0004Chats": [
+  "Conversas"
+ ],
+ "post format archive title\u0004Galleries": [
+  "Galerias"
+ ],
+ "post format archive title\u0004Images": [
+  "Imagens"
+ ],
+ "post format archive title\u0004Links": [
+  "Links"
+ ],
+ "post format archive title\u0004Quotes": [
+  "Citações"
+ ],
+ "post format archive title\u0004Statuses": [
+  "Status"
+ ],
+ "post format archive title\u0004Videos": [
+  "Vídeos"
+ ],
  "post_id is required.": [
   "“post_id” é obrigatório."
+ ],
+ "property exposed": [
+  "propriedade exposta"
+ ],
+ "reCAPTCHA": [
+  "reCAPTCHA"
+ ],
+ "reCAPTCHA V3": [
+  "reCAPTCHA V3"
+ ],
+ "reCAPTCHA V3 validation failed, suspected as abusive usage": [
+  "A validação do reCAPTCHA V3 falhou: suspeita de uso abusivo"
+ ],
+ "shipping fee": [
+  "taxa de entrega"
+ ],
+ "terms and conditions": [
+  "termos e condições do site"
+ ],
+ "time format\u0004Use the letters: %s": [
+  "Use as letras: %s"
+ ],
+ "update requires at least one mutable field (currently: conditions).": [
+  "A atualização exige pelo menos um campo alterável (hoje: conditions)."
+ ],
+ "via PRO Elements": [
+  "via PRO Elements"
+ ],
+ "yearly archives date format\u0004Y": [
+  "Y"
+ ],
+ "{number} Responses": [
+  "{number} respostas"
  ]
 }
