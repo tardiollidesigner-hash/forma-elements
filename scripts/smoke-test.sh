@@ -12,9 +12,12 @@ ADMIN_PASSWORD="$(openssl rand -hex 16)"
 ADDONS="elementskit-lite royal-elementor-addons essential-addons-for-elementor-lite happy-elementor-addons"
 FAILED=0
 
+# Falhas viram anotações (::error::), visíveis na página do robô mesmo sem login no GitHub.
+trap 'echo "::error title=Comando falhou (linha $LINENO)::$BASH_COMMAND"' ERR
+
 curl -sSL -o /tmp/wp-cli.phar https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 wp() { php -d memory_limit=512M /tmp/wp-cli.phar --path="$WP_DIR" "$@"; }
-check() { if [ "$1" = "ok" ]; then echo "OK    $2"; else echo "FALHA $2"; FAILED=1; fi; }
+check() { if [ "$1" = "ok" ]; then echo "OK    $2"; else echo "::error title=Teste::FALHA $2"; FAILED=1; fi; }
 
 echo "::group::Instalando WordPress em português"
 rm -rf "$WP_DIR"
@@ -47,7 +50,7 @@ wp eval '
     "Tradução baixada na ativação"   => (bool) glob( WP_LANG_DIR . "/plugins/elementor-pt_BR*" ),
   ];
   foreach ( $checks as $label => $ok ) {
-    echo ( $ok ? "OK    " : "FALHA " ) . "$label\n";
+    echo ( $ok ? "OK    " : "::error title=Teste::FALHA " ) . "$label\n";
   }
   echo "Elementor " . ELEMENTOR_VERSION . " + PRO Elements " . ELEMENTOR_PRO_VERSION . "\n";
   exit( in_array( false, $checks, true ) ? 1 : 0 );
@@ -59,7 +62,7 @@ wp eval '
     "Marca trocada nos textos"     => false === strpos( __( "Edit with Elementor", "elementor" ), "Elementor" ),
   ];
   foreach ( $checks as $label => $ok ) {
-    echo ( $ok ? "OK    " : "FALHA " ) . "$label\n";
+    echo ( $ok ? "OK    " : "::error title=Teste::FALHA " ) . "$label\n";
   }
   exit( in_array( false, $checks, true ) ? 1 : 0 );
 ' || FAILED=1
@@ -81,7 +84,7 @@ ADDONS="$ADDONS" wp eval '
   $missing = 0;
   foreach ( explode( " ", getenv( "ADDONS" ) ) as $addon ) {
     $count = $per_plugin[ $addon ] ?? 0;
-    echo ( $count ? "OK    " : "FALHA " ) . "$addon registrou $count widgets\n";
+    echo ( $count ? "OK    " : "::error title=Teste::FALHA " ) . "$addon registrou $count widgets\n";
     $missing += $count ? 0 : 1;
   }
   exit( $missing ? 1 : 0 );

@@ -35,7 +35,7 @@ jobs:
       previous_elementor: ${{ steps.check.outputs.previous_elementor }}
       previous_pro_elements: ${{ steps.check.outputs.previous_pro_elements }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - id: check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,7 +62,7 @@ jobs:
       ELEMENTOR: ${{ needs.check.outputs.elementor }}
       PRO_ELEMENTS: ${{ needs.check.outputs.pro_elements }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: shivammathur/setup-php@v2
         with:
@@ -70,7 +70,7 @@ jobs:
           extensions: mysqli, gd, zip, intl
           tools: none
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
