@@ -115,14 +115,21 @@ for needle in "Forma smoke heading" "elementor-widget-heading" "elementor-widget
 done
 
 # Painel logado: a tela Plugins não pode desativar os caminhos "fingidos" do Elementor.
-COOKIES=/tmp/smoke-cookies.txt
-curl -sS -c "$COOKIES" -b "wordpress_test_cookie=WP%20Cookie%20check" -o /dev/null \
-  --data-urlencode "log=smoke" --data-urlencode "pwd=$ADMIN_PASSWORD" --data-urlencode "testcookie=1" "$URL/wp-login.php"
-PLUGINS_HTML=$(curl -sS -b "$COOKIES" "$URL/wp-admin/plugins.php")
+# Sessão de administrador gerada pelo próprio WordPress (mais confiável que preencher o formulário de login).
+SESSION=$(wp eval '
+  $user = get_user_by( "login", "smoke" )->ID;
+  $until = time() + HOUR_IN_SECONDS;
+  echo AUTH_COOKIE . "=" . wp_generate_auth_cookie( $user, $until, "auth" ) . "; "
+    . LOGGED_IN_COOKIE . "=" . wp_generate_auth_cookie( $user, $until, "logged_in" );
+')
+admin_get() { curl -sS -H "Cookie: $SESSION" "$URL$1"; }
+page_title() { grep -o '<title>[^<]*' <<<"$1" | head -1 | sed 's/<title>//'; }
+
+PLUGINS_HTML=$(admin_get /wp-admin/plugins.php)
 if grep -q 'data-plugin="forma-elements/forma-elements.php"' <<<"$PLUGINS_HTML"; then
   check ok "login no painel"
 else
-  check falha "login no painel"
+  check falha "login no painel (página: $(page_title "$PLUGINS_HTML"))"
 fi
 if grep -qiE "foi desativado devido a um erro|has been deactivated due to an error" <<<"$PLUGINS_HTML"; then
   check falha "tela Plugins sem erro de plugin desativado"
@@ -134,11 +141,11 @@ if wp option get active_plugins --format=json | grep -q '"elementor/elementor.ph
 else
   check ok "caminhos fingidos não gravados no banco"
 fi
-EDITOR_HTML=$(curl -sS -b "$COOKIES" "$URL/wp-admin/post.php?post=$PAGE_ID&action=elementor")
+EDITOR_HTML=$(admin_get "/wp-admin/post.php?post=$PAGE_ID&action=elementor")
 if grep -q "forma-elements-editor-css" <<<"$EDITOR_HTML" && grep -q "elementor-editor-wrapper-v2\|elementor-panel" <<<"$EDITOR_HTML"; then
   check ok "editor abre com o tema Forma"
 else
-  check falha "editor abre com o tema Forma"
+  check falha "editor abre com o tema Forma (página: $(page_title "$EDITOR_HTML"))"
 fi
 echo "::endgroup::"
 
