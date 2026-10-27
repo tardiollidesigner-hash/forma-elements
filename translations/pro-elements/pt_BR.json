@@ -1,0 +1,1883 @@
+{
+ "%1$s (%2$s %3$dpx)": [
+  "%1$s (%2$s %3$dpx)"
+ ],
+ "%1$s of %2$s": [
+  "%1$s de %2$s"
+ ],
+ "%s Widget": [
+  "Widget %s"
+ ],
+ "1": [
+  "1"
+ ],
+ "10": [
+  "10"
+ ],
+ "2": [
+  "2"
+ ],
+ "3": [
+  "3"
+ ],
+ "4": [
+  "4"
+ ],
+ "5": [
+  "5"
+ ],
+ "6": [
+  "6"
+ ],
+ "7": [
+  "7"
+ ],
+ "8": [
+  "8"
+ ],
+ "9": [
+  "9"
+ ],
+ "A 404 page template allows you to easily design the layout and style of the page that is displayed when a visitor arrives at a page that does not exist.": [
+  "Um modelo de página 404 permite que você crie facilmente o layout e o estilo da página que é exibida quando um visitante chega a uma página que não existe."
+ ],
+ "A products archive template allows you to easily design the layout and style of your WooCommerce shop page or other product archive pages - those pages that show a list of products, which may be filtered by terms such as categories, tags, etc.": [
+  "Um modelo de arquivo de produtos permite que você crie facilmente o layout e o estilo da página da sua loja WooCommerce ou outras páginas de arquivo de produtos - aquelas páginas que mostram uma lista de produtos, os quais podem ser filtrados por termos como categorias, tags, etc."
+ ],
+ "A single page template allows you to easily create the layout and style of pages, ensuring design consistency across all the pages of your site.": [
+  "Um modelo de página única permite que você crie facilmente o layout e o estilo das páginas, garantindo consistência de design em todas as páginas do seu site."
+ ],
+ "A single post template allows you to easily design the layout and style of posts, ensuring a design consistency throughout all your blog posts, for example.": [
+  "Um modelo de post único permite que você crie facilmente o layout e o estilo dos posts, garantindo consistência de design em todos os seus posts de blog, por exemplo."
+ ],
+ "A single product template allows you to easily design the layout and style of WooCommerce single product pages, and apply that template to various conditions that you assign.": [
+  "Um modelo de produto único permite que você crie facilmente o layout e o estilo das páginas de produtos únicos do WooCommerce e aplique esse modelo a várias condições que você atribuir."
+ ],
+ "API Key": [
+  "Chave de API"
+ ],
+ "About Heading": [
+  "Título \"Sobre\""
+ ],
+ "Above": [
+  "Acima"
+ ],
+ "Accessible Name": [
+  "Nome acessível"
+ ],
+ "Action": [
+  "Ação"
+ ],
+ "Actions": [
+  "Ações"
+ ],
+ "Activate": [
+  "Ativar"
+ ],
+ "Activate now": [
+  "Ativar agora"
+ ],
+ "Active": [
+  "Ativo"
+ ],
+ "Active Color": [
+  "Cor ativa"
+ ],
+ "Active Icon": [
+  "Ícone ativo"
+ ],
+ "Add": [
+  "Adicionar"
+ ],
+ "Add New": [
+  "Adicionar novo"
+ ],
+ "Add item": [
+  "Adicionar item"
+ ],
+ "Add nofollow": [
+  "Adicionar nofollow (não seguir)"
+ ],
+ "Add your custom class WITHOUT the dot. e.g: my-class": [
+  "Adicione sua classe personalizada SEM o ponto. Por exemplo: my-class"
+ ],
+ "Add your custom id WITHOUT the Pound key. e.g: my-id": [
+  "Adicione seu ID personalizado SEM o símbolo \"#\" - por exemplo: meu-id"
+ ],
+ "Additional Options": [
+  "Opções adicionais"
+ ],
+ "Additional Settings": [
+  "Configurações adicionais"
+ ],
+ "Advanced": [
+  "Avançado"
+ ],
+ "After": [
+  "Depois"
+ ],
+ "After publishing this widget, you will be able to set it as visible on the entire site in the Admin Table.": [
+  "Após publicar este widget, você poderá defini-lo como visível em todo o site na tabela administrativa."
+ ],
+ "Alignment": [
+  "Alinhamento"
+ ],
+ "All": [
+  "Tudo"
+ ],
+ "All Icons": [
+  "Todos os ícones"
+ ],
+ "All Posts": [
+  "Todos os posts"
+ ],
+ "All images and files are stored with the template. Keeps everything intact, but the file is larger.": [
+  "Todas as imagens e arquivos são armazenados junto com o modelo. Mantém tudo intacto, mas o arquivo fica maior."
+ ],
+ "Alt": [
+  "Alt"
+ ],
+ "Amount": [
+  "Quantidade"
+ ],
+ "An archive template allows you to easily design the layout and style of archive pages - those pages that show a list of posts (e.g. a blog’s list of recent posts), which may be filtered by terms such as authors, categories, tags, search results, etc.": [
+  "Um modelo de arquivo permite que você crie facilmente o layout e o estilo das páginas de arquivo - aquelas páginas que mostram uma lista de posts (por exemplo, a lista de posts recentes de um blog), que podem ser filtradas por termos como autores, categorias, tags, resultados de pesquisa, etc."
+ ],
+ "An error occurred.": [
+  "Ocorreu um erro."
+ ],
+ "Animation": [
+  "Animação"
+ ],
+ "Animation Delay": [
+  "Atraso da animação"
+ ],
+ "Animation Duration": [
+  "Duração da animação"
+ ],
+ "Apply": [
+  "Aplicar"
+ ],
+ "Apply Link On": [
+  "Aplicar link em"
+ ],
+ "Archive": [
+  "Arquivo"
+ ],
+ "Archives": [
+  "Arquivos"
+ ],
+ "Are you sure?": [
+  "Tem certeza?"
+ ],
+ "Arrows": [
+  "Setas"
+ ],
+ "Arrows and Dots": [
+  "Setas e pontos"
+ ],
+ "Aside": [
+  "Nota"
+ ],
+ "Aspect Ratio": [
+  "Proporção da tela"
+ ],
+ "Atomic Form": [
+  "Formulário atômico"
+ ],
+ "Atomic form": [
+  "Formulário atômico"
+ ],
+ "Attachment Caption": [
+  "Legenda do anexo"
+ ],
+ "Attributes": [
+  "Atributos"
+ ],
+ "Auto": [
+  "Automático"
+ ],
+ "Autoplay": [
+  "Reprodução automática"
+ ],
+ "Autoplay Speed": [
+  "Velocidade da reprodução automática"
+ ],
+ "Back": [
+  "Voltar"
+ ],
+ "Background": [
+  "Plano de fundo"
+ ],
+ "Background Color": [
+  "Cor do fundo"
+ ],
+ "Background Overlay": [
+  "Sobreposição de fundo"
+ ],
+ "Banner": [
+  "Banner"
+ ],
+ "Bcc": [
+  "Cco"
+ ],
+ "Before": [
+  "Antes"
+ ],
+ "Below": [
+  "Abaixo"
+ ],
+ "Bio": [
+  "Biografia"
+ ],
+ "Blend Mode": [
+  "Modo de mesclagem"
+ ],
+ "Block": [
+  "Bloco"
+ ],
+ "Blur": [
+  "Desfocar"
+ ],
+ "Bold": [
+  "Negrito"
+ ],
+ "Border": [
+  "Borda"
+ ],
+ "Border Color": [
+  "Cor da borda"
+ ],
+ "Border Radius": [
+  "Raio da borda"
+ ],
+ "Border Type": [
+  "Tipo de borda"
+ ],
+ "Border Width": [
+  "Largura da borda"
+ ],
+ "Bottom": [
+  "Inferior"
+ ],
+ "Bottom Left": [
+  "Inferior à esquerda"
+ ],
+ "Bottom Right": [
+  "Inferior à direita"
+ ],
+ "Box": [
+  "Caixa"
+ ],
+ "Box Shadow": [
+  "Sombra da caixa"
+ ],
+ "Boxed": [
+  "Encaixotado"
+ ],
+ "Breakpoint": [
+  "Ponto de interrupção"
+ ],
+ "Bring to Front": [
+  "Trazer para frente"
+ ],
+ "Bulk actions": [
+  "Ações em massa"
+ ],
+ "Button": [
+  "Botão"
+ ],
+ "Button ID": [
+  "ID do botão"
+ ],
+ "Buttons": [
+  "Botões"
+ ],
+ "CSS Classes": [
+  "Classes CSS"
+ ],
+ "CSS ID": [
+  "ID CSS"
+ ],
+ "CSS function": [
+  "Função CSS"
+ ],
+ "CTA Button": [
+  "Botão de CTA"
+ ],
+ "Call to Action": [
+  "Chamada para ação"
+ ],
+ "Cancel": [
+  "Cancelar"
+ ],
+ "Canvas": [
+  "Tela"
+ ],
+ "Caption": [
+  "Legenda"
+ ],
+ "Captions": [
+  "Legendas"
+ ],
+ "Carousel Name": [
+  "Nome do carrossel"
+ ],
+ "Categories": [
+  "Categorias"
+ ],
+ "Category": [
+  "Categoria"
+ ],
+ "Cc": [
+  "Cc"
+ ],
+ "Center": [
+  "Centro"
+ ],
+ "Checkbox": [
+  "Caixa de seleção"
+ ],
+ "Choose File": [
+  "Escolher arquivo"
+ ],
+ "Choose Image": [
+  "Escolher imagem"
+ ],
+ "Choose Template": [
+  "Escolher modelo"
+ ],
+ "Circle": [
+  "Círculo"
+ ],
+ "Classic": [
+  "Clássico"
+ ],
+ "Clear": [
+  "Limpar"
+ ],
+ "Click here": [
+  "Clique aqui"
+ ],
+ "Close": [
+  "Fechar"
+ ],
+ "Close %s": [
+  "Fechar %s"
+ ],
+ "Close Button": [
+  "Botão \"Fechar\""
+ ],
+ "Close panel": [
+  "Fechar painel"
+ ],
+ "Code": [
+  "Código"
+ ],
+ "Code with AI": [
+  "Codificar com IA"
+ ],
+ "Color": [
+  "Cor"
+ ],
+ "Colors": [
+  "Cores"
+ ],
+ "Column": [
+  "Coluna"
+ ],
+ "Column Span": [
+  "Extensão da coluna"
+ ],
+ "Column Width": [
+  "Largura da coluna"
+ ],
+ "Columns": [
+  "Colunas"
+ ],
+ "Columns Gap": [
+  "Espaço entre colunas"
+ ],
+ "Comments": [
+  "Comentários"
+ ],
+ "Components": [
+  "Componentes"
+ ],
+ "Components require atomic elements only. Remove widgets to create this component.": [
+  "Os componentes requerem apenas elementos atômicos. Remova os widgets para criar este componente."
+ ],
+ "Connect & Activate": [
+  "Conectar e ativar"
+ ],
+ "Contact Buttons": [
+  "Botões de contato"
+ ],
+ "Contain": [
+  "Conter"
+ ],
+ "Container": [
+  "Contêiner"
+ ],
+ "Content": [
+  "Conteúdo"
+ ],
+ "Content Position": [
+  "Posição do conteúdo"
+ ],
+ "Content Spacing": [
+  "Espaçamento do conteúdo"
+ ],
+ "Content Width": [
+  "Largura do conteúdo"
+ ],
+ "Continue": [
+  "Continuar"
+ ],
+ "Cover": [
+  "Cobertura"
+ ],
+ "Create": [
+  "Criar"
+ ],
+ "Create Reusable Components": [
+  "Criar componentes reutilizáveis"
+ ],
+ "Create component": [
+  "Criar componente"
+ ],
+ "Create design elements that sync across your entire site.": [
+  "Crie elementos de design que se sincronizam em todo o seu site."
+ ],
+ "Credit": [
+  "Crédito"
+ ],
+ "Custom": [
+  "Personalizado"
+ ],
+ "Custom Attributes": [
+  "Atributos personalizados"
+ ],
+ "Custom CSS": [
+  "CSS personalizado"
+ ],
+ "Custom Caption": [
+  "Legenda personalizada"
+ ],
+ "Custom Code": [
+  "Código personalizado"
+ ],
+ "Custom Effect": [
+  "Efeito personalizado"
+ ],
+ "Custom Fonts": [
+  "Fontes personalizadas"
+ ],
+ "Custom Icons": [
+  "Ícones personalizados"
+ ],
+ "Custom URL": [
+  "URL personalizado"
+ ],
+ "Custom Width": [
+  "Largura personalizada"
+ ],
+ "Custom post types": [
+  "Tipos de posts personalizados"
+ ],
+ "Customize": [
+  "Personalizar"
+ ],
+ "Danger": [
+  "Perigo"
+ ],
+ "Dashboard": [
+  "Painel"
+ ],
+ "Dashed": [
+  "Tracejado"
+ ],
+ "Date": [
+  "Data"
+ ],
+ "Default": [
+  "Padrão"
+ ],
+ "Delay": [
+  "Atraso"
+ ],
+ "Delete": [
+  "Excluir"
+ ],
+ "Description": [
+  "Descrição"
+ ],
+ "Desktop": [
+  "Desktop"
+ ],
+ "Direction": [
+  "Direção"
+ ],
+ "Disable": [
+  "Desativar"
+ ],
+ "Discard": [
+  "Descartar"
+ ],
+ "Dismiss this notice.": [
+  "Dispensar esta notificação."
+ ],
+ "Display Conditions": [
+  "Condições de exibição"
+ ],
+ "Display Percentage": [
+  "Exibir porcentagem"
+ ],
+ "Distance from content": [
+  "Distância do conteúdo"
+ ],
+ "Divider": [
+  "Divisor"
+ ],
+ "Dividers": [
+  "Divisores"
+ ],
+ "Do not show this message again": [
+  "Não mostrar esta mensagem novamente"
+ ],
+ "Don't Show Again": [
+  "Não mostrar novamente"
+ ],
+ "Dots": [
+  "Pontos"
+ ],
+ "Dotted": [
+  "Pontilhado"
+ ],
+ "Double": [
+  "Duplo"
+ ],
+ "Drag widget here": [
+  "Arraste o widget para cá"
+ ],
+ "Duration": [
+  "Duração"
+ ],
+ "Dynamic Tags": [
+  "Tags dinâmicas"
+ ],
+ "Edit": [
+  "Editar"
+ ],
+ "Edit %s": [
+  "Editar %s"
+ ],
+ "Edit Template": [
+  "Editar modelo"
+ ],
+ "Edit content": [
+  "Editar conteúdo"
+ ],
+ "Effect": [
+  "Efeito"
+ ],
+ "Element": [
+  "Elemento"
+ ],
+ "Elementor": [
+  "Elementor"
+ ],
+ "Elementor %s": [
+  "Elementor %s"
+ ],
+ "Email": [
+  "E-mail"
+ ],
+ "Enable": [
+  "Ativar"
+ ],
+ "End": [
+  "Fim"
+ ],
+ "Enter text": [
+  "Digitar o texto"
+ ],
+ "Enter your URL": [
+  "Digite seu URL"
+ ],
+ "Enter your description": [
+  "Digite sua descrição"
+ ],
+ "Enter your email": [
+  "Digite seu e-mail"
+ ],
+ "Enter your image caption": [
+  "Digite a legenda da sua imagem"
+ ],
+ "Enter your link": [
+  "Digite seu link"
+ ],
+ "Enter your number": [
+  "Digite seu número"
+ ],
+ "Enter your text here": [
+  "Digite seu texto aqui"
+ ],
+ "Enter your title": [
+  "Digite seu título"
+ ],
+ "Enter your username": [
+  "Digite seu nome de usuário"
+ ],
+ "Entrance Animation": [
+  "Animação de entrada"
+ ],
+ "Error:": [
+  "Erro:"
+ ],
+ "Excerpt": [
+  "Resumo"
+ ],
+ "Exit": [
+  "Sair"
+ ],
+ "Expand": [
+  "Expandir"
+ ],
+ "Export": [
+  "Exportar"
+ ],
+ "External URL": [
+  "URL externo"
+ ],
+ "Extra Large": [
+  "Extra grande"
+ ],
+ "Extra Small": [
+  "Extra pequeno"
+ ],
+ "Fade": [
+  "Esmaecer"
+ ],
+ "Fallback": [
+  "Alternativo"
+ ],
+ "Fast": [
+  "Rápido"
+ ],
+ "Featured": [
+  "Em destaque"
+ ],
+ "Featured Image": [
+  "Imagem destacada"
+ ],
+ "Features": [
+  "Recursos"
+ ],
+ "Field": [
+  "Campo"
+ ],
+ "Fit To Screen": [
+  "Ajustar à tela"
+ ],
+ "Fixed": [
+  "Fixo"
+ ],
+ "Floating Bar": [
+  "Barra flutuante"
+ ],
+ "Floating Bars": [
+  "Barras flutuantes"
+ ],
+ "Floating Buttons": [
+  "Botões flutuantes"
+ ],
+ "Floating Element": [
+  "Elemento flutuante"
+ ],
+ "Floating Elements": [
+  "Elementos flutuantes"
+ ],
+ "Focus": [
+  "Foco"
+ ],
+ "Fonts": [
+  "Fontes"
+ ],
+ "Footer": [
+  "Rodapé"
+ ],
+ "Footers": [
+  "Rodapés"
+ ],
+ "Form": [
+  "Formulário"
+ ],
+ "Form Fields": [
+  "Campos do formulário"
+ ],
+ "Framed": [
+  "Emoldurado"
+ ],
+ "Full Width": [
+  "Largura total"
+ ],
+ "Gap": [
+  "Espaçamento"
+ ],
+ "General": [
+  "Geral"
+ ],
+ "Get Healthy": [
+  "Fique saudável"
+ ],
+ "Get Popup Builder": [
+  "Obter o construtor de pop-ups"
+ ],
+ "Global": [
+  "Global"
+ ],
+ "Go Back": [
+  "Voltar"
+ ],
+ "Go To Dashboard": [
+  "Acessar o painel"
+ ],
+ "Got it": [
+  "Entendi"
+ ],
+ "Gradient": [
+  "Gradiente"
+ ],
+ "Grid": [
+  "Grade"
+ ],
+ "Groove": [
+  "Sulco"
+ ],
+ "HTML": [
+  "HTML"
+ ],
+ "HTML Tag": [
+  "Tag HTML"
+ ],
+ "Header": [
+  "Cabeçalho"
+ ],
+ "Headers": [
+  "Cabeçalhos"
+ ],
+ "Heading": [
+  "Título"
+ ],
+ "Headline": [
+  "Manchete"
+ ],
+ "Height": [
+  "Altura"
+ ],
+ "Hidden": [
+  "Oculto"
+ ],
+ "Hide": [
+  "Ocultar"
+ ],
+ "Horizontal": [
+  "Horizontal"
+ ],
+ "Horizontal Orientation": [
+  "Orientação horizontal"
+ ],
+ "Horizontal Position": [
+  "Posição horizontal"
+ ],
+ "Horizontal Scroll": [
+  "Rolagem horizontal"
+ ],
+ "Hover": [
+  "Ao passar o mouse"
+ ],
+ "Hover Animation": [
+  "Animação ao passar o mouse"
+ ],
+ "ID": [
+  "ID"
+ ],
+ "Icon": [
+  "Ícone"
+ ],
+ "Icon Color": [
+  "Cor do Ícone"
+ ],
+ "Icon Position": [
+  "Posição do ícone"
+ ],
+ "Icon Spacing": [
+  "Espaçamento do ícone"
+ ],
+ "Icons": [
+  "Ícones"
+ ],
+ "Identity": [
+  "Identidade"
+ ],
+ "If you’d like a different style for a specific category, it’s easy to create a separate archive template whose condition is to only display when users are viewing that category’s list of posts.": [
+  "Se você desejar um estilo diferente para uma categoria específica, é fácil criar um modelo de arquivo separado, cuja condição seja a exibição apenas quando os usuários estiverem visualizando a lista de posts dessa categoria."
+ ],
+ "Image": [
+  "Imagem"
+ ],
+ "Image Overlay": [
+  "Sobreposição de imagem"
+ ],
+ "Image Position": [
+  "Posição da imagem"
+ ],
+ "Image Resolution": [
+  "Resolução da imagem"
+ ],
+ "Image Size": [
+  "Tamanho da imagem"
+ ],
+ "Image Spacing": [
+  "Espaçamento da imagem"
+ ],
+ "In": [
+  "Interno"
+ ],
+ "Inactive": [
+  "Inativo"
+ ],
+ "Infinite Loop": [
+  "Repetição infinita (loop)"
+ ],
+ "Info": [
+  "Informação"
+ ],
+ "Info Links": [
+  "Links de informações"
+ ],
+ "Inline": [
+  "Em linha"
+ ],
+ "Input": [
+  "Entrada"
+ ],
+ "Inside": [
+  "Dentro"
+ ],
+ "Install Manually": [
+  "Instalar manualmente"
+ ],
+ "Install now": [
+  "Instalar agora"
+ ],
+ "Installation failed": [
+  "Falha ao instalar"
+ ],
+ "Instances": [
+  "Instâncias"
+ ],
+ "Integrations": [
+  "Integrações"
+ ],
+ "Interactions": [
+  "Interações"
+ ],
+ "Invalid operation.": [
+  "Operação inválida."
+ ],
+ "Invert": [
+  "Inverter"
+ ],
+ "Italic": [
+  "Itálico"
+ ],
+ "Item": [
+  "Item"
+ ],
+ "Item #%d": [
+  "Item Nº %d"
+ ],
+ "Item #1": [
+  "Item Nº 1"
+ ],
+ "Item #2": [
+  "Item Nº 2"
+ ],
+ "Item #3": [
+  "Item Nº 3"
+ ],
+ "Item Position": [
+  "Posição do item"
+ ],
+ "Item Title": [
+  "Título do item"
+ ],
+ "Items": [
+  "Itens"
+ ],
+ "John Doe": [
+  "Fulano de Tal"
+ ],
+ "Justified": [
+  "Justificado"
+ ],
+ "Justify": [
+  "Justificar"
+ ],
+ "Keep your site's visitors happy when they get lost by displaying your recent posts, a search bar, or any information that might help the user find what they were looking for.": [
+  "Mantenha os visitantes do seu site satisfeitos quando se perderem, exibindo seus posts recentes, uma barra de pesquisa ou qualquer informação que possa ajudar o usuário a encontrar o que estava procurando."
+ ],
+ "Ken Burns Effect": [
+  "Efeito Ken Burns"
+ ],
+ "Key": [
+  "Chave"
+ ],
+ "Label": [
+  "Rótulo"
+ ],
+ "Large": [
+  "Grande"
+ ],
+ "Last 30 days": [
+  "Últimos 30 dias"
+ ],
+ "Last 7 days": [
+  "Últimos 7 dias"
+ ],
+ "Layout": [
+  "Layout"
+ ],
+ "Lazy Load": [
+  "Carregamento tardio"
+ ],
+ "Learn More": [
+  "Saiba mais"
+ ],
+ "Learn more": [
+  "Saiba mais"
+ ],
+ "Left": [
+  "Esquerda"
+ ],
+ "Library": [
+  "Biblioteca"
+ ],
+ "Lightbox": [
+  "Lightbox"
+ ],
+ "Link": [
+  "Link"
+ ],
+ "Link Color": [
+  "Cor do link"
+ ],
+ "Link Type": [
+  "Tipo de link"
+ ],
+ "Link to media": [
+  "Vincular à mídia"
+ ],
+ "List": [
+  "Lista"
+ ],
+ "List Item": [
+  "Item da lista"
+ ],
+ "List Item #1": [
+  "Item Nº 1 da lista"
+ ],
+ "List Item #2": [
+  "Item Nº 2 da lista"
+ ],
+ "List Item #3": [
+  "Item Nº 3 da lista"
+ ],
+ "List Items": [
+  "Itens da lista"
+ ],
+ "Load More": [
+  "Carregar mais"
+ ],
+ "Loading": [
+  "Carregando"
+ ],
+ "Loading...": [
+  "Carregando..."
+ ],
+ "Location": [
+  "Localização"
+ ],
+ "Logged In": [
+  "Conectado"
+ ],
+ "Loop": [
+  "Repetir"
+ ],
+ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.": [
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+ ],
+ "Manage your site’s lightbox settings in the %1$sLightbox panel%2$s.": [
+  "Gerencie as configurações do lightbox do seu site no painel %1$sLightbox%2$s."
+ ],
+ "Margin": [
+  "Margem"
+ ],
+ "Max Width": [
+  "Largura máxima"
+ ],
+ "Max height": [
+  "Altura máxima"
+ ],
+ "Maximum %d operations per request.": [
+  "Máximo de %d operações por solicitação."
+ ],
+ "Meal Prep": [
+  "Preparo da refeição"
+ ],
+ "Media File": [
+  "Arquivo de mídia"
+ ],
+ "Media format": [
+  "Formato da mídia"
+ ],
+ "Medium": [
+  "Médio"
+ ],
+ "Meet Our Attributes": [
+  "Conheça nossos atributos"
+ ],
+ "Meet Our Custom CSS": [
+  "Conheça nosso CSS personalizado"
+ ],
+ "Meet Our Global Widget": [
+  "Conheça nosso widget global"
+ ],
+ "Menu": [
+  "Menu"
+ ],
+ "Menus": [
+  "Menus"
+ ],
+ "Message": [
+  "Mensagem"
+ ],
+ "Messenger": [
+  "Messenger"
+ ],
+ "Metadata": [
+  "Metadados"
+ ],
+ "Middle": [
+  "Meio"
+ ],
+ "Min Height": [
+  "Altura mínima"
+ ],
+ "Motion Effects": [
+  "Efeitos de movimento"
+ ],
+ "Mouse Effects": [
+  "Efeitos do mouse"
+ ],
+ "Move X": [
+  "Mover em X"
+ ],
+ "Move Y": [
+  "Mover em Y"
+ ],
+ "Move Z": [
+  "Mover em Z"
+ ],
+ "Multiple": [
+  "Múltiplo"
+ ],
+ "My Account": [
+  "Minha conta"
+ ],
+ "Name": [
+  "Nome"
+ ],
+ "Navigation": [
+  "Navegação"
+ ],
+ "New": [
+  "Novo"
+ ],
+ "Next": [
+  "Próximo"
+ ],
+ "Next slide": [
+  "Próximo slide"
+ ],
+ "No": [
+  "Não"
+ ],
+ "No thanks": [
+  "Não"
+ ],
+ "None": [
+  "Nenhum"
+ ],
+ "Normal": [
+  "Normal"
+ ],
+ "Not Found": [
+  "Não encontrado"
+ ],
+ "Note:": [
+  "Observação:"
+ ],
+ "Notes": [
+  "Anotações"
+ ],
+ "Notifications": [
+  "Notificações"
+ ],
+ "Number": [
+  "Número"
+ ],
+ "OK": [
+  "OK"
+ ],
+ "Off": [
+  "Desativado"
+ ],
+ "Offset": [
+  "Deslocamento"
+ ],
+ "On": [
+  "Ativado"
+ ],
+ "Opacity": [
+  "Opacidade"
+ ],
+ "Open": [
+  "Abrir"
+ ],
+ "Open %s": [
+  "Abrir %s"
+ ],
+ "Open in new window": [
+  "Abrir em nova janela"
+ ],
+ "Or": [
+  "Ou"
+ ],
+ "Or, save this template to the cloud instead.": [
+  "Ou, em vez disso, salve este modelo na nuvem."
+ ],
+ "Order": [
+  "Ordem"
+ ],
+ "Order By": [
+  "Ordenar por"
+ ],
+ "Other": [
+  "Outro"
+ ],
+ "Out": [
+  "Externo"
+ ],
+ "Outline": [
+  "Contorno"
+ ],
+ "Outside": [
+  "Fora"
+ ],
+ "Overlay": [
+  "Sobreposição"
+ ],
+ "Overline": [
+  "Sobrelinhado"
+ ],
+ "Padding": [
+  "Preenchimento"
+ ],
+ "Page": [
+  "Página"
+ ],
+ "Page Layout": [
+  "Layout da página"
+ ],
+ "Page Transitions": [
+  "Transições de página"
+ ],
+ "Page URL": [
+  "URL da página"
+ ],
+ "Pages": [
+  "Páginas"
+ ],
+ "Pagination": [
+  "Paginação"
+ ],
+ "Panel": [
+  "Painel"
+ ],
+ "Paragraph Spacing": [
+  "Espaçamento entre parágrafos"
+ ],
+ "Paste URL or type": [
+  "Cole o URL ou digite"
+ ],
+ "Paste Waze link": [
+  "Colar o link do Waze"
+ ],
+ "Pause": [
+  "Pausar"
+ ],
+ "Pause on Hover": [
+  "Pausar ao passar o mouse"
+ ],
+ "Pause on Interaction": [
+  "Pausar na interação"
+ ],
+ "Percentage": [
+  "Porcentagem"
+ ],
+ "Play": [
+  "Reproduzir"
+ ],
+ "Play Icon": [
+  "Ícone de reprodução"
+ ],
+ "Play Video": [
+  "Reproduzir vídeo"
+ ],
+ "Please make sure the ID is unique and not used elsewhere on the page. This field allows %1$sA-z 0-9%2$s & underscore chars without spaces.": [
+  "Certifique-se de que o ID seja único e não seja usado em nenhum outro lugar da página. Este campo permite os caracteres %1$sA-z 0-9%2$s e sublinhados sem espaços."
+ ],
+ "Popular": [
+  "Popular"
+ ],
+ "Popup": [
+  "Pop-up"
+ ],
+ "Popups": [
+  "Pop-ups"
+ ],
+ "Position": [
+  "Posição"
+ ],
+ "Post": [
+  "Post"
+ ],
+ "Posts": [
+  "Posts"
+ ],
+ "Preview": [
+  "Pré-visualizar"
+ ],
+ "Preview Changes": [
+  "Pré-visualizar alterações"
+ ],
+ "Previous": [
+  "Anterior"
+ ],
+ "Previous slide": [
+  "Slide anterior"
+ ],
+ "Primary Color": [
+  "Cor primária"
+ ],
+ "Pro": [
+  "Pro"
+ ],
+ "Product": [
+  "Produto"
+ ],
+ "Products Archive": [
+  "Arquivo de produtos"
+ ],
+ "Profile": [
+  "Perfil"
+ ],
+ "Progress Bar": [
+  "Barra de progresso"
+ ],
+ "Random": [
+  "Aleatório"
+ ],
+ "Rating": [
+  "Classificação"
+ ],
+ "Read More": [
+  "Leia mais"
+ ],
+ "Read More Text": [
+  "Texto \"Leia mais\""
+ ],
+ "Rename": [
+  "Renomear"
+ ],
+ "Resource Links": [
+  "Links de recursos"
+ ],
+ "Restore": [
+  "Restaurar"
+ ],
+ "Review": [
+  "Avaliar"
+ ],
+ "Right": [
+  "Direita"
+ ],
+ "Rotate": [
+  "Rotacionar"
+ ],
+ "Rotate X": [
+  "Rotacionar em X"
+ ],
+ "Rotate Y": [
+  "Rotacionar em Y"
+ ],
+ "Rotate Z": [
+  "Rotacionar em Z"
+ ],
+ "Rounded": [
+  "Arredondado"
+ ],
+ "Row": [
+  "Linha"
+ ],
+ "Rows": [
+  "Linhas"
+ ],
+ "Rows Gap": [
+  "Espaço entre as linhas"
+ ],
+ "SMS": [
+  "SMS"
+ ],
+ "SVG": [
+  "SVG"
+ ],
+ "Save": [
+  "Salvar"
+ ],
+ "Save Changes": [
+  "Salvar alterações"
+ ],
+ "Save media to the cloud": [
+  "Salvar mídia na nuvem"
+ ],
+ "Scale": [
+  "Escala"
+ ],
+ "Scale X": [
+  "Escala em X"
+ ],
+ "Scale Y": [
+  "Escala em Y"
+ ],
+ "Scroll": [
+  "Rolar"
+ ],
+ "Scrolling Effects": [
+  "Efeitos de rolagem"
+ ],
+ "Search": [
+  "Pesquisar"
+ ],
+ "Search Results": [
+  "Resultados da pesquisa"
+ ],
+ "Secondary Color": [
+  "Cor secundária"
+ ],
+ "Section": [
+  "Seção"
+ ],
+ "Sections": [
+  "Seções"
+ ],
+ "Select": [
+  "Selecionar"
+ ],
+ "Select how do you want to save & export the media files.": [
+  "Selecione como você quer salvar e exportar os arquivos de mídia."
+ ],
+ "Self Hosted": [
+  "Auto-hospedado"
+ ],
+ "Send": [
+  "Enviar"
+ ],
+ "Separator": [
+  "Separador"
+ ],
+ "Server Error": [
+  "Erro do servidor"
+ ],
+ "Set how many slides are scrolled per swipe.": [
+  "Defina quantos slides são rolados por deslizamento."
+ ],
+ "Settings": [
+  "Configurações"
+ ],
+ "Shadow": [
+  "Sombra"
+ ],
+ "Shape": [
+  "Forma"
+ ],
+ "Shape Divider": [
+  "Divisor de forma"
+ ],
+ "Shapes\u0004Curly": [
+  "Cacheado"
+ ],
+ "Share Button": [
+  "Botão \"Compartilhar\""
+ ],
+ "Shortcode": [
+  "Shortcode"
+ ],
+ "Show": [
+  "Mostrar"
+ ],
+ "Show me how": [
+  "Me mostre como"
+ ],
+ "Single": [
+  "Único"
+ ],
+ "Single Page": [
+  "Página única"
+ ],
+ "Single Pages": [
+  "Páginas únicas"
+ ],
+ "Single Post": [
+  "Post único"
+ ],
+ "Single Posts": [
+  "Posts únicos"
+ ],
+ "Site": [
+  "Site"
+ ],
+ "Site Logo": [
+  "Logo do site"
+ ],
+ "Size": [
+  "Tamanho"
+ ],
+ "Skew X": [
+  "Inclinar em X"
+ ],
+ "Skew Y": [
+  "Inclinar em Y"
+ ],
+ "Skin": [
+  "Aparência"
+ ],
+ "Slide": [
+  "Deslizar"
+ ],
+ "Slides to Scroll": [
+  "Slides para rolar"
+ ],
+ "Slideshow": [
+  "Apresentação de slides"
+ ],
+ "Slow": [
+  "Lento"
+ ],
+ "Small": [
+  "Pequeno"
+ ],
+ "Solid": [
+  "Sólido"
+ ],
+ "Something went wrong": [
+  "Algo deu errado"
+ ],
+ "Something went wrong.": [
+  "Algo deu errado."
+ ],
+ "Source": [
+  "Fonte"
+ ],
+ "Space": [
+  "Espaço"
+ ],
+ "Space Between": [
+  "Espaço entre"
+ ],
+ "Space Between Dots": [
+  "Espaço entre pontos"
+ ],
+ "Space between": [
+  "Espaço entre"
+ ],
+ "Space between Items": [
+  "Espaço entre os itens"
+ ],
+ "Spacing": [
+  "Espaçamento"
+ ],
+ "Square": [
+  "Quadrado"
+ ],
+ "Stacked": [
+  "Empilhado"
+ ],
+ "Start": [
+  "Início"
+ ],
+ "Static": [
+  "Estático"
+ ],
+ "Status": [
+  "Status"
+ ],
+ "Sticky": [
+  "Fixo"
+ ],
+ "Stores only the URLs. The export stays light, but files load only while the original site is online.": [
+  "Armazena apenas os URLs. A exportação permanece leve, mas os arquivos são carregados apenas enquanto o site original estiver on-line."
+ ],
+ "Stretch": [
+  "Esticar"
+ ],
+ "Structure": [
+  "Estrutura"
+ ],
+ "Style": [
+  "Estilo"
+ ],
+ "Subject": [
+  "Assunto"
+ ],
+ "Submissions": [
+  "Envios"
+ ],
+ "Submit": [
+  "Enviar"
+ ],
+ "Submit button": [
+  "Botão “Enviar”"
+ ],
+ "Success": [
+  "Sucesso"
+ ],
+ "Tab #1": [
+  "Aba Nº 1"
+ ],
+ "Tab #2": [
+  "Aba Nº 2"
+ ],
+ "Tabs": [
+  "Abas"
+ ],
+ "Tag": [
+  "Tag"
+ ],
+ "Tags": [
+  "Tags"
+ ],
+ "Take me there": [
+  "Me leve até lá"
+ ],
+ "Taxonomies": [
+  "Taxonomias"
+ ],
+ "Taxonomy": [
+  "Taxonomia"
+ ],
+ "Template": [
+  "Modelo"
+ ],
+ "Templates": [
+  "Modelos"
+ ],
+ "Terms": [
+  "Termos"
+ ],
+ "Text": [
+  "Texto"
+ ],
+ "Text Align": [
+  "Alinhamento do texto"
+ ],
+ "Text Color": [
+  "Cor do texto"
+ ],
+ "Text and Icon Color": [
+  "Cor do texto e do ícone"
+ ],
+ "Text area": [
+  "Área de texto"
+ ],
+ "The footer template allows you to easily design and edit custom WordPress footers without the limits of your theme’s footer design constraints": [
+  "O modelo de rodapé permite que você crie e edite facilmente rodapés personalizados do WordPress sem os limites das restrições de design do rodapé do seu tema"
+ ],
+ "The header template allows you to easily design and edit custom WordPress headers so you are no longer constrained by your theme’s header design limitations.": [
+  "O modelo de cabeçalho permite projetar e editar facilmente cabeçalhos personalizados do WordPress para que você não fique mais restrito às limitações de design de cabeçalho do seu tema."
+ ],
+ "The media will be uploaded automatically, just as it was saved during export": [
+  "A mídia será enviada automaticamente, da mesma forma que foi salva durante a exportação"
+ ],
+ "Theme": [
+  "Tema"
+ ],
+ "Theme Builder": [
+  "Construtor de temas"
+ ],
+ "Theme Builder could not be loaded": [
+  "Não foi possível carregar o construtor de temas"
+ ],
+ "This is the heading": [
+  "Este é o título"
+ ],
+ "This template includes the header, full-width content and footer": [
+  "Este modelo inclui o cabeçalho, conteúdo com largura total e rodapé"
+ ],
+ "Time": [
+  "Tempo"
+ ],
+ "Times": [
+  "Vezes"
+ ],
+ "Title": [
+  "Título"
+ ],
+ "Title HTML Tag": [
+  "Tag HTML do título"
+ ],
+ "Titles": [
+  "Títulos"
+ ],
+ "To export a ZIP, go to Edit Content, choose 'Link to Media', then Export as ZIP.": [
+  "Para exportar um ZIP, acesse “Editar conteúdo”, escolha “Vincular à mídia” e, em seguida, “Exportar como .zip”."
+ ],
+ "Toggle": [
+  "Alternância"
+ ],
+ "Tooltip": [
+  "Dica de ferramenta (tooltip)"
+ ],
+ "Top": [
+  "Superior"
+ ],
+ "Top 10 Recipes": [
+  "As 10 principais receitas"
+ ],
+ "Top Bar": [
+  "Barra superior"
+ ],
+ "Transition": [
+  "Transição"
+ ],
+ "Transition Duration": [
+  "Duração da transição"
+ ],
+ "Trigger": [
+  "Acionador"
+ ],
+ "Type": [
+  "Tipo"
+ ],
+ "Typography": [
+  "Tipografia"
+ ],
+ "UI Color": [
+  "Cor da interface do usuário"
+ ],
+ "UI Hover Color": [
+  "Cor da interface do usuário ao passar o mouse"
+ ],
+ "URL": [
+  "URL"
+ ],
+ "Underline": [
+  "Sublinhado"
+ ],
+ "Undo": [
+  "Desfazer"
+ ],
+ "Unknown": [
+  "Desconhecido"
+ ],
+ "Unknown action: %s.": [
+  "Ação desconhecida: %s."
+ ],
+ "Unlink": [
+  "Separar"
+ ],
+ "Unmarked Color": [
+  "Cor não marcada"
+ ],
+ "Unmarked Style": [
+  "Estilo não marcado"
+ ],
+ "Update": [
+  "Atualizar"
+ ],
+ "Update Now": [
+  "Atualizar agora"
+ ],
+ "Upgrade": [
+  "Atualizar"
+ ],
+ "Upgrade Now": [
+  "Atualizar agora"
+ ],
+ "Upload": [
+  "Enviar"
+ ],
+ "Uploading JSON or ZIP files from unknown sources can be harmful and put your site at risk. For maximum safety, upload only JSON or ZIP files from trusted sources.": [
+  "O envio de arquivos JSON ou ZIP de fontes desconhecidas pode ser prejudicial e colocar seu site em risco. Para máxima segurança, envie apenas arquivos JSON ou ZIP de fontes confiáveis."
+ ],
+ "Use %s widget and dozens more pro features to extend your toolbox and build sites faster and better.": [
+  "Use o widget %s e dezenas de outros recursos profissionais para ampliar sua caixa de ferramentas e criar sites de forma mais rápida e melhores."
+ ],
+ "User Agent": [
+  "Agente de usuário"
+ ],
+ "User IP": [
+  "IP do usuário"
+ ],
+ "Username": [
+  "Nome de usuário"
+ ],
+ "Value": [
+  "Valor"
+ ],
+ "Variations": [
+  "Variações"
+ ],
+ "Vertical": [
+  "Vertical"
+ ],
+ "Vertical Align": [
+  "Alinhar verticalmente"
+ ],
+ "Vertical Orientation": [
+  "Orientação vertical"
+ ],
+ "Vertical Position": [
+  "Posição vertical"
+ ],
+ "Viber": [
+  "Viber"
+ ],
+ "Video": [
+  "Vídeo"
+ ],
+ "Video Link": [
+  "Link do vídeo"
+ ],
+ "View": [
+  "Ver"
+ ],
+ "Vimeo": [
+  "Vimeo"
+ ],
+ "WP Dashboard": [
+  "Painel do WP"
+ ],
+ "Want to give access only to content?": [
+  "Quer dar acesso apenas ao conteúdo?"
+ ],
+ "Warning": [
+  "Atenção"
+ ],
+ "Warning: JSON or ZIP files may be unsafe": [
+  "Atenção: Arquivos JSON ou ZIP podem ser inseguros"
+ ],
+ "Waze": [
+  "Waze"
+ ],
+ "We couldn't install Angie automatically. Click below to install it manually.": [
+  "Não foi possível instalar o Angie automaticamente. Clique abaixo, para instalar manualmente."
+ ],
+ "Webhook": [
+  "Webhook"
+ ],
+ "Webhook URL": [
+  "URL do webhook"
+ ],
+ "Weight": [
+  "Peso"
+ ],
+ "What is a Products Archive Template?": [
+  "O que é um modelo de arquivo de produtos?"
+ ],
+ "What is a Single Product Template?": [
+  "O que é um modelo de produto único?"
+ ],
+ "WhatsApp": [
+  "WhatsApp"
+ ],
+ "Width": [
+  "Largura"
+ ],
+ "With your current role, you cannot create components. Contact an administrator to create one.": [
+  "Com sua função atual, você não pode criar componentes. Fale com um administrador para criar um."
+ ],
+ "WooCommerce": [
+  "WooCommerce"
+ ],
+ "Would you like to save the changes you've made?": [
+  "Gostaria de salvar as alterações feitas?"
+ ],
+ "X Anchor Point": [
+  "Ponto de ancoragem X"
+ ],
+ "Y Anchor Point": [
+  "Ponto de ancoragem Y"
+ ],
+ "Yes": [
+  "Sim"
+ ],
+ "You can create multiple footers, and assign each to different areas of your site.": [
+  "Você pode criar vários rodapés e atribuir cada um a diferentes áreas do seu site."
+ ],
+ "You can create multiple headers, and assign each to different areas of your site.": [
+  "Você pode criar vários cabeçalhos e atribuir cada um a diferentes áreas do seu site."
+ ],
+ "You can create multiple single page templates, and assign each to different areas of your site.": [
+  "Você pode criar vários modelos de página única e atribuir cada um a diferentes áreas do seu site."
+ ],
+ "You can create multiple single post templates, and assign each to a different category.": [
+  "Você pode criar vários modelos de post único e atribuir cada um a uma categoria diferente."
+ ],
+ "You can create multiple single product templates, and assign each to different types of products, enabling a custom design for each group of similar products.": [
+  "Você pode criar vários modelos de produto único e atribuir cada um a diferentes tipos de produtos, permitindo um design personalizado para cada grupo de produtos semelhantes."
+ ],
+ "You can customize the message if there are no results for the search term.": [
+  "Você pode personalizar a mensagem caso não haja resultados para o termo de pesquisa."
+ ],
+ "You can easily control the layout and design of the Search Results page with the Search Results template, which is simply a special archive template just for displaying search results.": [
+  "Você pode controlar facilmente o layout e o design da página de resultados da pesquisa com o modelo para resultados da pesquisa, que é simplesmente um modelo de arquivo especial apenas para exibir os resultados da pesquisa."
+ ],
+ "YouTube": [
+  "YouTube"
+ ],
+ "Zoom": [
+  "Zoom"
+ ],
+ "https://your-webhook-url.com": [
+  "https://seu-url-de-webhook.com"
+ ],
+ "of": [
+  "de"
+ ],
+ "operations array is required.": [
+  "o array “operations” é obrigatório."
+ ],
+ "operations must not be empty.": [
+  "as operações não podem estar vazias."
+ ],
+ "or": [
+  "ou"
+ ],
+ "post_id is required.": [
+  "“post_id” é obrigatório."
+ ]
+}

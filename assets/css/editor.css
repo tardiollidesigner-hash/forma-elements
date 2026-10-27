@@ -1,0 +1,130 @@
+/*
+ * Forma Elements: tema do editor. O editor fica sempre no modo escuro do Forma UI.
+ * O painel clássico usa as variáveis --e-a-*; a barra superior (React/MUI) é ajustada pelas classes Mui-*.
+ */
+
+:root:root {
+	--e-a-color-primary: var(--fm-pri);
+	--e-a-color-primary-bold: var(--fm-pri);
+	--e-a-color-primary-bold-dark: var(--fm-pri-lo);
+	--e-a-color-accent: var(--fm-pri);
+	--e-a-color-accent-promotion: var(--fm-pri);
+	--e-a-color-success: var(--fm-ok);
+	--e-a-color-danger: var(--fm-err);
+	--e-a-color-warning: var(--fm-warn);
+	--e-a-color-logo: var(--fm-shell);
+	--e-a-color-circle-logo: var(--fm-pri);
+
+	--e-a-bg-default: var(--fm-panel);
+	--e-a-bg-hover: var(--fm-raise);
+	--e-a-bg-active: var(--fm-active);
+	--e-a-bg-active-bold: #333333;
+	--e-a-bg-loading: var(--fm-shell);
+	--e-a-bg-logo: var(--fm-pri);
+	--e-a-bg-primary: var(--fm-navon);
+	--e-a-bg-chip: var(--fm-raise);
+
+	--e-a-color-txt: var(--fm-t1);
+	--e-a-color-txt-muted: var(--fm-t2);
+	--e-a-color-txt-disabled: var(--fm-t4);
+	--e-a-color-txt-accent: var(--fm-ink);
+	--e-a-color-txt-hover: var(--fm-ink);
+	--e-a-color-txt-active: var(--fm-ink);
+
+	--e-a-border-color: var(--fm-edge);
+	--e-a-border-color-bold: var(--fm-active);
+	--e-a-border-color-focus: #3a3a3a;
+	--e-a-border-color-accent: var(--fm-pri);
+	--e-a-border-radius: 6px;
+
+	--e-a-btn-color: var(--fm-pri-t);
+	--e-a-btn-bg-primary: var(--fm-pri);
+	--e-a-btn-bg-primary-hover: var(--fm-pri-hi);
+	--e-a-btn-bg-primary-active: var(--fm-pri-lo);
+	--e-a-btn-bg-accent: var(--fm-pri);
+	--e-a-btn-bg-accent-hover: var(--fm-pri-hi);
+	--e-a-btn-bg-accent-active: var(--fm-pri-lo);
+
+	--e-a-dark-bg: var(--fm-shell);
+	--e-a-dark-color-txt: var(--fm-t2);
+	--e-a-dark-color-txt-hover: var(--fm-ink);
+	--e-a-font-family: var(--fm-font);
+}
+
+body.elementor-editor-active,
+#elementor-panel,
+#elementor-navigator,
+#elementor-editor-wrapper-v2 [class*="Mui"]:not(.MuiSvgIcon-root),
+.MuiPopover-root [class*="Mui"]:not(.MuiSvgIcon-root),
+.MuiModal-root [class*="Mui"]:not(.MuiSvgIcon-root),
+.MuiTooltip-popper [class*="Mui"] {
+	font-family: var(--fm-font) !important;
+}
+
+#elementor-preview {
+	background-color: var(--fm-shell);
+}
+
+/* Tela de carregamento: ícone Forma pulsando no lugar do "E". */
+#elementor-loading {
+	background-color: var(--fm-shell);
+}
+
+#elementor-loading .elementor-loader {
+	width: 64px;
+	height: 72px;
+	padding: 0;
+	border-radius: 0;
+	background: url(../img/forma-icon.svg) center / contain no-repeat;
+	box-shadow: none;
+	animation: forma-pulse 1.4s ease-in-out infinite;
+}
+
+#elementor-loading .elementor-loader-boxes {
+	display: none;
+}
+
+#elementor-loading .elementor-loading-title {
+	color: var(--fm-t3);
+	font-family: var(--fm-font);
+}
+
+@keyframes forma-pulse {
+	0%, 100% { opacity: 1; transform: scale(1); }
+	50% { opacity: 0.55; transform: scale(0.94); }
+}
+
+/* Barra superior (React/MUI). */
+#elementor-editor-wrapper-v2 .MuiAppBar-root {
+	background-color: var(--fm-shell);
+	border-bottom: 1px solid var(--fm-edge);
+}
+
+#elementor-editor-wrapper-v2 .forma-brand-host {
+	width: auto;
+	padding: 0 12px;
+	border-radius: 999px;
+}
+
+#elementor-editor-wrapper-v2 .MuiToggleButton-root.Mui-selected {
+	background-color: var(--fm-navon);
+	color: var(--fm-pri-hi);
+}
+
+.MuiButton-containedPrimary:not(.Mui-disabled),
+.MuiBadge-colorPrimary {
+	background-color: var(--fm-pri) !important;
+	color: var(--fm-pri-t) !important;
+}
+
+.MuiButton-containedPrimary:not(.Mui-disabled):hover {
+	background-color: var(--fm-pri-hi) !important;
+}
+
+#elementor-editor-wrapper-v2 .MuiPopover-paper,
+.MuiPopover-root .MuiPaper-root,
+.MuiDialog-root .MuiPaper-root {
+	background-color: var(--fm-panel);
+	background-image: none;
+	border: 1px solid var(--fm-edge);
+}

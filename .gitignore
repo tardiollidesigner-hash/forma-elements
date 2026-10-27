@@ -1,0 +1,7 @@
+dist/
+build-cache/
+__pycache__/
+
+# Criados por `python scripts/build.py dev` (código do Elementor/PRO Elements para testes locais).
+bundled/
+vendor/

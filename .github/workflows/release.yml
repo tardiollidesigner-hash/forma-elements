@@ -1,0 +1,120 @@
+# Robô de atualização do Forma Elements.
+# A cada 6 horas confere se saiu Elementor ou PRO Elements novo. Se saiu:
+# monta o pacote, testa num WordPress descartável e, só se passar, publica a release.
+# Os sites com o Forma Elements instalado veem a atualização no painel.
+name: Release
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches: [main]
+    paths-ignore: ["upstream.json", "**.md"]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publicar uma versão nova mesmo sem atualização do Elementor/PRO Elements"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
+      version: ${{ steps.check.outputs.version }}
+      elementor: ${{ steps.check.outputs.elementor }}
+      pro_elements: ${{ steps.check.outputs.pro_elements }}
+      previous_elementor: ${{ steps.check.outputs.previous_elementor }}
+      previous_pro_elements: ${{ steps.check.outputs.previous_pro_elements }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Mudança no código do Forma Elements (push) ou pedido manual também geram versão nova.
+          FORCE: ${{ github.event_name == 'push' || inputs.force == true }}
+        run: python3 scripts/build.py check $([ "$FORCE" = "true" ] && echo --force)
+
+  release:
+    needs: check
+    if: needs.check.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: wp
+        ports: ["3306:3306"]
+        options: >-
+          --health-cmd="mysqladmin ping -proot"
+          --health-interval=5s --health-timeout=5s --health-retries=20
+    env:
+      VERSION: ${{ needs.check.outputs.version }}
+      ELEMENTOR: ${{ needs.check.outputs.elementor }}
+      PRO_ELEMENTS: ${{ needs.check.outputs.pro_elements }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+          extensions: mysqli, gd, zip, intl
+          tools: none
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Traduz com IA só os textos novos do PRO Elements (o resto já está em translations/).
+      # Sem o secret ANTHROPIC_API_KEY o passo apenas aproveita a tradução oficial do Elementor.
+      - name: Traduzir PRO Elements
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 -m pip install --quiet anthropic==1.13.0
+          python3 scripts/translate.py --elementor "$ELEMENTOR" --pro "$PRO_ELEMENTS"
+
+      - name: Montar pacote
+        run: python3 scripts/build.py build --version "$VERSION" --elementor "$ELEMENTOR" --pro "$PRO_ELEMENTS"
+
+      - name: Testar num WordPress descartável
+        run: bash scripts/smoke-test.sh
+
+      - name: Registrar versões publicadas
+        run: |
+          python3 scripts/build.py record --version "$VERSION" --elementor "$ELEMENTOR" --pro "$PRO_ELEMENTS"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add upstream.json translations
+          git commit -m "Forma Elements $VERSION (Elementor $ELEMENTOR + PRO Elements $PRO_ELEMENTS) [skip ci]"
+          git push
+
+      - name: Publicar release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREVIOUS_ELEMENTOR: ${{ needs.check.outputs.previous_elementor }}
+          PREVIOUS_PRO_ELEMENTS: ${{ needs.check.outputs.previous_pro_elements }}
+        run: |
+          {
+            echo "Inclui **Elementor $ELEMENTOR** e **PRO Elements $PRO_ELEMENTS**."
+            echo
+            if [ -n "$PREVIOUS_ELEMENTOR" ] && [ "$PREVIOUS_ELEMENTOR" != "$ELEMENTOR" ]; then
+              echo "- Elementor: $PREVIOUS_ELEMENTOR → $ELEMENTOR ([changelog](https://wordpress.org/plugins/elementor/#developers))"
+            fi
+            if [ -n "$PREVIOUS_PRO_ELEMENTS" ] && [ "$PREVIOUS_PRO_ELEMENTS" != "$PRO_ELEMENTS" ]; then
+              echo "- PRO Elements: $PREVIOUS_PRO_ELEMENTS → $PRO_ELEMENTS ([changelog](https://github.com/proelements/proelements/releases/tag/v$PRO_ELEMENTS))"
+            fi
+          } > notes.md
+          gh release create "v$VERSION" dist/forma-elements.zip \
+            --target "$(git rev-parse HEAD)" \
+            --title "Forma Elements $VERSION" \
+            --notes-file notes.md
