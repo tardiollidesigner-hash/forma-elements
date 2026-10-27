@@ -102,7 +102,7 @@ Se o Elementor oficial estiver ativo, o Forma Elements fica pausado e mostra um 
 ## Limitações conhecidas
 
 - A tela inicial do construtor ("Início rápido") mostra conteúdo que vem do servidor do Elementor, só em inglês.
-- Sem o secret `ANTHROPIC_API_KEY`, cerca de 80% dos textos do PRO Elements ficam em inglês.
+- Textos novos do PRO Elements (de versões futuras) ficam em inglês até serem traduzidos (veja "Tradução do PRO Elements").
 - Avisos promocionais do Elementor (ex.: IA "Angie") ainda aparecem.
 - Com muitos addons juntos, o editor precisa de pelo menos 512 MB de memória no PHP (limitação do próprio Elementor).
 - Os serviços em nuvem do Elementor Pro (kits Pro, biblioteca Pro) não fazem parte do PRO Elements.
