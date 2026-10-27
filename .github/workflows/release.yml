@@ -96,6 +96,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add upstream.json translations
           git commit -m "Forma Elements $VERSION (Elementor $ELEMENTOR + PRO Elements $PRO_ELEMENTS) [skip ci]"
+          # Alguém pode ter enviado commits enquanto o robô trabalhava (ex.: só o README).
+          git pull --rebase origin main
           git push
 
       - name: Publicar release
