@@ -156,11 +156,17 @@ if grep -q 'data-plugin="elementor/elementor.php"' <<<"$PLUGINS_HTML"; then
 else
   check ok "tela Plugins não mostra o Elementor fingido como plugin"
 fi
-OVERVIEW_HTML=$(admin_get "/wp-admin/admin.php?page=elementor-home")
-if grep -q 'class="forma-app"' <<<"$OVERVIEW_HTML" && ! grep -q 'elementor-home-app' <<<"$OVERVIEW_HTML"; then
-  check ok "Home do Elementor substituída pela Visão geral do Forma"
+HOME_REDIRECT=$(curl -sS -o /dev/null -w '%{redirect_url}' -H "Cookie: $SESSION" "$URL/wp-admin/admin.php?page=elementor-home")
+if grep -q 'page=forma-elements' <<<"$HOME_REDIRECT"; then
+  check ok "Home do Elementor redireciona para a Visão geral do Forma"
 else
-  check falha "Home do Elementor substituída pela Visão geral do Forma (página: $(page_title "$OVERVIEW_HTML"))"
+  check falha "Home do Elementor redireciona para a Visão geral do Forma (destino: ${HOME_REDIRECT:-nenhum})"
+fi
+OVERVIEW_HTML=$(admin_get "/wp-admin/admin.php?page=forma-elements")
+if grep -q 'class="forma-app"' <<<"$OVERVIEW_HTML"; then
+  check ok "tela Visão geral do Forma"
+else
+  check falha "tela Visão geral do Forma (página: $(page_title "$OVERVIEW_HTML"))"
 fi
 EDITOR_HTML=$(admin_get "/wp-admin/post.php?post=$PAGE_ID&action=elementor")
 if grep -q "forma-elements-editor-css" <<<"$EDITOR_HTML" && grep -q "elementor-editor-wrapper-v2\|elementor-panel" <<<"$EDITOR_HTML"; then
