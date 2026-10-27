@@ -18,8 +18,11 @@ Se o teste falhar, nada é publicado, o GitHub manda um e-mail, e o robô tenta 
 
 ## O que o plugin faz
 
-- **Visual Forma UI:** logo "forma" + etiqueta "Elements" no editor e no painel, ícone Forma no menu e na tela de
-  carregamento, editor sempre escuro com as cores e a fonte (DM Sans) do UI Kit Forma.
+- **Visual Forma UI:** logo "forma" + pílula "Elements" no editor e no painel, ícone Forma no menu (na cor dos outros
+  ícones), tela de carregamento com a logo e uma barra de progresso, editor e telas do construtor no modo escuro do
+  UI Kit Forma (cores e fonte DM Sans).
+- **Painel limpo:** tela "Visão geral" própria no lugar da Home do Elementor; sem login/conta do Elementor, botões de
+  upgrade, avisos promocionais, widgets de notícias e ofertas da IA "Angie".
 - **Tradução automática:** baixa sozinho a tradução oficial do Elementor (translate.wordpress.org) no idioma do site,
   na ativação e a cada versão nova. O PRO Elements não tem tradução pública, então a tradução dele vem junto no pacote
   (abaixo).

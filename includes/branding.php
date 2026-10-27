@@ -24,6 +24,11 @@ function forma_elements_rebrand( $text ) {
 	if ( ! is_string( $text ) || ( false === strpos( $text, 'Elementor' ) && false === stripos( $text, 'Pro Elements' ) ) ) {
 		return $text;
 	}
+	// Na tela Plugins o nome dos plugins passa por esta tradução: o Elementor original (se ainda estiver
+	// instalado) tem que continuar se chamando "Elementor" lá.
+	if ( forma_elements_is_plugin_management_screen() ) {
+		return $text;
+	}
 	return strtr( $text, forma_elements_brand_map() );
 }
 

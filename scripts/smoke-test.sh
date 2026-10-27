@@ -151,6 +151,17 @@ if wp option get active_plugins --format=json | grep -q '"elementor/elementor.ph
 else
   check ok "caminhos fingidos não gravados no banco"
 fi
+if grep -q 'data-plugin="elementor/elementor.php"' <<<"$PLUGINS_HTML"; then
+  check falha "tela Plugins não mostra o Elementor fingido como plugin"
+else
+  check ok "tela Plugins não mostra o Elementor fingido como plugin"
+fi
+OVERVIEW_HTML=$(admin_get "/wp-admin/admin.php?page=elementor-home")
+if grep -q 'class="forma-app"' <<<"$OVERVIEW_HTML" && ! grep -q 'elementor-home-app' <<<"$OVERVIEW_HTML"; then
+  check ok "Home do Elementor substituída pela Visão geral do Forma"
+else
+  check falha "Home do Elementor substituída pela Visão geral do Forma (página: $(page_title "$OVERVIEW_HTML"))"
+fi
 EDITOR_HTML=$(admin_get "/wp-admin/post.php?post=$PAGE_ID&action=elementor")
 if grep -q "forma-elements-editor-css" <<<"$EDITOR_HTML" && grep -q "elementor-editor-wrapper-v2\|elementor-panel" <<<"$EDITOR_HTML"; then
   check ok "editor abre com o tema Forma"

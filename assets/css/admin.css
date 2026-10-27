@@ -1,0 +1,495 @@
+/*
+ * Forma Elements: painel no visual do UI Kit Forma (modo escuro).
+ * Vale para a tela "Visão geral" (body.forma-elements-admin) e para as telas do construtor
+ * que usam a navegação lateral do Elementor (body.e-has-sidebar-navigation).
+ */
+
+body.forma-elements-admin,
+body.e-has-sidebar-navigation {
+	--fm-radius-card: 14px;
+	--fm-radius-field: 10px;
+	background: var(--fm-shell);
+	color: var(--fm-t1);
+	font-family: var(--fm-font);
+}
+
+body.forma-elements-admin #wpwrap,
+body.forma-elements-admin #wpcontent,
+body.forma-elements-admin #wpbody-content,
+body.forma-elements-admin #wpfooter,
+body.e-has-sidebar-navigation #wpwrap,
+body.e-has-sidebar-navigation #wpcontent,
+body.e-has-sidebar-navigation #wpbody-content,
+body.e-has-sidebar-navigation #wpbody-content > .wrap,
+body.e-has-sidebar-navigation #wpfooter {
+	background: var(--fm-shell) !important;
+	color: var(--fm-t2);
+}
+
+/* ---------- Barra superior do construtor (Elementor) ---------- */
+
+#editor-one-top-bar [data-test*="upgrade"],
+#editor-one-top-bar [data-test="whats-new-button"],
+#editor-one-top-bar [data-test="header-help-button"],
+#editor-one-top-bar [data-test="header-user-button"],
+#editor-one-top-bar .MuiBadge-root {
+	display: none !important;
+}
+
+#editor-one-top-bar,
+#editor-one-top-bar .MuiAppBar-root,
+#editor-one-top-bar > div {
+	background: var(--fm-shell) !important;
+	border-bottom: 1px solid var(--fm-edge);
+	box-shadow: none !important;
+}
+
+/* ---------- Navegação lateral do construtor ---------- */
+
+#editor-one-sidebar-navigation nav,
+#editor-one-sidebar-navigation nav > div {
+	background: var(--fm-surface) !important;
+	border-color: var(--fm-edge) !important;
+}
+
+#editor-one-sidebar-navigation .MuiTypography-root,
+#editor-one-sidebar-navigation .MuiListItemText-primary,
+#editor-one-sidebar-navigation a,
+#editor-one-sidebar-navigation button {
+	color: var(--fm-t2) !important;
+	font-family: var(--fm-font) !important;
+}
+
+#editor-one-sidebar-navigation .MuiSvgIcon-root,
+#editor-one-sidebar-navigation svg {
+	color: var(--fm-t3) !important;
+}
+
+#editor-one-sidebar-navigation .MuiListItemButton-root:hover,
+#editor-one-sidebar-navigation .MuiButtonBase-root:hover {
+	background: var(--fm-raise) !important;
+}
+
+#editor-one-sidebar-navigation .Mui-selected,
+#editor-one-sidebar-navigation [aria-current="page"] {
+	background: var(--fm-navon) !important;
+}
+
+#editor-one-sidebar-navigation .Mui-selected .MuiTypography-root,
+#editor-one-sidebar-navigation .Mui-selected svg,
+#editor-one-sidebar-navigation [aria-current="page"] .MuiTypography-root,
+#editor-one-sidebar-navigation [aria-current="page"] svg {
+	color: var(--fm-pri-hi) !important;
+}
+
+#editor-one-sidebar-navigation .MuiInputBase-root,
+#editor-one-sidebar-navigation .MuiOutlinedInput-root {
+	background: var(--fm-raise) !important;
+	color: var(--fm-t1) !important;
+}
+
+/* Fundos brancos marcados pelo brand.js (classes geradas pelo Elementor não são estáveis). */
+body .forma-dark-surface.forma-dark-surface {
+	background-color: var(--fm-raise) !important;
+	border-color: var(--fm-active) !important;
+	color: var(--fm-t2) !important;
+}
+
+/* ---------- Conteúdo das telas do construtor (formulários do WordPress) ---------- */
+
+body.e-has-sidebar-navigation .wrap h1,
+body.e-has-sidebar-navigation .wrap h2,
+body.e-has-sidebar-navigation .wrap h3,
+body.e-has-sidebar-navigation .form-table th,
+body.e-has-sidebar-navigation .wp-heading-inline {
+	color: var(--fm-ink) !important;
+	font-family: var(--fm-font);
+}
+
+body.e-has-sidebar-navigation .wrap,
+body.e-has-sidebar-navigation .form-table td,
+body.e-has-sidebar-navigation .wrap p,
+body.e-has-sidebar-navigation .wrap label {
+	color: var(--fm-t1) !important;
+}
+
+body.e-has-sidebar-navigation .wrap .description,
+body.e-has-sidebar-navigation .wrap p.description {
+	color: var(--fm-t3) !important;
+}
+
+body.e-has-sidebar-navigation .wrap a {
+	color: var(--fm-pri) !important;
+}
+
+body.e-has-sidebar-navigation .nav-tab-wrapper {
+	background: transparent !important;
+	border-bottom-color: var(--fm-edge) !important;
+}
+
+body.e-has-sidebar-navigation .nav-tab {
+	background: transparent !important;
+	border-color: transparent !important;
+	color: var(--fm-t2) !important;
+	border-radius: var(--fm-radius-field) var(--fm-radius-field) 0 0;
+}
+
+body.e-has-sidebar-navigation .nav-tab:hover {
+	background: var(--fm-raise) !important;
+	color: var(--fm-ink) !important;
+}
+
+body.e-has-sidebar-navigation .nav-tab-active,
+body.e-has-sidebar-navigation .nav-tab-active:hover {
+	background: var(--fm-panel) !important;
+	border-color: var(--fm-edge) var(--fm-edge) var(--fm-panel) !important;
+	color: var(--fm-ink) !important;
+}
+
+body.e-has-sidebar-navigation .wrap input[type="text"],
+body.e-has-sidebar-navigation .wrap input[type="url"],
+body.e-has-sidebar-navigation .wrap input[type="email"],
+body.e-has-sidebar-navigation .wrap input[type="number"],
+body.e-has-sidebar-navigation .wrap input[type="password"],
+body.e-has-sidebar-navigation .wrap input[type="search"],
+body.e-has-sidebar-navigation .wrap select,
+body.e-has-sidebar-navigation .wrap textarea {
+	background: var(--fm-raise) !important;
+	border: 1px solid var(--fm-active) !important;
+	border-radius: var(--fm-radius-field);
+	color: var(--fm-t1) !important;
+	box-shadow: none !important;
+}
+
+body.e-has-sidebar-navigation .wrap input:focus,
+body.e-has-sidebar-navigation .wrap select:focus,
+body.e-has-sidebar-navigation .wrap textarea:focus {
+	border-color: var(--fm-pri) !important;
+	box-shadow: 0 0 0 1px var(--fm-pri) !important;
+}
+
+body.e-has-sidebar-navigation .wrap .button,
+body.e-has-sidebar-navigation .wrap .button-secondary,
+body.e-has-sidebar-navigation .wrap .page-title-action {
+	background: var(--fm-active) !important;
+	border: 0 !important;
+	border-radius: 999px;
+	color: var(--fm-ink) !important;
+	padding: 2px 14px;
+}
+
+body.e-has-sidebar-navigation .wrap .button:hover,
+body.e-has-sidebar-navigation .wrap .page-title-action:hover {
+	background: #333 !important;
+	color: var(--fm-ink) !important;
+}
+
+body.e-has-sidebar-navigation .wrap .button-primary {
+	background: var(--fm-pri) !important;
+	color: var(--fm-pri-t) !important;
+}
+
+body.e-has-sidebar-navigation .wrap .button-primary:hover {
+	background: var(--fm-pri-hi) !important;
+	color: var(--fm-pri-t) !important;
+}
+
+body.e-has-sidebar-navigation .wp-list-table,
+body.e-has-sidebar-navigation .wp-list-table th,
+body.e-has-sidebar-navigation .wp-list-table td,
+body.e-has-sidebar-navigation .wp-list-table tr {
+	background: var(--fm-panel) !important;
+	border-color: var(--fm-edge) !important;
+	color: var(--fm-t1) !important;
+}
+
+body.e-has-sidebar-navigation .wp-list-table .alternate,
+body.e-has-sidebar-navigation .striped > tbody > :nth-child(odd) {
+	background: var(--fm-surface) !important;
+}
+
+body.e-has-sidebar-navigation .wp-list-table a.row-title,
+body.e-has-sidebar-navigation .wp-list-table th a {
+	color: var(--fm-ink) !important;
+}
+
+body.e-has-sidebar-navigation .subsubsub a,
+body.e-has-sidebar-navigation .subsubsub {
+	color: var(--fm-t3) !important;
+}
+
+body.e-has-sidebar-navigation .subsubsub a.current {
+	color: var(--fm-ink) !important;
+}
+
+body.e-has-sidebar-navigation .postbox,
+body.e-has-sidebar-navigation .card,
+body.e-has-sidebar-navigation .e-experiment__table-row {
+	background: var(--fm-panel) !important;
+	border-color: var(--fm-edge) !important;
+	color: var(--fm-t1) !important;
+}
+
+body.e-has-sidebar-navigation .notice,
+body.forma-elements-admin .notice {
+	background: var(--fm-panel) !important;
+	border-color: var(--fm-edge) !important;
+	color: var(--fm-t1) !important;
+	box-shadow: none !important;
+}
+
+/* Painéis brancos próprios do Elementor dentro das telas. */
+body.e-has-sidebar-navigation .elementor-settings-form-page,
+body.e-has-sidebar-navigation .form-table,
+body.e-has-sidebar-navigation .form-table tr,
+body.e-has-sidebar-navigation .form-table th,
+body.e-has-sidebar-navigation .form-table td,
+body.e-has-sidebar-navigation .elementor-settings-form-page h2,
+body.e-has-sidebar-navigation .elementor-settings-form-page p,
+body.e-has-sidebar-navigation .e-admin-panel,
+body.e-has-sidebar-navigation .elementor-system-info-section,
+body.e-has-sidebar-navigation .elementor-template_library-blank_state,
+body.e-has-sidebar-navigation .e-landing-pages-empty,
+body.e-has-sidebar-navigation #elementor-new-template-modal .dialog-message {
+	background: var(--fm-panel) !important;
+	color: var(--fm-t1) !important;
+	border-color: var(--fm-edge) !important;
+}
+
+body.e-has-sidebar-navigation .elementor-settings-form-page {
+	padding: 8px 24px 24px;
+	border: 1px solid var(--fm-edge) !important;
+	border-top: 0 !important;
+	border-radius: 0 0 var(--fm-radius-card) var(--fm-radius-card);
+}
+
+body.e-has-sidebar-navigation .elementor-settings-form-page h2,
+body.e-has-sidebar-navigation .elementor-settings-form-page h3 {
+	color: var(--fm-ink) !important;
+}
+
+/* ---------- Tela "Visão geral" ---------- */
+
+.forma-app {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 28px 32px 56px 12px;
+	font-family: var(--fm-font);
+	color: var(--fm-t1);
+}
+
+.forma-app *,
+.forma-app *::before,
+.forma-app *::after {
+	box-sizing: border-box;
+}
+
+.forma-app__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 16px 20px;
+	border: 1px solid var(--fm-edge);
+	border-radius: var(--fm-radius-card);
+	background: var(--fm-surface);
+}
+
+.forma-chip {
+	padding: 6px 12px;
+	border: 1px solid var(--fm-active);
+	border-radius: 999px;
+	background: var(--fm-raise);
+	color: var(--fm-t2);
+	font-size: 12px;
+}
+
+.forma-app__title {
+	margin: 36px 0 24px;
+}
+
+.forma-app__title h1 {
+	margin: 0 0 8px;
+	padding: 0;
+	color: var(--fm-ink);
+	font: 400 32px/1.2 var(--fm-font);
+}
+
+.forma-app__title p {
+	margin: 0;
+	color: var(--fm-t2);
+	font-size: 15px;
+}
+
+.forma-card {
+	padding: 24px 28px;
+	border: 1px solid var(--fm-edge);
+	border-radius: var(--fm-radius-card);
+	background: var(--fm-panel);
+}
+
+.forma-card h2 {
+	margin: 0 0 8px;
+	color: var(--fm-ink);
+	font: 400 18px/1.3 var(--fm-font);
+}
+
+.forma-card p {
+	margin: 0;
+	color: var(--fm-t2);
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.forma-hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	margin-bottom: 20px;
+}
+
+.forma-hero > div:first-child {
+	max-width: 560px;
+}
+
+.forma-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.forma-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 11px 20px;
+	border-radius: 999px;
+	background: var(--fm-active);
+	color: var(--fm-ink);
+	font: 500 14px/1 var(--fm-font);
+	text-decoration: none;
+	transition: background-color 0.15s;
+}
+
+.forma-btn:hover,
+.forma-btn:focus {
+	background: #333;
+	color: var(--fm-ink);
+}
+
+.forma-btn--primary {
+	background: var(--fm-pri);
+	color: var(--fm-pri-t);
+}
+
+.forma-btn--primary:hover,
+.forma-btn--primary:focus {
+	background: var(--fm-pri-hi);
+	color: var(--fm-pri-t);
+}
+
+.forma-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+	gap: 20px;
+	align-items: start;
+}
+
+.forma-list {
+	margin: 8px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.forma-list li {
+	margin: 0;
+	border-bottom: 1px solid var(--fm-edge);
+}
+
+.forma-list li:last-child {
+	border-bottom: 0;
+}
+
+.forma-row {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	padding: 14px 4px;
+	color: var(--fm-t1);
+	text-decoration: none;
+}
+
+a.forma-row:hover .forma-row__text strong,
+a.forma-row:focus .forma-row__text strong {
+	color: var(--fm-pri-hi);
+}
+
+.forma-row__icon {
+	display: grid;
+	flex: none;
+	place-items: center;
+	width: 38px;
+	height: 38px;
+	border-radius: 999px;
+	background: var(--fm-raise);
+	color: var(--fm-t2);
+}
+
+.forma-row__text {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 3px;
+	min-width: 0;
+}
+
+.forma-row__text strong {
+	color: var(--fm-ink);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.forma-row__text span {
+	color: var(--fm-t3);
+	font-size: 13px;
+}
+
+.forma-row__chevron {
+	color: var(--fm-t4);
+}
+
+.forma-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 5px 12px;
+	border-radius: 999px;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.forma-badge.is-ok {
+	background: var(--fm-pri-t);
+	color: var(--fm-ok);
+}
+
+.forma-badge.is-pending {
+	background: var(--fm-raise);
+	color: var(--fm-t2);
+}
+
+.forma-icon {
+	flex: none;
+}
+
+@media (max-width: 960px) {
+	.forma-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.forma-hero {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

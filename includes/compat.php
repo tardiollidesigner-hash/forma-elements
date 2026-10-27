@@ -22,13 +22,10 @@ function forma_elements_init_compat() {
 	add_filter( 'option_active_plugins', 'forma_elements_emulate_active_plugins' );
 	add_filter( 'pre_update_option_active_plugins', 'forma_elements_clean_active_plugins' );
 	add_filter( 'wp_plugin_dependencies_slug', 'forma_elements_map_dependency_slug' );
-
-	add_action( 'all_admin_notices', 'forma_elements_start_plugin_validation', PHP_INT_MAX );
-	add_action( 'pre_current_active_plugins', 'forma_elements_end_plugin_validation', 0 );
 }
 
 function forma_elements_emulate_active_plugins( $plugins ) {
-	if ( forma_elements_is_validating_plugins() ) {
+	if ( forma_elements_is_plugin_management_screen() ) {
 		return $plugins;
 	}
 
@@ -36,25 +33,14 @@ function forma_elements_emulate_active_plugins( $plugins ) {
 }
 
 /**
- * A tela Plugins confere se cada plugin ativo existe (validate_active_plugins()) depois dos avisos
- * do painel e antes de desenhar a lista. Só nesse trecho os caminhos fingidos ficam de fora; senão o
- * WordPress desativaria "elementor/elementor.php" com o erro "o arquivo do plugin não existe".
- * Nos avisos dos addons, que vêm antes, o Elementor continua aparecendo como ativo.
+ * Nas telas que gerenciam plugins a lista de ativos tem que ser a real. Senão o WordPress acusaria
+ * "o arquivo do plugin não existe" e, com o Elementor original instalado (desativado), mostraria
+ * ele como ativo. Os addons não dependem dessas telas para funcionar.
  */
-function forma_elements_is_validating_plugins( $set = null ) {
-	static $validating = false;
-	if ( null !== $set ) {
-		$validating = $set;
-	}
-	return $validating && isset( $GLOBALS['pagenow'] ) && 'plugins.php' === $GLOBALS['pagenow'];
-}
-
-function forma_elements_start_plugin_validation() {
-	forma_elements_is_validating_plugins( true );
-}
-
-function forma_elements_end_plugin_validation() {
-	forma_elements_is_validating_plugins( false );
+function forma_elements_is_plugin_management_screen() {
+	return is_admin()
+		&& isset( $GLOBALS['pagenow'] )
+		&& in_array( $GLOBALS['pagenow'], [ 'plugins.php', 'plugin-install.php', 'plugin-editor.php', 'update.php', 'update-core.php' ], true );
 }
 
 /**

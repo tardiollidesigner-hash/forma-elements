@@ -33,6 +33,7 @@ require_once FORMA_ELEMENTS_PATH . 'includes/compat.php';
 require_once FORMA_ELEMENTS_PATH . 'includes/branding.php';
 require_once FORMA_ELEMENTS_PATH . 'includes/ui.php';
 require_once FORMA_ELEMENTS_PATH . 'includes/i18n.php';
+require_once FORMA_ELEMENTS_PATH . 'includes/admin.php';
 
 // O atualizador roda sempre, mesmo se houver conflito, para o site nunca ficar preso numa versão.
 forma_elements_init_updater();
@@ -42,6 +43,7 @@ if ( forma_elements_load_bundle() ) {
 	forma_elements_init_branding();
 	forma_elements_init_ui();
 	forma_elements_init_i18n();
+	forma_elements_init_admin();
 }
 
 register_activation_hook( __FILE__, 'forma_elements_on_activate' );

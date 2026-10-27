@@ -64,14 +64,27 @@
 	height: 18px;
 }
 
+/* Pílula "Elements" da logo Forma Elements (Figma: 117 x 38 para logo de 75 px de altura). */
 .forma-brand__tag {
-	padding: 3px 8px;
-	border: 1px solid var(--fm-active);
+	padding: 4px 10px;
 	border-radius: 999px;
-	background: var(--fm-raise);
-	color: var(--fm-t2);
+	background: var(--fm-active);
+	color: var(--fm-ink);
 	font: 500 11px/1.2 var(--fm-font);
 	letter-spacing: 0;
+}
+
+.forma-brand--large {
+	gap: 12px;
+}
+
+.forma-brand--large .forma-brand__logo {
+	height: 28px;
+}
+
+.forma-brand--large .forma-brand__tag {
+	padding: 7px 16px;
+	font-size: 14px;
 }
 
 /* Ícones da fonte do Elementor que mostram a logo dele. */
@@ -86,7 +99,12 @@
 	vertical-align: -0.125em;
 }
 
-/* Menu lateral do WordPress. */
+/* Menu lateral do WordPress: ícone Forma na cor dos outros ícones (muda com hover e item ativo). */
+#adminmenu #toplevel_page_elementor-home div.wp-menu-image,
+#adminmenu #toplevel_page_elementor div.wp-menu-image {
+	background-image: none !important;
+}
+
 #adminmenu #toplevel_page_elementor-home div.wp-menu-image::before,
 #adminmenu #toplevel_page_elementor div.wp-menu-image::before {
 	content: "";
@@ -94,8 +112,9 @@
 	height: 20px;
 	padding: 0;
 	margin: 7px auto 0;
-	background: url(../img/forma-icon.svg) center / 18px auto no-repeat;
-	opacity: 1;
+	background-color: currentColor;
+	-webkit-mask: url(../img/forma-icon-mono.svg) center / 16px auto no-repeat;
+	mask: url(../img/forma-icon-mono.svg) center / 16px auto no-repeat;
 }
 
 /* Barra superior das telas do construtor no painel. */
@@ -123,5 +142,25 @@
 }
 
 .forma-brand-hidden {
+	display: none !important;
+}
+
+/* Ofertas do Elementor (upgrade, Pro, Elementor One): todas usam a cor "promotion" do kit de interface deles. */
+.MuiButton-containedPromotion,
+.MuiButton-outlinedPromotion,
+.MuiButton-textPromotion,
+.MuiButton-colorPromotion,
+.MuiChip-colorPromotion,
+.MuiIconButton-colorPromotion,
+.e-promotion-react-wrapper,
+#elementor-panel-category-custom-widgets,
+.elementor-panel-go-pro,
+#elementor-panel-get-pro-elements,
+#elementor-panel-get-pro-elements-sticky,
+.elementor-nerd-box-link[href*="go.elementor.com"],
+a.MuiMenuItem-root[href*="elementor.com"],
+a[href*="go.elementor.com/go-pro"],
+a[href*="go.elementor.com/wp-dash-admin-top-bar-upgrade"],
+a[href*="go.elementor.com/go-pro-upgrade-one"] {
 	display: none !important;
 }

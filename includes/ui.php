@@ -21,22 +21,36 @@ function forma_elements_asset_url( $path ) {
 	return plugins_url( 'assets/' . $path, FORMA_ELEMENTS_FILE );
 }
 
+/** Versão para o cache do navegador: na cópia de desenvolvimento muda a cada alteração do arquivo. */
+function forma_elements_asset_version( $path ) {
+	if ( '0.0.0-dev' === FORMA_ELEMENTS_VERSION ) {
+		return (string) filemtime( FORMA_ELEMENTS_PATH . 'assets/' . $path );
+	}
+	return FORMA_ELEMENTS_VERSION;
+}
+
 function forma_elements_enqueue_ui() {
-	wp_enqueue_style( 'forma-elements-ui', forma_elements_asset_url( 'css/forma-ui.css' ), [], FORMA_ELEMENTS_VERSION );
+	wp_enqueue_style( 'forma-elements-ui', forma_elements_asset_url( 'css/forma-ui.css' ), [], forma_elements_asset_version( 'css/forma-ui.css' ) );
 	forma_elements_enqueue_brand_script();
 }
 
 function forma_elements_enqueue_editor_ui() {
-	wp_enqueue_style( 'forma-elements-ui', forma_elements_asset_url( 'css/forma-ui.css' ), [], FORMA_ELEMENTS_VERSION );
-	wp_enqueue_style( 'forma-elements-editor', forma_elements_asset_url( 'css/editor.css' ), [ 'forma-elements-ui' ], FORMA_ELEMENTS_VERSION );
+	wp_enqueue_style( 'forma-elements-ui', forma_elements_asset_url( 'css/forma-ui.css' ), [], forma_elements_asset_version( 'css/forma-ui.css' ) );
+	wp_enqueue_style( 'forma-elements-editor', forma_elements_asset_url( 'css/editor.css' ), [ 'forma-elements-ui' ], forma_elements_asset_version( 'css/editor.css' ) );
 }
 
 function forma_elements_enqueue_brand_script() {
-	wp_enqueue_script( 'forma-elements-brand', forma_elements_asset_url( 'js/brand.js' ), [], FORMA_ELEMENTS_VERSION, true );
+	wp_enqueue_script( 'forma-elements-brand', forma_elements_asset_url( 'js/brand.js' ), [], forma_elements_asset_version( 'js/brand.js' ), true );
 	wp_localize_script( 'forma-elements-brand', 'formaElementsBrand', [
-		'logoUrl' => forma_elements_asset_url( 'img/forma-logo.svg' ),
+		'logoSvg' => forma_elements_logo_svg(),
 		'tag'     => 'Elements',
 	] );
+}
+
+/** Logo "forma" como SVG embutido (sem imagem externa que possa falhar ao carregar). */
+function forma_elements_logo_svg() {
+	$svg = (string) file_get_contents( FORMA_ELEMENTS_PATH . 'assets/img/forma-logo.svg' ); // phpcs:ignore WordPress.WP.AlternativeFunctions
+	return trim( str_replace( '<svg ', '<svg class="forma-brand__logo" role="img" aria-label="Forma" ', $svg ) );
 }
 
 function forma_elements_force_dark_editor( $value, $object_id, $meta_key ) {
