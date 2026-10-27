@@ -1,7 +1,9 @@
 {
-  "plugin_version": null,
-  "elementor": null,
-  "pro_elements": null,
+  "plugin_version": "1.0.0",
+  "elementor": "4.3.5",
+  "pro_elements": "4.3.2",
   "update_checker": "5.7",
-  "ai_locales": ["pt_BR"]
+  "ai_locales": [
+    "pt_BR"
+  ]
 }
