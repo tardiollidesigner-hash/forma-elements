@@ -1,7 +1,7 @@
 {
-  "plugin_version": "1.0.4",
+  "plugin_version": "1.0.5",
   "elementor": "4.4.0",
-  "pro_elements": "4.3.2",
+  "pro_elements": "4.4.0",
   "update_checker": "5.7",
   "ai_locales": [
     "pt_BR"

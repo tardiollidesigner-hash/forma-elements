@@ -14,6 +14,9 @@
  "%1$d hours, %2$d minutes": [
   "%1$d horas e %2$d minutos"
  ],
+ "%1$d of %2$d": [
+  "%1$d de %2$d"
+ ],
  "%1$s %2$ssays:%3$s": [
   "%1$s %2$sdisse:%3$s"
  ],
@@ -124,6 +127,9 @@
  "%s custom code updated.": [
   "%s código personalizado atualizado.",
   "%s códigos personalizados atualizados."
+ ],
+ "%s edited": [
+  "%s editado"
  ],
  "%s is currently editing this template, please try again later": [
   "%s está editando este modelo agora. Tente novamente mais tarde"
@@ -5681,6 +5687,9 @@
  "Pause %1$s": [
   "Pausar %1$s"
  ],
+ "Pause Button": [
+  "Botão “Pausar”"
+ ],
  "Pause on Hover": [
   "Pausar ao passar o mouse"
  ],
@@ -5752,6 +5761,9 @@
  ],
  "Play %1$s": [
   "Reproduzir %1$s"
+ ],
+ "Play Button": [
+  "Botão “Reproduzir”"
  ],
  "Play Icon": [
   "Ícone de reprodução"
@@ -7286,6 +7298,9 @@
  "Something went wrong.": [
   "Algo deu errado."
  ],
+ "Sorry, you are not allowed to perform this action.": [
+  "Você não tem permissão para executar esta ação."
+ ],
  "Source": [
   "Fonte"
  ],
@@ -7385,6 +7400,9 @@
  "State": [
   "Estado"
  ],
+ "States": [
+  "Estados"
+ ],
  "Static": [
   "Estático"
  ],
@@ -7393,6 +7411,9 @@
  ],
  "Static position": [
   "Posição fixa"
+ ],
+ "Static resource file not found": [
+  "Arquivo de recurso estático não encontrado"
  ],
  "Status": [
   "Status"
