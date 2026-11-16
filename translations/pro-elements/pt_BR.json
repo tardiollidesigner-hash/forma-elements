@@ -260,6 +260,9 @@
  "ACF": [
   "ACF"
  ],
+ "AI agents": [
+  "Agentes de IA"
+ ],
  "AJAX": [
   "AJAX"
  ],
@@ -1591,6 +1594,9 @@
  ],
  "Connect & Activate": [
   "Conectar e ativar"
+ ],
+ "Connect an API key": [
+  "Conectar uma chave de API"
  ],
  "Connected Successfully": [
   "Conectado com sucesso"
@@ -4622,6 +4628,12 @@
  "Manage Elementor Site Parts": [
   "Gerenciar partes do site do Elementor"
  ],
+ "Manage Form Submissions": [
+  "Gerenciar envios de formulários"
+ ],
+ "Manage WooCommerce Settings": [
+  "Gerenciar configurações do WooCommerce"
+ ],
  "Manage Your Font Files": [
   "Gerencie seus arquivos de fonte"
  ],
@@ -6907,6 +6919,9 @@
  ],
  "Set to include parent comment (if URL is a reply).": [
   "Incluir o comentário pai (se a URL for uma resposta)."
+ ],
+ "Set up": [
+  "Configurar"
  ],
  "Set your %1$s in the %2$sIntegrations Settings%3$s.": [
   "Defina %1$s nas %2$sConfigurações de integrações%3$s."
